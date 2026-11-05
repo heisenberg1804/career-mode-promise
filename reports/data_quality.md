@@ -211,7 +211,7 @@ Missing rates (%) by edition. Missing counts across all editions: `value_eur` 2,
 <!-- BEGIN 02 -->
 ## 02 Transfermarkt match
 
-_Last run: 2026-11-04 20:15_
+_Last run: 2026-11-04 20:47_
 
 ### Match results
 
@@ -306,7 +306,7 @@ Big-5 seasons with fewer than half the median appearance count: none.
 ### Real outcomes
 
 - Matched players: 6,581. With no valuation after entry: 323.
-- Transfers dated after today ignored when finding the latest transfer: 475.
+- Latest transfer is taken on or before the data snapshot date (2026-06-28); 3322 later-dated transfers are ignored.
 
 | Band | matched | made_it_1500_% | made_it_3000_% | made_it_5000_% |
 |---|---|---|---|---|
@@ -481,3 +481,34 @@ Coverage: **97.3%** of 2,036. Share of all 2,488 potential-75+ entrants with an 
 | No Elo for a non-European club | PASS |  |
 | Coverage >= 90% for potential-75+ entrants at clubs in mirror countries (excl. English League One/Two) | PASS | 97.3% of 2,036 |
 <!-- END 03 -->
+
+<!-- BEGIN 05 -->
+## 05 Analysis master
+
+_Last run: 2026-11-04 20:47_
+
+- analysis.parquet: 11,519 rows (one per cohort entrant), 140 columns.
+- Already-peaked entrants excluded from accuracy metrics: 0.
+- Real-life "made it" counts unmatched entrants as not made it (4,938 unmatched).
+- Provisional: 174 players still pending Transfermarkt match review.
+
+### Calibration
+
+| Band | n | reached_% | fell_short_% | vanished_% | mean_gap | matched_to_TM_% | made_it_real_% | made_it_real_matched_only_% | made_it_1500_% | made_it_5000_% |
+|---|---|---|---|---|---|---|---|---|---|---|
+| <70 | 5,840 | 29.1 | 37.3 | 33.6 | 1.2 | 40.7 | 3.9 | 9.6 | 5.1 | 3.0 |
+| 70–74 | 3,191 | 19.7 | 60.6 | 19.7 | 4.5 | 65.8 | 9.7 | 14.7 | 12.2 | 7.6 |
+| 75–79 | 1,784 | 16.3 | 75.3 | 8.5 | 6.1 | 81.8 | 22.4 | 27.4 | 26.8 | 18.0 |
+| 80–84 | 600 | 16.8 | 81.2 | 2.0 | 6.4 | 90.3 | 45.8 | 50.7 | 52.8 | 40.0 |
+| 85+ | 104 | 10.6 | 85.6 | 3.8 | 6.8 | 98.1 | 68.3 | 69.6 | 73.1 | 61.5 |
+| All | 11,519 | 23.7 | 52.3 | 23.9 | 3.5 | 57.1 | 11.1 | 19.5 | 13.5 | 9.1 |
+
+### Checks
+
+| Check | Result | Detail |
+|---|---|---|
+| analysis: one row per cohort entrant | PASS | 11,519 |
+| Status counts sum to the cohort size | PASS |  |
+| Chart 2 counts match CLAUDE.md §7 | PASS |  |
+| Chart 12: attribute list has no duplicates | PASS | 37 attributes |
+<!-- END 05 -->

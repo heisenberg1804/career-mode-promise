@@ -144,3 +144,17 @@ Every judgement call: date, decision, reason, alternatives considered.
 - **Decision:** Notebook 00 now tries the API for all 10 edition dates, then builds a mirror snapshot for any of the 4 cohort entry dates the API didn't return (`src.clubelo.build_mirror_snapshot`, same as `scripts/build_clubelo_mirror.py`). It checks that all 4 entry dates are covered. The other 6 dates are reported as a note, not a failure. The mirror dataset is part of the source check and the inventory.
 - **Reason:** The earlier "all 10 snapshots cached" check failed by design while the API is down, so a teammate's fresh run stopped at notebook 00. Only the entry dates are used (§6 club strength at entry).
 - **Alternatives:** Keep the failing check and tell teammates to ignore it (breaks "run top to bottom").
+
+### 2026-11-04 · Latest transfer: as of the data snapshot date, not today (notebook 02)
+- **Decision:** A player's latest transfer is the most recent one dated on or before the Transfermarkt snapshot date (its last recorded appearance, 2026-06-28). 3,322 later-dated rows are ignored.
+- **Reason:** Transfermarkt pre-records contract expiries as moves to "Without Club" on 1 July (719 rows in July 2026). Against "today", players such as Goretzka (Bayern) and Sterling (Feyenoord) were wrongly read as having no club.
+- **Alternatives:** Today's date (previous rule).
+
+### 2026-11-04 · Notebook 05: analysis choices
+- **Real-life "made it" denominator:** all cohort entrants; unmatched entrants count as not made it (every player with a Big-5 appearance is in TM `players.csv`). The matched-only share is reported alongside in `findings.json` (`made_it_matched_only_pct`). They differ most in the low bands (<70: 3.9% vs 9.6%) and little at 80+ (45.8% vs 50.7%; 68.3% vs 69.6%).
+- **Busts (chart 6):** the 10 largest gaps among **wonderkids** (potential ≥ 85) with a later edition. Ranked by raw gap, the top busts would be obscure lower-league players (E. Simonsen 77 → 51). **Bloomers:** the 10 most negative gaps among entrants whose peak later rating reached 80+. Ties: higher potential (busts) or higher peak (bloomers), then name.
+- **Chart 12 attributes:** the 37 in-game rated attributes at entry (6 face stats, 29 detailed ones without goalkeeping, plus weak foot and skill moves), outfield players only, against peak later − potential. Age, height and weight are not FIFA attributes; they are reported separately (age is the strongest correlate, ρ = 0.20: older entrants beat their potential more). All attribute correlations are weak (|ρ| ≤ 0.11), so chart 12's title should say so.
+- **Spearman:** computed as Pearson on ranks over pairwise-complete rows (identical to Spearman; avoids adding `scipy`).
+- **Latest-club tier (chart 14, provisional; notebook 12 owns it):** `src/outcomes.latest_club_tier`: unmatched → "Not in Transfermarkt"; latest transfer to Retired/Without Club → "No current club"; active in a TM-covered league in 2025/26 → Big-5 / Other European top flight / Outside Europe (by TM competition continent); otherwise → "Other or lower league". Known limit: moves TM doesn't record (Verratti to Qatar) stay "Other or lower league".
+- **Already peaked:** 0 cohort entrants and 1 learning-cohort entrant, excluded from accuracy metrics.
+- **Provisional:** 174 players are still pending Transfermarkt match review, and the club overrides are seeded but not yet checked. `findings.json` has a `provisional` section; re-run 02 → 05 after the reviews.

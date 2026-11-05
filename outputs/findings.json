@@ -1,0 +1,795 @@
+{
+  "cohort": {
+    "entrants": 11519,
+    "entrants_by_edition": {
+      "FIFA 15": 4594,
+      "FIFA 16": 2521,
+      "FIFA 17": 2250,
+      "FIFA 18": 2154
+    },
+    "already_peaked_excluded": 0,
+    "wonderkids": 104,
+    "status_counts": {
+      "Fell short": 6030,
+      "Vanished": 2758,
+      "Reached": 2731
+    },
+    "vanished": 2758,
+    "vanished_pct": 24,
+    "reached_pct": 24,
+    "mean_gap": 3.5,
+    "made_it_pct": 11
+  },
+  "_meta": {
+    "sections": {
+      "cohort": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "match": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "calibration_by_band": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_01": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_02": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_04": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_05": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_06": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_07": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_14": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "featured_candidates": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "provisional": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_08": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_09": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_10": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_11": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      },
+      "chart_12": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-04 20:47"
+      }
+    }
+  },
+  "match": {
+    "matched": 6581,
+    "match_rate_pct": 57,
+    "match_rate_pct_by_band": {
+      "<70": 41,
+      "70–74": 66,
+      "75–79": 82,
+      "80–84": 90,
+      "85+": 98
+    },
+    "pending_review_players": 174
+  },
+  "calibration_by_band": {
+    "<70": {
+      "n": 5840,
+      "reached_pct": 29,
+      "fell_short_pct": 37,
+      "vanished_pct": 34,
+      "mean_gap": 1.2,
+      "made_it_pct": 4,
+      "made_it_matched_only_pct": 10,
+      "made_it_1500_pct": 5,
+      "made_it_5000_pct": 3
+    },
+    "70–74": {
+      "n": 3191,
+      "reached_pct": 20,
+      "fell_short_pct": 61,
+      "vanished_pct": 20,
+      "mean_gap": 4.5,
+      "made_it_pct": 10,
+      "made_it_matched_only_pct": 15,
+      "made_it_1500_pct": 12,
+      "made_it_5000_pct": 8
+    },
+    "75–79": {
+      "n": 1784,
+      "reached_pct": 16,
+      "fell_short_pct": 75,
+      "vanished_pct": 8,
+      "mean_gap": 6.1,
+      "made_it_pct": 22,
+      "made_it_matched_only_pct": 27,
+      "made_it_1500_pct": 27,
+      "made_it_5000_pct": 18
+    },
+    "80–84": {
+      "n": 600,
+      "reached_pct": 17,
+      "fell_short_pct": 81,
+      "vanished_pct": 2,
+      "mean_gap": 6.4,
+      "made_it_pct": 46,
+      "made_it_matched_only_pct": 51,
+      "made_it_1500_pct": 53,
+      "made_it_5000_pct": 40
+    },
+    "85+": {
+      "n": 104,
+      "reached_pct": 11,
+      "fell_short_pct": 86,
+      "vanished_pct": 4,
+      "mean_gap": 6.8,
+      "made_it_pct": 68,
+      "made_it_matched_only_pct": 70,
+      "made_it_1500_pct": 73,
+      "made_it_5000_pct": 62
+    },
+    "All": {
+      "n": 11519,
+      "reached_pct": 24,
+      "fell_short_pct": 52,
+      "vanished_pct": 24,
+      "mean_gap": 3.5,
+      "made_it_pct": 11,
+      "made_it_matched_only_pct": 19,
+      "made_it_1500_pct": 13,
+      "made_it_5000_pct": 9
+    }
+  },
+  "chart_01": {
+    "fifa15_wonderkids": 48,
+    "reached": 7,
+    "fell_short": 40,
+    "vanished": 1,
+    "mean_gap": 4.1,
+    "made_it": 40,
+    "made_it_pct": 83
+  },
+  "chart_02": {
+    "by_edition": {
+      "FIFA 15": 48,
+      "FIFA 16": 82,
+      "FIFA 17": 106,
+      "FIFA 18": 137,
+      "FIFA 19": 144,
+      "FIFA 20": 170,
+      "FIFA 21": 145,
+      "FIFA 22": 120,
+      "FIFA 23": 127,
+      "FC 24": 108
+    },
+    "first": 48,
+    "last": 108,
+    "max": 170,
+    "max_edition": "FIFA 20",
+    "ratio_max_to_first": 3.5
+  },
+  "chart_04": {
+    "n_points": 2488,
+    "n_with_later_edition": 2321,
+    "below_diagonal_pct": 83
+  },
+  "chart_05": {
+    "<70": {
+      "n": 5840,
+      "reached_pct": 29,
+      "fell_short_pct": 37,
+      "vanished_pct": 34,
+      "mean_gap": 1.2,
+      "made_it_pct": 4,
+      "made_it_matched_only_pct": 10,
+      "made_it_1500_pct": 5,
+      "made_it_5000_pct": 3
+    },
+    "70–74": {
+      "n": 3191,
+      "reached_pct": 20,
+      "fell_short_pct": 61,
+      "vanished_pct": 20,
+      "mean_gap": 4.5,
+      "made_it_pct": 10,
+      "made_it_matched_only_pct": 15,
+      "made_it_1500_pct": 12,
+      "made_it_5000_pct": 8
+    },
+    "75–79": {
+      "n": 1784,
+      "reached_pct": 16,
+      "fell_short_pct": 75,
+      "vanished_pct": 8,
+      "mean_gap": 6.1,
+      "made_it_pct": 22,
+      "made_it_matched_only_pct": 27,
+      "made_it_1500_pct": 27,
+      "made_it_5000_pct": 18
+    },
+    "80–84": {
+      "n": 600,
+      "reached_pct": 17,
+      "fell_short_pct": 81,
+      "vanished_pct": 2,
+      "mean_gap": 6.4,
+      "made_it_pct": 46,
+      "made_it_matched_only_pct": 51,
+      "made_it_1500_pct": 53,
+      "made_it_5000_pct": 40
+    },
+    "85+": {
+      "n": 104,
+      "reached_pct": 11,
+      "fell_short_pct": 86,
+      "vanished_pct": 4,
+      "mean_gap": 6.8,
+      "made_it_pct": 68,
+      "made_it_matched_only_pct": 70,
+      "made_it_1500_pct": 73,
+      "made_it_5000_pct": 62
+    }
+  },
+  "chart_06": {
+    "busts": [
+      {
+        "player_id": 240000,
+        "player": "E. Abouchabaka",
+        "entry_edition": "FIFA 18",
+        "potential": 85,
+        "peak_later": 63,
+        "gap": 22
+      },
+      {
+        "player_id": 212455,
+        "player": "H. Mastour",
+        "entry_edition": "FIFA 16",
+        "potential": 87,
+        "peak_later": 68,
+        "gap": 19
+      },
+      {
+        "player_id": 231395,
+        "player": "José Gomes",
+        "entry_edition": "FIFA 17",
+        "potential": 85,
+        "peak_later": 66,
+        "gap": 19
+      },
+      {
+        "player_id": 234317,
+        "player": "V. Thill",
+        "entry_edition": "FIFA 18",
+        "potential": 85,
+        "peak_later": 66,
+        "gap": 19
+      },
+      {
+        "player_id": 235266,
+        "player": "C. Früchtl",
+        "entry_edition": "FIFA 18",
+        "potential": 86,
+        "peak_later": 68,
+        "gap": 18
+      },
+      {
+        "player_id": 239249,
+        "player": "Oriol Busquets",
+        "entry_edition": "FIFA 18",
+        "potential": 85,
+        "peak_later": 67,
+        "gap": 18
+      },
+      {
+        "player_id": 236248,
+        "player": "B. Woodburn",
+        "entry_edition": "FIFA 18",
+        "potential": 85,
+        "peak_later": 68,
+        "gap": 17
+      },
+      {
+        "player_id": 238232,
+        "player": "Han Kwang Song",
+        "entry_edition": "FIFA 18",
+        "potential": 86,
+        "peak_later": 70,
+        "gap": 16
+      },
+      {
+        "player_id": 212210,
+        "player": "R. Živković",
+        "entry_edition": "FIFA 15",
+        "potential": 86,
+        "peak_later": 70,
+        "gap": 16
+      },
+      {
+        "player_id": 239981,
+        "player": "J. Arp",
+        "entry_edition": "FIFA 18",
+        "potential": 85,
+        "peak_later": 69,
+        "gap": 16
+      }
+    ],
+    "bloomers": [
+      {
+        "player_id": 224179,
+        "player": "Borja Iglesias",
+        "entry_edition": "FIFA 15",
+        "potential": 55,
+        "peak_later": 83,
+        "gap": -28
+      },
+      {
+        "player_id": 225375,
+        "player": "K. Laimer",
+        "entry_edition": "FIFA 15",
+        "potential": 57,
+        "peak_later": 83,
+        "gap": -26
+      },
+      {
+        "player_id": 223848,
+        "player": "S. Milinković-Savić",
+        "entry_edition": "FIFA 15",
+        "potential": 65,
+        "peak_later": 86,
+        "gap": -21
+      },
+      {
+        "player_id": 225508,
+        "player": "E. Bailly",
+        "entry_edition": "FIFA 15",
+        "potential": 63,
+        "peak_later": 84,
+        "gap": -21
+      },
+      {
+        "player_id": 240091,
+        "player": "G. Vicario",
+        "entry_edition": "FIFA 18",
+        "potential": 61,
+        "peak_later": 82,
+        "gap": -21
+      },
+      {
+        "player_id": 221479,
+        "player": "D. Calvert-Lewin",
+        "entry_edition": "FIFA 15",
+        "potential": 60,
+        "peak_later": 81,
+        "gap": -21
+      },
+      {
+        "player_id": 221697,
+        "player": "O. Watkins",
+        "entry_edition": "FIFA 15",
+        "potential": 59,
+        "peak_later": 80,
+        "gap": -21
+      },
+      {
+        "player_id": 221087,
+        "player": "Pau López",
+        "entry_edition": "FIFA 15",
+        "potential": 63,
+        "peak_later": 83,
+        "gap": -20
+      },
+      {
+        "player_id": 223113,
+        "player": "K. Piątek",
+        "entry_edition": "FIFA 16",
+        "potential": 60,
+        "peak_later": 80,
+        "gap": -20
+      },
+      {
+        "player_id": 224458,
+        "player": "Diogo Jota",
+        "entry_edition": "FIFA 15",
+        "potential": 66,
+        "peak_later": 85,
+        "gap": -19
+      }
+    ],
+    "biggest_bust": {
+      "player_id": 240000,
+      "player": "E. Abouchabaka",
+      "entry_edition": "FIFA 18",
+      "potential": 85,
+      "peak_later": 63,
+      "gap": 22
+    },
+    "biggest_bloomer": {
+      "player_id": 224179,
+      "player": "Borja Iglesias",
+      "entry_edition": "FIFA 15",
+      "potential": 55,
+      "peak_later": 83,
+      "gap": -28
+    }
+  },
+  "chart_07": {
+    "by_entry_edition": {
+      "FIFA 15": {
+        "n": 4594,
+        "reached_within_4_pct": 25,
+        "mean_gap_within_4": 2.8
+      },
+      "FIFA 16": {
+        "n": 2521,
+        "reached_within_4_pct": 15,
+        "mean_gap_within_4": 5.0
+      },
+      "FIFA 17": {
+        "n": 2250,
+        "reached_within_4_pct": 10,
+        "mean_gap_within_4": 6.8
+      },
+      "FIFA 18": {
+        "n": 2154,
+        "reached_within_4_pct": 8,
+        "mean_gap_within_4": 7.6
+      },
+      "FIFA 19": {
+        "n": 2207,
+        "reached_within_4_pct": 8,
+        "mean_gap_within_4": 8.1
+      },
+      "FIFA 20": {
+        "n": 2187,
+        "reached_within_4_pct": 6,
+        "mean_gap_within_4": 8.8
+      }
+    },
+    "first_reached_pct": 25,
+    "last_reached_pct": 6,
+    "first_mean_gap": 2.8,
+    "last_mean_gap": 8.8,
+    "already_peaked_excluded": 1
+  },
+  "chart_14": {
+    "potential_75plus_tier_pct": {
+      "Big-5": 17,
+      "Other European top flight": 15,
+      "Other or lower league": 41,
+      "Outside Europe": 10,
+      "No current club": 2,
+      "Not in Transfermarkt": 15
+    },
+    "wonderkids_by_tier": {
+      "Big-5": 38,
+      "Other European top flight": 16,
+      "Other or lower league": 27,
+      "Outside Europe": 15,
+      "No current club": 6,
+      "Not in Transfermarkt": 2
+    },
+    "current_season": 2025,
+    "provisional": true
+  },
+  "featured_candidates": {
+    "1 Star who reached his potential": [
+      {
+        "player_id": 192505,
+        "player": "R. Lukaku"
+      },
+      {
+        "player_id": 202652,
+        "player": "R. Sterling"
+      },
+      {
+        "player_id": 207865,
+        "player": "Marquinhos"
+      },
+      {
+        "player_id": 199556,
+        "player": "M. Verratti"
+      },
+      {
+        "player_id": 201399,
+        "player": "M. Icardi"
+      },
+      {
+        "player_id": 209658,
+        "player": "L. Goretzka"
+      }
+    ],
+    "2 Biggest bust": [
+      {
+        "player_id": 212210,
+        "player": "R. Živković"
+      },
+      {
+        "player_id": 220048,
+        "player": "S. Scuffet"
+      },
+      {
+        "player_id": 199151,
+        "player": "J. Iturbe"
+      },
+      {
+        "player_id": 203038,
+        "player": "Lucas Piazón"
+      },
+      {
+        "player_id": 208790,
+        "player": "Z. Bakkali"
+      },
+      {
+        "player_id": 211176,
+        "player": "R. Kishna"
+      }
+    ],
+    "3 Late bloomer": [
+      {
+        "player_id": 202126,
+        "player": "H. Kane"
+      },
+      {
+        "player_id": 210257,
+        "player": "Ederson"
+      },
+      {
+        "player_id": 212622,
+        "player": "J. Kimmich"
+      },
+      {
+        "player_id": 215698,
+        "player": "M. Maignan"
+      },
+      {
+        "player_id": 223848,
+        "player": "S. Milinković-Savić"
+      },
+      {
+        "player_id": 222492,
+        "player": "L. Sané"
+      }
+    ],
+    "4 Latest club outside Europe": [
+      {
+        "player_id": 202556,
+        "player": "M. Depay"
+      },
+      {
+        "player_id": 200949,
+        "player": "Lucas Moura"
+      },
+      {
+        "player_id": 214997,
+        "player": "Á. Correa"
+      },
+      {
+        "player_id": 205525,
+        "player": "Bernard"
+      },
+      {
+        "player_id": 210513,
+        "player": "J. Quintero"
+      },
+      {
+        "player_id": 207441,
+        "player": "L. Vietto"
+      }
+    ],
+    "5 Peak later = potential": [
+      {
+        "player_id": 212188,
+        "player": "T. Werner"
+      },
+      {
+        "player_id": 204970,
+        "player": "F. Thauvin"
+      },
+      {
+        "player_id": 212462,
+        "player": "Alex Telles"
+      },
+      {
+        "player_id": 208333,
+        "player": "E. Can"
+      },
+      {
+        "player_id": 212814,
+        "player": "João Mário"
+      },
+      {
+        "player_id": 213331,
+        "player": "J. Tah"
+      }
+    ],
+    "status": "proposed, awaiting team approval"
+  },
+  "provisional": {
+    "match_review_pending_players": 174,
+    "club_overrides_seeded_unreviewed": true,
+    "note": "Re-run after the Transfermarkt match review and the club-override check."
+  },
+  "chart_08": {
+    "nations": 56,
+    "min_n": 15,
+    "least_overrated": {
+      "nation": "Mali",
+      "mean_gap": 0.7,
+      "n": 21
+    },
+    "nations_with_positive_mean_gap": 56,
+    "most_overrated": {
+      "nation": "Japan",
+      "mean_gap": 6.4,
+      "n": 112
+    }
+  },
+  "chart_09": {
+    "nations": 56,
+    "spearman_rank_vs_gap": 0.04
+  },
+  "chart_10": {
+    "clubs": 397,
+    "min_n": 5,
+    "spearman_elo_vs_gap_clubs": 0.04,
+    "spearman_elo_vs_gap_players": 0.02
+  },
+  "chart_11": {
+    "positions": {
+      "RB": {
+        "n": 586,
+        "mean_potential": 69,
+        "mean_peak_later": 67,
+        "mean_gap": 2.5
+      },
+      "CDM": {
+        "n": 497,
+        "mean_potential": 71,
+        "mean_peak_later": 68,
+        "mean_gap": 2.6
+      },
+      "LB": {
+        "n": 622,
+        "mean_potential": 70,
+        "mean_peak_later": 67,
+        "mean_gap": 2.6
+      },
+      "CB": {
+        "n": 1279,
+        "mean_potential": 70,
+        "mean_peak_later": 67,
+        "mean_gap": 2.9
+      },
+      "CM": {
+        "n": 1229,
+        "mean_potential": 70,
+        "mean_peak_later": 66,
+        "mean_gap": 3.3
+      },
+      "LM": {
+        "n": 452,
+        "mean_potential": 71,
+        "mean_peak_later": 68,
+        "mean_gap": 3.3
+      },
+      "RM": {
+        "n": 437,
+        "mean_potential": 71,
+        "mean_peak_later": 68,
+        "mean_gap": 3.5
+      },
+      "GK": {
+        "n": 917,
+        "mean_potential": 68,
+        "mean_peak_later": 65,
+        "mean_gap": 3.7
+      },
+      "LW": {
+        "n": 237,
+        "mean_potential": 74,
+        "mean_peak_later": 70,
+        "mean_gap": 4.1
+      },
+      "CAM": {
+        "n": 715,
+        "mean_potential": 72,
+        "mean_peak_later": 68,
+        "mean_gap": 4.1
+      },
+      "ST": {
+        "n": 1425,
+        "mean_potential": 70,
+        "mean_peak_later": 66,
+        "mean_gap": 4.3
+      },
+      "RWB": {
+        "n": 4,
+        "mean_potential": 63,
+        "mean_peak_later": 59,
+        "mean_gap": 4.5
+      },
+      "RW": {
+        "n": 283,
+        "mean_potential": 73,
+        "mean_peak_later": 68,
+        "mean_gap": 4.6
+      },
+      "CF": {
+        "n": 70,
+        "mean_potential": 72,
+        "mean_peak_later": 67,
+        "mean_gap": 4.6
+      },
+      "LWB": {
+        "n": 8,
+        "mean_potential": 72,
+        "mean_peak_later": 67,
+        "mean_gap": 5.8
+      }
+    },
+    "most_overrated_position": "LWB",
+    "least_overrated_position": "RB"
+  },
+  "chart_12": {
+    "n_outfield": 7844,
+    "n_attributes": 37,
+    "top_positive": {
+      "mentality_interceptions": 0.11,
+      "defending": 0.1,
+      "defending_marking_awareness": 0.1,
+      "defending_standing_tackle": 0.1,
+      "physic": 0.09,
+      "defending_sliding_tackle": 0.09,
+      "power_strength": 0.08,
+      "mentality_aggression": 0.07
+    },
+    "top_negative": {
+      "skill_moves": -0.1,
+      "attacking_finishing": -0.1,
+      "shooting": -0.09,
+      "mentality_penalties": -0.09,
+      "skill_dribbling": -0.08,
+      "dribbling": -0.08,
+      "attacking_volleys": -0.08,
+      "mentality_positioning": -0.07
+    },
+    "max_abs_spearman": 0.11,
+    "non_attribute_spearman": {
+      "age": 0.2,
+      "height_cm": 0.07,
+      "weight_kg": 0.07
+    }
+  }
+}
