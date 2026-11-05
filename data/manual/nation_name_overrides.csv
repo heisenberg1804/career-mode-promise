@@ -1,0 +1,18 @@
+fifa_nation,ranking_team,tm_country,confederation,reviewer,note
+Guinea Bissau,Guinea-Bissau,,,claude (seed),spelling
+Iran,IR Iran,,,claude (seed),FIFA ranking official name
+Kyrgyzstan,Kyrgyz Republic,,,claude (seed),FIFA ranking official name
+Saint Kitts and Nevis,St Kitts and Nevis,,,claude (seed),abbreviation
+Saint Lucia,St Lucia,,,claude (seed),abbreviation
+Saint Vincent and the Grenadines,St Vincent and the Grenadines,,,claude (seed),abbreviation
+São Tomé e Príncipe,Sao Tome e Principe,,,claude (seed),spelling
+United States,USA,,,claude (seed),abbreviation
+Republic of Ireland,,Ireland,,claude (seed),TM spelling
+Turkey,,Türkiye,,claude (seed),TM spelling
+Korea Republic,,"Korea, South",,claude (seed),TM spelling
+Bosnia and Herzegovina,,Bosnia-Herzegovina,,claude (seed),TM spelling
+Cameroon,,,CAF,Sahil (approved),hand lookup: CAF member
+Congo DR,,,CAF,Sahil (approved),hand lookup: CAF member
+Côte d'Ivoire,,,CAF,Sahil (approved),hand lookup: CAF member
+Guinea,,,CAF,Sahil (approved),hand lookup: CAF member
+Mali,,,CAF,Sahil (approved),hand lookup: CAF member

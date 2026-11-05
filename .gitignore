@@ -1,0 +1,16 @@
+# Raw data and secrets (CLAUDE.md section 2, rule 10)
+data/raw/
+.env
+kaggle.json
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# OS
+.DS_Store
+
+# Cleaned outputs: regenerate by running notebooks 00–04
+data/clean/*
+!data/clean/.gitkeep

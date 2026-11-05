@@ -1,0 +1,33 @@
+fifa_club_id,fifa_club,clubelo_country,clubelo_club,status,reviewer,note
+100087,OH Leuven,BEL,Oud-Heverlee Leuven,mapped,claude (seed) – Devarshi to check,same club
+820,AaB,DEN,Aalborg,mapped,claude (seed) – Devarshi to check,AaB = Aalborg BK
+271,AGF,DEN,Aarhus,mapped,claude (seed) – Devarshi to check,AGF = Aarhus Gymnastikforening
+272,OB,DEN,Odense,mapped,claude (seed) – Devarshi to check,OB = Odense Boldklub
+110,Wolverhampton Wanderers,ENG,Wolves,mapped,claude (seed) – Devarshi to check,abbreviation
+15,Queens Park Rangers,ENG,QPR,mapped,claude (seed) – Devarshi to check,abbreviation
+448,Athletic Club,ESP,Ath Bilbao,mapped,claude (seed) – Devarshi to check,Athletic Club de Bilbao
+100325,HJK,FIN,HJK Helsinki,mapped,claude (seed) – Devarshi to check,same club
+66,Olympique Lyonnais,FRA,Lyon,mapped,claude (seed) – Devarshi to check,same club
+58,Bastia,FRA,Bastia,mapped,claude (seed) – Devarshi to check,SC Bastia (Ligue 1); 'CA Bastia' is a different club
+28,Hamburger SV,GER,Hamburg,mapped,claude (seed) – Devarshi to check,same club
+33,1860 München,GER,Munich 1860,mapped,claude (seed) – Devarshi to check,TSV 1860 München
+21,FC Bayern München,GER,Bayern Munich,mapped,claude (seed) – Devarshi to check,same club
+110169,SC Fortuna Köln,GER,,not_in_clubelo,claude (seed) – Devarshi to check,"3. Liga club; ClubElo 'FC Koln' is 1. FC Köln, a different club"
+247,PSV,NED,PSV Eindhoven,mapped,claude (seed) – Devarshi to check,same club
+1910,NEC,NED,Nijmegen,mapped,claude (seed) – Devarshi to check,NEC Nijmegen
+1456,Odd,NOR,Odd Grenland,mapped,claude (seed) – Devarshi to check,same club
+1569,Wisła Płock,POL,Plock,mapped,claude (seed) – Devarshi to check,ClubElo 'Wisla' is Wisła Kraków
+1887,Vitória SC,POR,Guimaraes,mapped,claude (seed) – Devarshi to check,Vitória de Guimarães
+237,Sporting CP,POR,Sp Lisbon,mapped,claude (seed) – Devarshi to check,Sporting Clube de Portugal (Lisbon)
+111264,FC Ural Yekaterinburg,RUS,Sverdlovsk,mapped,claude (seed) – Devarshi to check,"by elimination: only unassigned RUS name rated in all 4 seasons 2014–18, as Ural was; Yekaterinburg is in Sverdlovsk Oblast. Please verify"
+312,Dinamo Moscow,RUS,Dynamo Moskva,mapped,claude (seed) – Devarshi to check,spelling
+100765,Lokomotiv Moskva,RUS,Lok Moskva,mapped,claude (seed) – Devarshi to check,abbreviation
+100764,Krylya Sovetov Samara,RUS,Kryliya Sovetov,mapped,claude (seed) – Devarshi to check,spelling
+110089,Kuban Krasnodar,RUS,Kuban,mapped,claude (seed) – Devarshi to check,ClubElo 'FC Krasnodar' is a different club; Elo matches Kuban's match Elo exactly
+100768,Torpedo Moscow,RUS,Torpedo Moskva,mapped,claude (seed) – Devarshi to check,spelling
+320,Malmö FF,SWE,Malmoe,mapped,claude (seed) – Devarshi to check,transliteration
+319,IFK Göteborg,SWE,Goeteborg,mapped,claude (seed) – Devarshi to check,transliteration
+111835,Åtvidabergs FF,SWE,Atvidaberg,mapped,claude (seed) – Devarshi to check,transliteration
+112130,Jönköpings Södra IF,SWE,Joenkoeping,mapped,claude (seed) – Devarshi to check,transliteration
+101014,İstanbul Başakşehir,TUR,Buyuksehyr,mapped,claude (seed) – Devarshi to check,"İstanbul Büyükşehir Belediyespor, Başakşehir's former name"
+110316,GFC Ajaccio,FRA,Gazelec,mapped,claude (seed) – Devarshi to check,"Gazélec Ajaccio; ClubElo 'Ajaccio' is AC Ajaccio, a different club"

@@ -1,0 +1,12 @@
+pandas
+numpy
+pyarrow
+jupyter
+matplotlib
+rapidfuzz
+unidecode
+pycountry
+soccerdata
+kaggle
+python-dotenv
+datawrapper
