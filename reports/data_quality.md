@@ -211,7 +211,7 @@ Missing rates (%) by edition. Missing counts across all editions: `value_eur` 2,
 <!-- BEGIN 02 -->
 ## 02 Transfermarkt match
 
-_Last run: 2026-11-04 20:47_
+_Last run: 2026-11-05 18:12_
 
 ### Match results
 
@@ -331,6 +331,9 @@ Big-5 seasons with fewer than half the median appearance count: none.
 | Match rate >= 90% in band 85+ | PASS | 98.1% |
 | Crosswalk has one row per cohort entrant | PASS |  |
 | TM appearance_id is unique | PASS |  |
+| Follow-up window ends inside the data for every entrant | PASS |  |
+| made_it_5y implies made_it | PASS |  |
+| Big-5 minutes are included in all-covered top-flight minutes | PASS |  |
 | Real outcomes: one row per matched player | PASS |  |
 | All valuations used are after the entry date | PASS |  |
 | Big-5 minutes are non-negative | PASS |  |
@@ -485,9 +488,9 @@ Coverage: **97.3%** of 2,036. Share of all 2,488 potential-75+ entrants with an 
 <!-- BEGIN 05 -->
 ## 05 Analysis master
 
-_Last run: 2026-11-04 20:47_
+_Last run: 2026-11-05 18:15_
 
-- analysis.parquet: 11,519 rows (one per cohort entrant), 140 columns.
+- analysis.parquet: 11,519 rows (one per cohort entrant), 143 columns.
 - Already-peaked entrants excluded from accuracy metrics: 0.
 - Real-life "made it" counts unmatched entrants as not made it (4,938 unmatched).
 - Provisional: 174 players still pending Transfermarkt match review.
@@ -511,4 +514,8 @@ _Last run: 2026-11-04 20:47_
 | Status counts sum to the cohort size | PASS |  |
 | Chart 2 counts match CLAUDE.md §7 | PASS |  |
 | Chart 12: attribute list has no duplicates | PASS | 37 attributes |
+| Calibration slope CI excludes 1 (potential is not calibrated) | PASS | 0.61 [0.59, 0.63] |
+| Age effect: gap CI (≤17 vs 21) excludes 0 | PASS | +3.88 |
+| Elite-club effect: Elo coefficient CI excludes 0 | PASS | -0.78 |
+| Every success measure rises with the potential band | PASS |  |
 <!-- END 05 -->

@@ -150,6 +150,12 @@ STATUS_VANISHED = "Vanished"
 BIG5_COMPETITIONS = ["GB1", "ES1", "L1", "IT1", "FR1"]
 MADE_IT_MINUTES_DEFAULT = 3000
 MADE_IT_MINUTES_SENSITIVITY = [1500, 3000, 5000]
+FOLLOWUP_YEARS = 5            # equal-window "made it": Big-5 minutes within 5 years of entry
+PEAK_VALUE_STAR_EUR = 10_000_000   # alternative success measure: peak market value >= €10m
+
+# Robustness
+BOOTSTRAP_REPS = 1000
+RANDOM_SEED = 6600
 
 # Thresholds used by later notebooks
 MATCH_ACCEPT = 85

@@ -158,3 +158,14 @@ Every judgement call: date, decision, reason, alternatives considered.
 - **Latest-club tier (chart 14, provisional; notebook 12 owns it):** `src/outcomes.latest_club_tier`: unmatched → "Not in Transfermarkt"; latest transfer to Retired/Without Club → "No current club"; active in a TM-covered league in 2025/26 → Big-5 / Other European top flight / Outside Europe (by TM competition continent); otherwise → "Other or lower league". Known limit: moves TM doesn't record (Verratti to Qatar) stay "Other or lower league".
 - **Already peaked:** 0 cohort entrants and 1 learning-cohort entrant, excluded from accuracy metrics.
 - **Provisional:** 174 players are still pending Transfermarkt match review, and the club overrides are seeded but not yet checked. `findings.json` has a `provisional` section; re-run 02 → 05 after the reviews.
+
+### 2026-11-05 · ClubElo API: retry deadline passed
+- The retry loop ended at its Thu 5 Nov 10:00 deadline without a single successful call (5 rounds ran; the laptop slept overnight). api.clubelo.com still returned 502 at 13:47. The approved mirror stays the source for the four entry dates; no further retries are scheduled.
+
+### 2026-11-05 · Robustness tests in notebook 05 (story revision)
+- **Method:** 95% percentile bootstrap over players (`BOOTSTRAP_REPS` = 1,000, `RANDOM_SEED` = 6600 in config). A finding counts only if its interval excludes "no effect".
+- **New outcome measures (notebook 02):** Big-5 minutes within 5 years of entry (`made_it_5y`; equal follow-up for every cohort, FIFA 18 + 5 years = Sept 2022, inside the data) and 3,000+ minutes in any Transfermarkt-covered top flight (`made_it_top_flight`). Peak market value ≥ €10m is a fourth measure.
+- **Benchmark:** OLS of peak later rating on overall + age, fitted leave-one-entry-edition-out (trained on the other three editions). It replaces the ad hoc "overall + 2.5 × (21 − age)" rule from the 4 Nov quick check. That rule was in-sample and hand-weighted, and it overstated the case against potential.
+- **Club effect among elite prospects:** OLS of gap on club Elo/100 + potential + age, players with potential ≥ 80 and an Elo at entry.
+- **Vanished check:** whether the entry league disappears from the next edition (licensing), and whether the player kept playing in a covered top flight.
+- **Results:** all in `findings.json` sections `robust_*`; summary and proposed chart changes in `reports/chart_plan_v2.md` (awaiting team approval; CLAUDE.md §9.2 unchanged).

@@ -24,71 +24,103 @@
     "sections": {
       "cohort": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "match": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "calibration_by_band": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_01": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_02": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_04": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_05": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_06": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_07": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_14": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "featured_candidates": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "provisional": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_08": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_09": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_10": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_11": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
       },
       "chart_12": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-04 20:47"
+        "updated": "2026-11-05 18:15"
+      },
+      "robust_calibration": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-05 18:15"
+      },
+      "robust_inflation": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-05 18:15"
+      },
+      "robust_benchmark": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-05 18:15"
+      },
+      "robust_age": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-05 18:15"
+      },
+      "robust_club_effect": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-05 18:15"
+      },
+      "robust_nations": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-05 18:15"
+      },
+      "robust_alt_success": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-05 18:15"
+      },
+      "robust_vanished": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-05 18:15"
       }
     }
   },
@@ -791,5 +823,905 @@
       "height_cm": 0.07,
       "weight_kg": 0.07
     }
+  },
+  "robust_calibration": {
+    "slope": {
+      "value": 0.61,
+      "ci_low": 0.59,
+      "ci_high": 0.63
+    },
+    "points_of_peak_per_10_points_potential": 6.1,
+    "by_potential": {
+      "≤60": {
+        "n": 526,
+        "mean_potential": 57.9,
+        "mean_peak": 60.1,
+        "beat_or_met_pct": 60
+      },
+      "61–65": {
+        "n": 1403,
+        "mean_potential": 63.5,
+        "mean_peak": 63.1,
+        "beat_or_met_pct": 50
+      },
+      "66–70": {
+        "n": 2550,
+        "mean_potential": 68.1,
+        "mean_peak": 65.1,
+        "beat_or_met_pct": 33
+      },
+      "71–75": {
+        "n": 2420,
+        "mean_potential": 73.0,
+        "mean_peak": 68.2,
+        "beat_or_met_pct": 23
+      },
+      "76–80": {
+        "n": 1361,
+        "mean_potential": 77.6,
+        "mean_peak": 71.3,
+        "beat_or_met_pct": 17
+      },
+      "81–85": {
+        "n": 445,
+        "mean_potential": 82.4,
+        "mean_peak": 75.9,
+        "beat_or_met_pct": 16
+      },
+      "86+": {
+        "n": 56,
+        "mean_potential": 86.8,
+        "mean_peak": 80.6,
+        "beat_or_met_pct": 14
+      }
+    }
+  },
+  "robust_inflation": {
+    "by_edition": {
+      "FIFA 15": {
+        "u21": 4594,
+        "mean_potential": 68.4,
+        "mean_overall": 58.8,
+        "headroom": 9.6,
+        "wonderkids_per_1000": 10.4,
+        "top300_mean_overall": 82.1
+      },
+      "FIFA 16": {
+        "u21": 4663,
+        "mean_potential": 70.4,
+        "mean_overall": 60.0,
+        "headroom": 10.4,
+        "wonderkids_per_1000": 17.6,
+        "top300_mean_overall": 82.7
+      },
+      "FIFA 17": {
+        "u21": 4578,
+        "mean_potential": 72.0,
+        "mean_overall": 60.5,
+        "headroom": 11.6,
+        "wonderkids_per_1000": 23.2,
+        "top300_mean_overall": 83.8
+      },
+      "FIFA 18": {
+        "u21": 4522,
+        "mean_potential": 72.8,
+        "mean_overall": 60.6,
+        "headroom": 12.2,
+        "wonderkids_per_1000": 30.3,
+        "top300_mean_overall": 84.0
+      },
+      "FIFA 19": {
+        "u21": 4542,
+        "mean_potential": 73.0,
+        "mean_overall": 60.5,
+        "headroom": 12.5,
+        "wonderkids_per_1000": 31.7,
+        "top300_mean_overall": 84.4
+      },
+      "FIFA 20": {
+        "u21": 4564,
+        "mean_potential": 73.6,
+        "mean_overall": 60.6,
+        "headroom": 13.0,
+        "wonderkids_per_1000": 37.2,
+        "top300_mean_overall": 84.4
+      },
+      "FIFA 21": {
+        "u21": 4799,
+        "mean_potential": 73.1,
+        "mean_overall": 60.0,
+        "headroom": 13.0,
+        "wonderkids_per_1000": 30.2,
+        "top300_mean_overall": 84.0
+      },
+      "FIFA 22": {
+        "u21": 5047,
+        "mean_potential": 73.1,
+        "mean_overall": 60.5,
+        "headroom": 12.6,
+        "wonderkids_per_1000": 23.8,
+        "top300_mean_overall": 84.0
+      },
+      "FIFA 23": {
+        "u21": 4642,
+        "mean_potential": 73.0,
+        "mean_overall": 60.5,
+        "headroom": 12.5,
+        "wonderkids_per_1000": 27.4,
+        "top300_mean_overall": 84.0
+      },
+      "FC 24": {
+        "u21": 4593,
+        "mean_potential": 73.3,
+        "mean_overall": 60.6,
+        "headroom": 12.7,
+        "wonderkids_per_1000": 23.5,
+        "top300_mean_overall": 83.8
+      }
+    },
+    "headroom_first": 9.6,
+    "headroom_max": 13.0,
+    "headroom_max_edition": "FIFA 20",
+    "headroom_last": 12.7,
+    "wk_per_1000_first": 10.4,
+    "wk_per_1000_max": 37.2,
+    "wk_per_1000_max_edition": "FIFA 20",
+    "wk_per_1000_last": 23.5,
+    "mean_overall_change_first_to_max": 1.7,
+    "mean_potential_change_first_to_max": 5.2,
+    "top300_drift_first_to_max": 2.3
+  },
+  "robust_benchmark": {
+    "table": [
+      {
+        "predictor": "Potential",
+        "target": "peak later rating (Spearman)",
+        "value": 0.497,
+        "ci_low": 0.48,
+        "ci_high": 0.513
+      },
+      {
+        "predictor": "Overall (current rating)",
+        "target": "peak later rating (Spearman)",
+        "value": 0.569,
+        "ci_low": 0.551,
+        "ci_high": 0.583
+      },
+      {
+        "predictor": "Benchmark: overall + age",
+        "target": "peak later rating (Spearman)",
+        "value": 0.56,
+        "ci_low": 0.545,
+        "ci_high": 0.576
+      },
+      {
+        "predictor": "Potential",
+        "target": "made it, matched with a value at entry (AUC)",
+        "value": 0.713,
+        "ci_low": 0.696,
+        "ci_high": 0.732
+      },
+      {
+        "predictor": "Benchmark: overall + age",
+        "target": "made it, matched with a value at entry (AUC)",
+        "value": 0.7,
+        "ci_low": 0.679,
+        "ci_high": 0.719
+      },
+      {
+        "predictor": "Market value at entry",
+        "target": "made it, matched with a value at entry (AUC)",
+        "value": 0.716,
+        "ci_low": 0.698,
+        "ci_high": 0.733
+      }
+    ],
+    "potential_minus_benchmark_spearman": {
+      "value": -0.063,
+      "ci_low": -0.074,
+      "ci_high": -0.052
+    },
+    "potential_minus_benchmark_auc": {
+      "value": 0.013,
+      "ci_low": 0.001,
+      "ci_high": 0.024
+    },
+    "potential_minus_market_auc": {
+      "value": -0.002,
+      "ci_low": -0.02,
+      "ci_high": 0.016
+    },
+    "potential_auc_within_value_quintiles_mean": {
+      "value": 0.617,
+      "ci_low": 0.592,
+      "ci_high": 0.641
+    },
+    "n_matched_with_value": 4674,
+    "share_matched_with_value_pct": 71
+  },
+  "robust_age": {
+    "by_age": [
+      {
+        "age_at_entry": 16,
+        "n": 72,
+        "headroom": 14.9,
+        "mean_gap": 5.42,
+        "gap_ci": "3.46–7.35",
+        "made_it_pct": 16.7,
+        "made_it_ci": "8.3–25.0"
+      },
+      {
+        "age_at_entry": 17,
+        "n": 862,
+        "headroom": 15.4,
+        "mean_gap": 5.47,
+        "gap_ci": "4.94–5.97",
+        "made_it_pct": 14.8,
+        "made_it_ci": "12.5–17.3"
+      },
+      {
+        "age_at_entry": 18,
+        "n": 1790,
+        "headroom": 13.7,
+        "mean_gap": 4.87,
+        "gap_ci": "4.55–5.19",
+        "made_it_pct": 15.3,
+        "made_it_ci": "13.6–16.9"
+      },
+      {
+        "age_at_entry": 19,
+        "n": 2088,
+        "headroom": 11.9,
+        "mean_gap": 4.1,
+        "gap_ci": "3.80–4.38",
+        "made_it_pct": 15.5,
+        "made_it_ci": "13.8–17.0"
+      },
+      {
+        "age_at_entry": 20,
+        "n": 2041,
+        "headroom": 9.8,
+        "mean_gap": 2.46,
+        "gap_ci": "2.19–2.72",
+        "made_it_pct": 13.8,
+        "made_it_ci": "12.4–15.2"
+      },
+      {
+        "age_at_entry": 21,
+        "n": 1908,
+        "headroom": 8.2,
+        "mean_gap": 1.58,
+        "gap_ci": "1.31–1.84",
+        "made_it_pct": 13.7,
+        "made_it_ci": "12.2–15.4"
+      }
+    ],
+    "gap_17_minus_21": {
+      "value": 3.88,
+      "ci_low": 3.31,
+      "ci_high": 4.5
+    },
+    "made_it_17_minus_21_pts": {
+      "value": 1.3,
+      "ci_low": -1.3,
+      "ci_high": 4.0
+    }
+  },
+  "robust_club_effect": {
+    "potential_80plus_quartiles": [
+      {
+        "club_elo_quartile": "Q1 weakest",
+        "n": 148,
+        "elo_range": "1172–1570",
+        "mean_potential": 81.7,
+        "mean_gap": 8.01,
+        "gap_ci": "7.05–8.81",
+        "made_it_pct": 38.5,
+        "made_it_ci": "30.4–46.0"
+      },
+      {
+        "club_elo_quartile": "Q2",
+        "n": 148,
+        "elo_range": "1570–1662",
+        "mean_potential": 82.0,
+        "mean_gap": 6.12,
+        "gap_ci": "5.16–7.05",
+        "made_it_pct": 54.1,
+        "made_it_ci": "45.9–62.2"
+      },
+      {
+        "club_elo_quartile": "Q3",
+        "n": 148,
+        "elo_range": "1666–1788",
+        "mean_potential": 82.2,
+        "mean_gap": 5.46,
+        "gap_ci": "4.60–6.39",
+        "made_it_pct": 58.1,
+        "made_it_ci": "50.0–66.2"
+      },
+      {
+        "club_elo_quartile": "Q4 strongest",
+        "n": 147,
+        "elo_range": "1789–2082",
+        "mean_potential": 82.9,
+        "mean_gap": 4.9,
+        "gap_ci": "3.92–5.90",
+        "made_it_pct": 64.6,
+        "made_it_ci": "57.1–72.1"
+      }
+    ],
+    "gap_per_100_elo_controlled": {
+      "value": -0.78,
+      "ci_low": -1.09,
+      "ci_high": -0.47
+    },
+    "spearman_elo_gap_80plus": {
+      "value": -0.19,
+      "ci_low": -0.27,
+      "ci_high": -0.11
+    },
+    "spearman_elo_gap_all": {
+      "value": 0.02,
+      "ci_low": -0.0,
+      "ci_high": 0.05
+    },
+    "n_80plus_with_elo": 591
+  },
+  "robust_nations": {
+    "cohort_mean_gap": 3.47,
+    "table": [
+      {
+        "nation": "Mali",
+        "n": 21,
+        "mean_gap": 0.67,
+        "ci_low": -2.48,
+        "ci_high": 3.62,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "n": 23,
+        "mean_gap": 0.83,
+        "ci_low": -1.35,
+        "ci_high": 3.09,
+        "vs_cohort": "below"
+      },
+      {
+        "nation": "Denmark",
+        "n": 196,
+        "mean_gap": 0.98,
+        "ci_low": 0.04,
+        "ci_high": 2.06,
+        "vs_cohort": "below"
+      },
+      {
+        "nation": "Albania",
+        "n": 17,
+        "mean_gap": 1.12,
+        "ci_low": -1.71,
+        "ci_high": 4.35,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Côte d'Ivoire",
+        "n": 50,
+        "mean_gap": 1.14,
+        "ci_low": -0.64,
+        "ci_high": 3.14,
+        "vs_cohort": "below"
+      },
+      {
+        "nation": "New Zealand",
+        "n": 18,
+        "mean_gap": 1.22,
+        "ci_low": -1.28,
+        "ci_high": 3.78,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Iceland",
+        "n": 17,
+        "mean_gap": 1.41,
+        "ci_low": -0.82,
+        "ci_high": 3.71,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Austria",
+        "n": 152,
+        "mean_gap": 1.53,
+        "ci_low": 0.57,
+        "ci_high": 2.53,
+        "vs_cohort": "below"
+      },
+      {
+        "nation": "Slovakia",
+        "n": 26,
+        "mean_gap": 1.65,
+        "ci_low": -0.85,
+        "ci_high": 3.96,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Saudi Arabia",
+        "n": 130,
+        "mean_gap": 2.02,
+        "ci_low": 0.81,
+        "ci_high": 3.06,
+        "vs_cohort": "below"
+      },
+      {
+        "nation": "Argentina",
+        "n": 435,
+        "mean_gap": 2.06,
+        "ci_low": 1.41,
+        "ci_high": 2.75,
+        "vs_cohort": "below"
+      },
+      {
+        "nation": "Colombia",
+        "n": 280,
+        "mean_gap": 2.07,
+        "ci_low": 1.27,
+        "ci_high": 2.83,
+        "vs_cohort": "below"
+      },
+      {
+        "nation": "Spain",
+        "n": 500,
+        "mean_gap": 2.27,
+        "ci_low": 1.66,
+        "ci_high": 2.86,
+        "vs_cohort": "below"
+      },
+      {
+        "nation": "France",
+        "n": 604,
+        "mean_gap": 2.29,
+        "ci_low": 1.67,
+        "ci_high": 2.84,
+        "vs_cohort": "below"
+      },
+      {
+        "nation": "Switzerland",
+        "n": 138,
+        "mean_gap": 2.32,
+        "ci_low": 0.91,
+        "ci_high": 3.63,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Poland",
+        "n": 190,
+        "mean_gap": 2.36,
+        "ci_low": 1.32,
+        "ci_high": 3.37,
+        "vs_cohort": "below"
+      },
+      {
+        "nation": "Uruguay",
+        "n": 49,
+        "mean_gap": 2.37,
+        "ci_low": 0.69,
+        "ci_high": 4.16,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Canada",
+        "n": 28,
+        "mean_gap": 2.61,
+        "ci_low": -0.04,
+        "ci_high": 5.32,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Peru",
+        "n": 16,
+        "mean_gap": 2.81,
+        "ci_low": 0.31,
+        "ci_high": 5.25,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Sweden",
+        "n": 212,
+        "mean_gap": 2.92,
+        "ci_low": 2.21,
+        "ci_high": 3.65,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Morocco",
+        "n": 30,
+        "mean_gap": 3.03,
+        "ci_low": 0.9,
+        "ci_high": 5.57,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Australia",
+        "n": 139,
+        "mean_gap": 3.17,
+        "ci_low": 2.27,
+        "ci_high": 4.05,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Norway",
+        "n": 211,
+        "mean_gap": 3.22,
+        "ci_low": 2.28,
+        "ci_high": 4.15,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Senegal",
+        "n": 45,
+        "mean_gap": 3.29,
+        "ci_low": 1.51,
+        "ci_high": 4.98,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Venezuela",
+        "n": 25,
+        "mean_gap": 3.32,
+        "ci_low": 0.48,
+        "ci_high": 5.8,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Brazil",
+        "n": 176,
+        "mean_gap": 3.42,
+        "ci_low": 2.51,
+        "ci_high": 4.36,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Mexico",
+        "n": 213,
+        "mean_gap": 3.47,
+        "ci_low": 2.69,
+        "ci_high": 4.21,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Italy",
+        "n": 365,
+        "mean_gap": 3.54,
+        "ci_low": 2.75,
+        "ci_high": 4.29,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Ukraine",
+        "n": 16,
+        "mean_gap": 3.56,
+        "ci_low": 0.75,
+        "ci_high": 6.06,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Greece",
+        "n": 52,
+        "mean_gap": 3.71,
+        "ci_low": 2.19,
+        "ci_high": 5.1,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Portugal",
+        "n": 178,
+        "mean_gap": 3.83,
+        "ci_low": 2.97,
+        "ci_high": 4.7,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Croatia",
+        "n": 57,
+        "mean_gap": 3.86,
+        "ci_low": 2.26,
+        "ci_high": 5.44,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Northern Ireland",
+        "n": 44,
+        "mean_gap": 3.91,
+        "ci_low": 2.34,
+        "ci_high": 5.66,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Germany",
+        "n": 513,
+        "mean_gap": 3.92,
+        "ci_low": 3.33,
+        "ci_high": 4.5,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Korea Republic",
+        "n": 87,
+        "mean_gap": 3.93,
+        "ci_low": 2.56,
+        "ci_high": 5.29,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "England",
+        "n": 1123,
+        "mean_gap": 4.04,
+        "ci_low": 3.64,
+        "ci_high": 4.43,
+        "vs_cohort": "above"
+      },
+      {
+        "nation": "United States",
+        "n": 121,
+        "mean_gap": 4.16,
+        "ci_low": 2.95,
+        "ci_high": 5.35,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Serbia",
+        "n": 53,
+        "mean_gap": 4.17,
+        "ci_low": 2.26,
+        "ci_high": 6.08,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Cameroon",
+        "n": 46,
+        "mean_gap": 4.22,
+        "ci_low": 2.02,
+        "ci_high": 6.2,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Nigeria",
+        "n": 77,
+        "mean_gap": 4.22,
+        "ci_low": 2.94,
+        "ci_high": 5.55,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Paraguay",
+        "n": 21,
+        "mean_gap": 4.24,
+        "ci_low": 1.43,
+        "ci_high": 7.05,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Finland",
+        "n": 28,
+        "mean_gap": 4.25,
+        "ci_low": 1.82,
+        "ci_high": 6.64,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Romania",
+        "n": 18,
+        "mean_gap": 4.28,
+        "ci_low": 1.11,
+        "ci_high": 6.89,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Belgium",
+        "n": 188,
+        "mean_gap": 4.29,
+        "ci_low": 3.45,
+        "ci_high": 5.08,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Netherlands",
+        "n": 272,
+        "mean_gap": 4.38,
+        "ci_low": 3.71,
+        "ci_high": 4.99,
+        "vs_cohort": "above"
+      },
+      {
+        "nation": "Wales",
+        "n": 79,
+        "mean_gap": 4.57,
+        "ci_low": 2.91,
+        "ci_high": 6.18,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Czech Republic",
+        "n": 19,
+        "mean_gap": 4.68,
+        "ci_low": 2.52,
+        "ci_high": 7.21,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Scotland",
+        "n": 199,
+        "mean_gap": 5.03,
+        "ci_low": 4.05,
+        "ci_high": 5.96,
+        "vs_cohort": "above"
+      },
+      {
+        "nation": "Ghana",
+        "n": 87,
+        "mean_gap": 5.1,
+        "ci_low": 3.86,
+        "ci_high": 6.25,
+        "vs_cohort": "above"
+      },
+      {
+        "nation": "Chile",
+        "n": 192,
+        "mean_gap": 5.33,
+        "ci_low": 4.49,
+        "ci_high": 6.08,
+        "vs_cohort": "above"
+      },
+      {
+        "nation": "Republic of Ireland",
+        "n": 233,
+        "mean_gap": 5.66,
+        "ci_low": 4.9,
+        "ci_high": 6.51,
+        "vs_cohort": "above"
+      },
+      {
+        "nation": "Russia",
+        "n": 118,
+        "mean_gap": 5.79,
+        "ci_low": 4.58,
+        "ci_high": 7.01,
+        "vs_cohort": "above"
+      },
+      {
+        "nation": "Georgia",
+        "n": 17,
+        "mean_gap": 5.88,
+        "ci_low": 4.12,
+        "ci_high": 7.47,
+        "vs_cohort": "above"
+      },
+      {
+        "nation": "South Africa",
+        "n": 20,
+        "mean_gap": 5.9,
+        "ci_low": 3.15,
+        "ci_high": 8.5,
+        "vs_cohort": "not distinguishable"
+      },
+      {
+        "nation": "Turkey",
+        "n": 143,
+        "mean_gap": 6.31,
+        "ci_low": 5.34,
+        "ci_high": 7.35,
+        "vs_cohort": "above"
+      },
+      {
+        "nation": "Japan",
+        "n": 112,
+        "mean_gap": 6.39,
+        "ci_low": 5.18,
+        "ci_high": 7.61,
+        "vs_cohort": "above"
+      }
+    ],
+    "above_average": [
+      "England",
+      "Netherlands",
+      "Scotland",
+      "Ghana",
+      "Chile",
+      "Republic of Ireland",
+      "Russia",
+      "Georgia",
+      "Turkey",
+      "Japan"
+    ],
+    "below_average": [
+      "Bosnia and Herzegovina",
+      "Denmark",
+      "Côte d'Ivoire",
+      "Austria",
+      "Saudi Arabia",
+      "Argentina",
+      "Colombia",
+      "Spain",
+      "France",
+      "Poland"
+    ],
+    "england_minus_spain_france": {
+      "value": 1.76,
+      "ci_low": 1.2,
+      "ci_high": 2.36
+    }
+  },
+  "robust_alt_success": {
+    "by_band_pct": {
+      "<70": {
+        "Big-5 3,000+ min": 4,
+        "Big-5 within 5 years": 2,
+        "Any covered top flight 3,000+ min": 10,
+        "Peak value ≥ €10m": 2
+      },
+      "70–74": {
+        "Big-5 3,000+ min": 10,
+        "Big-5 within 5 years": 6,
+        "Any covered top flight 3,000+ min": 22,
+        "Peak value ≥ €10m": 6
+      },
+      "75–79": {
+        "Big-5 3,000+ min": 22,
+        "Big-5 within 5 years": 14,
+        "Any covered top flight 3,000+ min": 40,
+        "Peak value ≥ €10m": 16
+      },
+      "80–84": {
+        "Big-5 3,000+ min": 46,
+        "Big-5 within 5 years": 36,
+        "Any covered top flight 3,000+ min": 64,
+        "Peak value ≥ €10m": 43
+      },
+      "85+": {
+        "Big-5 3,000+ min": 68,
+        "Big-5 within 5 years": 62,
+        "Any covered top flight 3,000+ min": 81,
+        "Peak value ≥ €10m": 75
+      }
+    },
+    "by_entry_edition_pct": {
+      "FIFA 15": {
+        "Big-5 3,000+ min": 14,
+        "Big-5 within 5 years": 10,
+        "Any covered top flight 3,000+ min": 25,
+        "Peak value ≥ €10m": 10
+      },
+      "FIFA 16": {
+        "Big-5 3,000+ min": 9,
+        "Big-5 within 5 years": 5,
+        "Any covered top flight 3,000+ min": 18,
+        "Peak value ≥ €10m": 7
+      },
+      "FIFA 17": {
+        "Big-5 3,000+ min": 10,
+        "Big-5 within 5 years": 6,
+        "Any covered top flight 3,000+ min": 19,
+        "Peak value ≥ €10m": 8
+      },
+      "FIFA 18": {
+        "Big-5 3,000+ min": 9,
+        "Big-5 within 5 years": 5,
+        "Any covered top flight 3,000+ min": 18,
+        "Peak value ≥ €10m": 8
+      }
+    },
+    "potential_auc": {
+      "Big-5 3,000+ min": 0.777,
+      "Big-5 within 5 years": 0.809,
+      "Any covered top flight 3,000+ min": 0.751,
+      "Peak value ≥ €10m": 0.81
+    },
+    "rises_with_band_for_every_measure": true
+  },
+  "robust_vanished": {
+    "vanished": 2758.0,
+    "matched to Transfermarkt %": 28.4,
+    "entry league left the game next edition %": 0.1,
+    "kept playing in a covered top flight %": 8.8,
+    "made it (Big-5 3,000+) %": 0.1,
+    "potential 75+": 167.0
   }
 }
