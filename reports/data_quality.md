@@ -5,7 +5,7 @@ One section per notebook, rewritten each time that notebook runs.
 <!-- BEGIN 00 -->
 ## 00 Setup and download: source inventory
 
-_Last run: 2026-11-04 18:40_
+_Last run: 2026-11-04 20:41_
 
 ### Inventory
 
@@ -27,7 +27,10 @@ _Last run: 2026-11-04 18:40_
 | Transfermarkt | transfermarkt/players.csv | 50,149 | 26 | DOB 1968-07-31 to 2011-02-23 |  |
 | Transfermarkt | transfermarkt/transfers.csv | 175,165 | 10 | 1993-07-01 to 2030-06-30 | 475 rows dated after today (max 2030-06-30) |
 | FIFA ranking | fifa_ranking/fifa_mens_rank.csv | 13,130 | 8 | 1992 S2 to 2024 S2 (year + semester only) | 65 half-yearly periods; rank + points, no confederation |
-| ClubElo | clubelo/ (missing snapshots) |  |  | 2014-09-18, 2015-09-21, 2016-09-20, 2017-09-18, 2018-08-21, 2019-09-19, 2020-09-23, 2021-09-23, 2022-09-26, 2023-09-22 | NOT DOWNLOADED: ConnectionError: Could not download http://api.clubelo.com/2014-09-18. |
+| ClubElo mirror | club_elo_mirror/EloRatings.csv | 273,972 | 4 | 2000-07-01 to 2026-09-01 | ClubElo snapshots on the 1st and 15th of each month; ClubElo data through 2025-06-01 |
+| ClubElo mirror | club_elo_mirror/Matches.csv | 238,858 | 6 | 2000-07-28 to 2026-09-03 | football-data.co.uk matches; used only for the level column |
+| ClubElo | clubelo | 1,638 | 12 | 4 snapshots: 2014-09-18 to 2017-09-18 | one file per edition date, clubelo_YYYY-MM-DD.csv; rows summed over snapshots |
+| ClubElo | clubelo/ (missing snapshots) |  |  | 2018-08-21, 2019-09-19, 2020-09-23, 2021-09-23, 2022-09-26, 2023-09-22 | NOT DOWNLOADED: ConnectionError: Could not download http://api.clubelo.com/2018-08-21. |
 
 ### ClubElo download status
 
@@ -64,7 +67,8 @@ _Last run: 2026-11-04 18:40_
 | Ranking: covers every half-year 2014–2023 | PASS | 1992 S2 to 2024 S2 |
 | Ranking: column `rank` exists | PASS |  |
 | Ranking: column `team` exists | PASS |  |
-| ClubElo: all 10 edition snapshots cached | FAIL | 0/10 available |
+| ClubElo mirror snapshots: 300+ clubs and no duplicate clubs | PASS |  |
+| ClubElo: a snapshot (API or mirror) for each of the 4 cohort entry dates | PASS | 4/4; mirror used for ['2014-09-18', '2015-09-21', '2016-09-20', '2017-09-18'] |
 
 ### Flags for later notebooks
 
@@ -73,7 +77,8 @@ _Last run: 2026-11-04 18:40_
 - FIFA ranking has year + semester (1 or 2) only, no exact publication dates: 65 periods, two per year. 'Latest ranking date on or before the edition date' (CLAUDE.md §6) cannot be applied literally; notebook 04 must decide how to map a semester to a date and record it in DECISIONS.md.
 - FIFA ranking has no confederation column. Transfermarkt `national_teams.csv` and `countries.csv` have one, which notebook 04 could join for chart 9.
 - FIFA ranking has 2,733 tied (date, semester, rank) rows across all years; 360 of them in 2014–2023.
-- ClubElo: 10 of 10 snapshots failed to download (ConnectionError: Could not download http://api.clubelo.com/2014-09-18.). Re-run this notebook when api.clubelo.com responds; notebook 03 is blocked until then.
+- ClubElo API: 6 non-entry edition snapshots not downloaded (ConnectionError: Could not download http://api.clubelo.com/2018-08-21.). Not needed: club strength is only measured at the 4 cohort entry dates.
+- ClubElo: the API did not return the cohort entry dates ['2014-09-18', '2015-09-21', '2016-09-20', '2017-09-18']; mirror snapshots used (Club Football Match Data (2000–2025), Kaggle, by adamgbor; Elo data from ClubElo).
 <!-- END 00 -->
 
 <!-- BEGIN 01 -->

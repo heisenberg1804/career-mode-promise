@@ -65,7 +65,10 @@ KAGGLE_COMMANDS = {
                      "-p data/raw/transfermarkt --unzip",
     "fifa_ranking": "kaggle datasets download -d lucasyukioimafuko/fifa-mens-world-ranking "
                     "-p data/raw/fifa_ranking --unzip",
+    "club_elo_mirror": "kaggle datasets download -d adamgbor/club-football-match-data-2000-2025 "
+                       "-p data/raw/club_elo_mirror --unzip",
 }
+RAW_CLUBELO_MIRROR = RAW / "club_elo_mirror"
 
 # Source credits for chart spec source lines (CLAUDE.md §9.3). Export notebooks build each
 # chart's source line from these keys.

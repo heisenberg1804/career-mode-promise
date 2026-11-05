@@ -139,3 +139,8 @@ Every judgement call: date, decision, reason, alternatives considered.
 
 ### 2026-11-04 · Sources list: ClubElo mirror credit
 - **Decision:** Added "Club Football Match Data (2000–2025), Kaggle, by adamgbor; Elo data from ClubElo" to the CLAUDE.md §5 sources table (row 3b), the README and `config.SOURCES`; `config.CHART_SOURCES[10]` credits FIFA, the mirror and ClubElo, so chart 10's source line credits both, as the mirror's author asks.
+
+### 2026-11-04 · Notebook 00: ClubElo mirror fallback built in
+- **Decision:** Notebook 00 now tries the API for all 10 edition dates, then builds a mirror snapshot for any of the 4 cohort entry dates the API didn't return (`src.clubelo.build_mirror_snapshot`, same as `scripts/build_clubelo_mirror.py`). It checks that all 4 entry dates are covered. The other 6 dates are reported as a note, not a failure. The mirror dataset is part of the source check and the inventory.
+- **Reason:** The earlier "all 10 snapshots cached" check failed by design while the API is down, so a teammate's fresh run stopped at notebook 00. Only the entry dates are used (§6 club strength at entry).
+- **Alternatives:** Keep the failing check and tell teammates to ignore it (breaks "run top to bottom").
