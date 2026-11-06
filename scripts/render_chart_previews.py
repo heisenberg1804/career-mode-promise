@@ -62,7 +62,7 @@ def main():
         "per10": F["export_chart_04"]["points_per_10"], "first": F["export_chart_07"]["first"], "last": F["export_chart_07"]["last"],
         "auc_pot": round(F["export_chart_12"]["potential_auc"], 2), "auc_mkt": round(F["export_chart_12"]["market_auc"], 2),
         "wk15": F["export_chart_01"]["n"], "wk15_reached": F["export_chart_01"]["reached"], "wk15_made": F["export_chart_01"]["made_it"],
-        "pending": F["provisional"]["match_review_pending_players"],
+        "pending": F["provisional"]["match_review_pending_players"], "frozen": F["provisional"].get("data_frozen", False),
         "fit75": F["export_chart_04"]["line_at_75"], "fit95": F["export_chart_04"]["line_at_95"],
     }
     featured = [{"role": k, **v} for k, v in F["featured_five"]["picks"].items()]
@@ -202,7 +202,9 @@ const H = P.head;
 
 // ---------------------------------------------------------------- header
 $("#lede").textContent = `EA rated every young player's "potential". We followed ${H.wk15} FIFA 15 wonderkids and 11,519 young entrants to FC 24 and into real careers. The verdict: an inflated promise, but a useful ranking.`;
-$("#notice").textContent = `Previews only: build the real charts in Flourish and Datawrapper from the CSVs named under each chart. Numbers are provisional until the Transfermarkt match review (${H.pending} players pending) and the club-override check are done; re-run notebooks 02 → 12 and this page afterwards.`;
+$("#notice").textContent = H.frozen
+  ? "Previews only: build the real charts in Flourish and Datawrapper from the CSVs named under each chart. Data frozen 5 Nov 2026: the Transfermarkt match review and the ClubElo club check are complete, so these numbers are final."
+  : `Previews only: build the real charts in Flourish and Datawrapper from the CSVs named under each chart. Numbers are provisional until the Transfermarkt match review (${H.pending} players pending) and the club-override check are done.`;
 const tiles = [
   [`${H.inflation}×`, `more wonderkid ratings per 1,000 under-21s, FIFA 15 → ${H.wk_max_ed} (${H.wk_first} → ${H.wk_max})`],
   [`${H.per10}`, "points of real rating delivered per 10 points of promised potential"],

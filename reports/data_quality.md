@@ -211,15 +211,17 @@ Missing rates (%) by edition. Missing counts across all editions: `value_eur` 2,
 <!-- BEGIN 02 -->
 ## 02 Transfermarkt match
 
-_Last run: 2026-11-05 18:12_
+_Last run: 2026-11-05 19:24_
 
 ### Match results
 
 | Method | Players |
 |---|---|
-| auto | 6,581 |
-| unmatched | 4,869 |
-| pending_review | 69 |
+| auto | 6,476 |
+| unmatched | 4,812 |
+| override_confirmed | 126 |
+| override_rejected | 88 |
+| override_corrected | 17 |
 
 Raw match class (before overrides): auto 6,599, no_match_below_70 4,848, review_low_score 40, no_dob_candidate 21, review_tie 11.
 
@@ -227,25 +229,19 @@ Raw match class (before overrides): auto 6,599, no_match_below_70 4,848, review_
 
 | Band | entrants | matched | pending_review | match_rate_% |
 |---|---|---|---|---|
-| <70 | 5,840 | 2,376 | 40 | 40.7 |
-| 70–74 | 3,191 | 2,101 | 18 | 65.8 |
-| 75–79 | 1,784 | 1,460 | 8 | 81.8 |
-| 80–84 | 600 | 542 | 1 | 90.3 |
-| 85+ | 104 | 102 | 2 | 98.1 |
-| All | 11,519 | 6,581 | 69 | 57.1 |
+| <70 | 5,840 | 2,384 | 0 | 40.8 |
+| 70–74 | 3,191 | 2,111 | 0 | 66.2 |
+| 75–79 | 1,784 | 1,467 | 0 | 82.2 |
+| 80–84 | 600 | 553 | 0 | 92.2 |
+| 85+ | 104 | 104 | 0 | 100.0 |
+| All | 11,519 | 6,619 | 0 | 57.5 |
 
 ### Review queue
 
-`reports/match_review.csv`: 231 players, 612 candidate rows.
+`reports/match_review.csv`: 0 players, 0 candidate rows.
 
 | Reason | Players |
 |---|---|
-| potential 85+ | 104 |
-| no exact-DOB match (potential 80+) | 57 |
-| score 70-84 | 40 |
-| TM id matched twice | 18 |
-| tie | 11 |
-| GK flag differs | 5 |
 
 ### Appearance coverage
 
@@ -305,16 +301,16 @@ Big-5 seasons with fewer than half the median appearance count: none.
 
 ### Real outcomes
 
-- Matched players: 6,581. With no valuation after entry: 323.
+- Matched players: 6,619. With no valuation after entry: 325.
 - Latest transfer is taken on or before the data snapshot date (2026-06-28); 3322 later-dated transfers are ignored.
 
 | Band | matched | made_it_1500_% | made_it_3000_% | made_it_5000_% |
 |---|---|---|---|---|
-| <70 | 2,376 | 12.5 | 9.6 | 7.4 |
-| 70–74 | 2,101 | 18.5 | 14.7 | 11.6 |
-| 75–79 | 1,460 | 32.7 | 27.4 | 22.0 |
-| 80–84 | 542 | 58.5 | 50.7 | 44.3 |
-| 85+ | 102 | 74.5 | 69.6 | 62.7 |
+| <70 | 2,384 | 12.5 | 9.6 | 7.4 |
+| 70–74 | 2,111 | 18.5 | 14.7 | 11.6 |
+| 75–79 | 1,467 | 32.7 | 27.3 | 21.9 |
+| 80–84 | 553 | 58.2 | 50.6 | 43.9 |
+| 85+ | 104 | 73.1 | 68.3 | 61.5 |
 
 ### Notes
 
@@ -327,8 +323,8 @@ Big-5 seasons with fewer than half the median appearance count: none.
 | TM player_id is unique | PASS |  |
 | Override file is valid | PASS |  |
 | No TM player is accepted for two FIFA players | PASS |  |
-| Match rate >= 90% in band 80–84 | PASS | 90.3% |
-| Match rate >= 90% in band 85+ | PASS | 98.1% |
+| Match rate >= 90% in band 80–84 | PASS | 92.2% |
+| Match rate >= 90% in band 85+ | PASS | 100.0% |
 | Crosswalk has one row per cohort entrant | PASS |  |
 | TM appearance_id is unique | PASS |  |
 | Follow-up window ends inside the data for every entrant | PASS |  |
@@ -396,7 +392,7 @@ _Last run: 2026-11-04 20:15_
 <!-- BEGIN 03 -->
 ## 03 ClubElo
 
-_Last run: 2026-11-04 20:19_
+_Last run: 2026-11-05 19:24_
 
 ### Snapshots used
 
@@ -488,23 +484,23 @@ Coverage: **97.3%** of 2,036. Share of all 2,488 potential-75+ entrants with an 
 <!-- BEGIN 05 -->
 ## 05 Analysis master
 
-_Last run: 2026-11-05 18:56_
+_Last run: 2026-11-05 19:31_
 
 - analysis.parquet: 11,519 rows (one per cohort entrant), 143 columns.
 - Already-peaked entrants excluded from accuracy metrics: 0.
-- Real-life "made it" counts unmatched entrants as not made it (4,938 unmatched).
-- Provisional: 174 players still pending Transfermarkt match review.
+- Real-life "made it" counts unmatched entrants as not made it (4,900 unmatched).
+- Provisional: 0 players still pending Transfermarkt match review.
 
 ### Calibration
 
 | Band | n | reached_% | fell_short_% | vanished_% | mean_gap | matched_to_TM_% | made_it_real_% | made_it_real_matched_only_% | made_it_1500_% | made_it_5000_% |
 |---|---|---|---|---|---|---|---|---|---|---|
-| <70 | 5,840 | 29.1 | 37.3 | 33.6 | 1.2 | 40.7 | 3.9 | 9.6 | 5.1 | 3.0 |
-| 70–74 | 3,191 | 19.7 | 60.6 | 19.7 | 4.5 | 65.8 | 9.7 | 14.7 | 12.2 | 7.6 |
-| 75–79 | 1,784 | 16.3 | 75.3 | 8.5 | 6.1 | 81.8 | 22.4 | 27.4 | 26.8 | 18.0 |
-| 80–84 | 600 | 16.8 | 81.2 | 2.0 | 6.4 | 90.3 | 45.8 | 50.7 | 52.8 | 40.0 |
-| 85+ | 104 | 10.6 | 85.6 | 3.8 | 6.8 | 98.1 | 68.3 | 69.6 | 73.1 | 61.5 |
-| All | 11,519 | 23.7 | 52.3 | 23.9 | 3.5 | 57.1 | 11.1 | 19.5 | 13.5 | 9.1 |
+| <70 | 5,840 | 29.1 | 37.3 | 33.6 | 1.2 | 40.8 | 3.9 | 9.6 | 5.1 | 3.0 |
+| 70–74 | 3,191 | 19.7 | 60.6 | 19.7 | 4.5 | 66.2 | 9.7 | 14.7 | 12.2 | 7.7 |
+| 75–79 | 1,784 | 16.3 | 75.3 | 8.5 | 6.1 | 82.2 | 22.5 | 27.3 | 26.9 | 18.0 |
+| 80–84 | 600 | 16.8 | 81.2 | 2.0 | 6.4 | 92.2 | 46.7 | 50.6 | 53.7 | 40.5 |
+| 85+ | 104 | 10.6 | 85.6 | 3.8 | 6.8 | 100.0 | 68.3 | 68.3 | 73.1 | 61.5 |
+| All | 11,519 | 23.7 | 52.3 | 23.9 | 3.5 | 57.5 | 11.2 | 19.5 | 13.6 | 9.1 |
 
 ### Checks
 

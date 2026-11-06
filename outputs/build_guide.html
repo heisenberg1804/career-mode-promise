@@ -1,0 +1,189 @@
+<title>Career Mode Build Guide</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column, like a kit manual. Steps are numbered because they are a real sequence. */
+:root {
+  --bg: #f4f5f7; --surface: #ffffff; --ink: #1D2433; --ink-2: #4a5466; --muted: #7b8496; --rule: #dde1e8; --soft: #eef0f3;
+  --promise: #F2A900; --promise-ink: #7a5700; --reality: #1B998B; --short: #D1495B; --beat: #2E86AB; --context: #C5CAD3;
+  --chip-dw: #e7f0f5; --chip-fl: #f3ecfb;
+  --display: "Saira Condensed", "Arial Narrow", sans-serif; --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f131b; --surface: #161b26; --ink: #e8ebf1; --ink-2: #b4bbc8; --muted: #828b9b; --rule: #2a3140; --soft: #1f2531;
+  --promise-ink: #f2c14e; --context: #5b6372; --chip-dw: #16293a; --chip-fl: #2a2140; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f131b; --surface: #161b26; --ink: #e8ebf1; --ink-2: #b4bbc8; --muted: #828b9b; --rule: #2a3140; --soft: #1f2531;
+  --promise-ink: #f2c14e; --context: #5b6372; --chip-dw: #16293a; --chip-fl: #2a2140; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); margin: 0 }
+.wrap { max-width: 900px; margin: 0 auto; padding-block: 28px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+header { border-bottom: 3px solid var(--ink); padding-bottom: 20px; display: grid; gap: 10px }
+.kicker { font: 500 12px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted) }
+h1 { font: 800 clamp(38px, 7vw, 60px)/.95 var(--display); margin: 0; text-wrap: balance }
+h1 em { font-style: normal; color: var(--promise-ink) }
+h2 { font: 700 30px/1.05 var(--display); margin: 44px 0 10px; text-wrap: balance }
+h3 { font: 700 21px/1.1 var(--display); margin: 22px 0 6px }
+p, li { max-width: 70ch } p { margin: 8px 0 }
+.lede { font-size: 18px; color: var(--ink-2); margin: 0 }
+.box { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 18px; margin: 14px 0 }
+.box.key { border-left: 4px solid var(--promise) }
+ol.steps { counter-reset: s; list-style: none; padding: 0; margin: 10px 0; display: grid; gap: 10px }
+ol.steps > li { counter-increment: s; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 16px 12px 54px; position: relative; max-width: none }
+ol.steps > li::before { content: counter(s); position: absolute; left: 14px; top: 11px; width: 28px; height: 28px; border-radius: 50%;
+  display: grid; place-items: center; font: 700 16px/1 var(--display); background: var(--ink); color: var(--bg) }
+ol.steps b { display: block; margin-bottom: 2px }
+ul { padding-left: 20px } ul li { margin: 3px 0 }
+code { font: 13px/1.5 var(--mono); background: var(--soft); border-radius: 4px; padding: 1px 5px; color: var(--ink); overflow-wrap: anywhere }
+pre { font: 12.5px/1.55 var(--mono); background: var(--soft); border: 1px solid var(--rule); border-radius: 6px; padding: 12px; overflow-x: auto; margin: 8px 0 }
+a { color: var(--ink) }
+.tbl { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface) }
+table { border-collapse: collapse; width: 100%; font-size: 14px }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--rule) }
+th { font: 600 11px/1.3 var(--mono); letter-spacing: .05em; text-transform: uppercase; color: var(--muted); background: var(--surface) }
+td:first-child { font: 700 16px/1.2 var(--display); white-space: nowrap }
+.chip { font: 600 11px/1 var(--mono); padding: 4px 6px; border-radius: 4px; white-space: nowrap; color: var(--ink) }
+.dw { background: var(--chip-dw) } .fl { background: var(--chip-fl) }
+.sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; border: 1px solid var(--ink); vertical-align: -1px; margin-right: 4px }
+.palette { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px; margin: 8px 0 }
+.palette div { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 10px; font-size: 14px }
+.check li { list-style: none; margin-left: -20px; padding-left: 26px; position: relative }
+.check li::before { content: ""; position: absolute; left: 0; top: 5px; width: 14px; height: 14px; border: 1.5px solid var(--ink-2); border-radius: 3px }
+footer { margin-top: 48px; border-top: 1px solid var(--rule); padding-top: 12px; font-size: 13px; color: var(--muted) }
+</style>
+
+<div class="wrap">
+<header>
+  <span class="kicker">The Career Mode Promise · for Devarshi and Sarthak</span>
+  <h1>Build guide: 14 charts and the <em>story site</em></h1>
+  <p class="lede">The data work is done and frozen (5 Nov 2026). Your job: build each chart in Datawrapper or Flourish from its CSV, then drop the published charts into the website. You don't need to touch the notebooks or edit any CSV.</p>
+</header>
+
+<div class="box key">
+  <p><b>Open these two things side by side while you work:</b></p>
+  <ul>
+    <li><b>The chart book</b> (<a href="https://claude.ai/artifact/6YorJzcpx7vGh69uvgbJXR">claude.ai/artifact/6YorJzcpx7vGh69uvgbJXR</a>, or <code>outputs/chart_previews.html</code> in the repo): a preview of every chart plus its exact title, subtitle, column mapping, colours, tooltip code, source line and notes. Copy text from there, don't retype it.</li>
+    <li><b>The CSVs</b> in <code>outputs/charts/</code> (pull the repo first: <code>git pull</code>). Upload them unchanged.</li>
+  </ul>
+</div>
+
+<h2>Who builds what</h2>
+<p>One person per tool keeps the styling consistent. Suggested split (swap if you prefer):</p>
+<div class="tbl"><table>
+  <thead><tr><th>Who</th><th>Tool</th><th>Charts</th></tr></thead>
+  <tbody>
+    <tr><td>Sarthak</td><td><span class="chip dw">Datawrapper</span></td><td>1 wonderkid table · 2 promise inflation · 4 promise vs reality · 5 game vs reality · 6 busts &amp; bloomers · 8 nation map · 12 who predicted best</td></tr>
+    <tr><td>Devarshi</td><td><span class="chip fl">Flourish</span></td><td>3 rating trajectories · 7 did EA learn · 9 age at entry · 10 club badge · 11 position gap · 13 game vs market · 14 where they ended up</td></tr>
+    <tr><td>Sahil</td><td>Website</td><td>Collects the IDs, builds the site, final QA and submission</td></tr>
+  </tbody>
+</table></div>
+
+<h2>House style (both tools)</h2>
+<div class="palette">
+  <div><span class="sw" style="background:#F2A900"></span><code>#F2A900</code> the game's promise (potential) and the featured five</div>
+  <div><span class="sw" style="background:#1B998B"></span><code>#1B998B</code> reality (actual outcome, "made it")</div>
+  <div><span class="sw" style="background:#D1495B"></span><code>#D1495B</code> fell short / overrated</div>
+  <div><span class="sw" style="background:#2E86AB"></span><code>#2E86AB</code> beat potential / underrated</div>
+  <div><span class="sw" style="background:#1D2433"></span><code>#1D2433</code> text</div>
+  <div><span class="sw" style="background:#C5CAD3"></span><code>#C5CAD3</code> background context</div>
+</div>
+<ul>
+  <li><b>Two accessibility rules</b> (the palette fails two automated checks, so these are required): give every gold mark a dark outline (<code>#1D2433</code>) <i>and</i> a text label, because gold is too light on white; and never let red vs teal be the only difference: add direct labels or a second encoding (red/green colour-blind readers can't separate them).</li>
+  <li><b>Title, subtitle, notes, source line:</b> paste from the chart book. Titles contain numbers generated from <code>findings.json</code>; never change a number by hand. If a title doesn't fit, shorten the words, not the numbers.</li>
+  <li><b>Byline:</b> "Sahil Mohanty, Devarshi Mahajan, Sarthak Sonawane". <b>Font:</b> the tool's default sans-serif is fine; keep all 14 the same.</li>
+  <li><b>Naming in your account:</b> <code>CMP 04 promise_vs_reality</code> so everyone can find them.</li>
+  <li><b>Never a second y-axis.</b> Chart 9 uses two stacked charts instead.</li>
+  <li><b>Alt text / description:</b> paste the chart's title plus its subtitle into the accessibility description field.</li>
+</ul>
+
+<h2>Datawrapper: the workflow</h2>
+<ol class="steps">
+  <li><b>Create</b>Dashboard → <i>Create new</i> → <i>Chart</i> (charts 2, 4, 5, 6, 12), <i>Table</i> (chart 1) or <i>Map → Choropleth → World</i> (chart 8).</li>
+  <li><b>Upload data</b>Choose <i>Upload CSV</i> and select the file from <code>outputs/charts/</code>. Leave "First row as label" on.</li>
+  <li><b>Check &amp; Describe</b>Check the column types: numbers in blue, text in black. <i>Edition</i> and <i>Entry edition</i> must stay text (they're labels like "FIFA 15"). If Datawrapper guesses wrong, click the column header and set its type.</li>
+  <li><b>Visualize → Chart type</b>Pick the type in the guide's table below. Map the columns as the chart book's "Columns" line says.</li>
+  <li><b>Refine</b>Colours: <i>Customize colors</i> and set each value's hex from the chart book. Axes: set the ranges in the notes. Labels: turn on value labels where the notes say.</li>
+  <li><b>Annotate</b>Title, description (subtitle), notes, source name and link, byline. Tooltips: turn them on and paste the tooltip code (Datawrapper uses <code>{{ Column name }}</code>). For chart 4, add the two custom lines (y = x and the calibration line) from the notes under <i>Custom lines &amp; areas</i>.</li>
+  <li><b>Layout</b>Check the mobile preview (the phone icon). Shorten labels if they collide.</li>
+  <li><b>Publish &amp; Embed</b>Click <i>Publish</i>. Copy the chart ID (the five characters in the URL, e.g. <code>datawrapper.dwcdn.net/<b>AbC12</b>/</code>) into <code>website/embeds.json</code> (see below).</li>
+</ol>
+
+<h2>Flourish: the workflow</h2>
+<ol class="steps">
+  <li><b>Create</b><i>New visualisation</i> → choose the template in the table below (<i>Line, bar, pie</i> group for lines and columns; <i>Scatter</i>; <i>Sankey</i>).</li>
+  <li><b>Data tab</b>Replace the sample data: <i>Upload data</i> → choose the CSV. Then set the column bindings on the right (Labels/time = x, Values = y, and so on) exactly as the chart book's "Columns" line says.</li>
+  <li><b>Preview tab → settings</b>Colours: <i>Colours → Custom overrides</i>, one line per series, e.g. <code>Made it in real life (%): #1B998B</code>. Axes, labels and legend per the notes. For gaps in line data: chart 3 turns <i>connect gaps</i> off, chart 13 turns it on.</li>
+  <li><b>Popups (tooltips)</b><i>Popups &amp; panels</i> → custom content. Paste the tooltip code from the chart book (Flourish also uses <code>{{Column}}</code> placeholders; check the column names match exactly).</li>
+  <li><b>Header &amp; footer</b>Title, subtitle, source name and URL, notes. Paste from the chart book.</li>
+  <li><b>Check mobile</b>Use the device buttons at the top of the preview.</li>
+  <li><b>Publish</b><i>Export &amp; publish → Publish to share and embed</i>. Copy the visualisation number (in the URL, e.g. <code>flourish.studio/visualisation/<b>12345678</b>/</code>) into <code>website/embeds.json</code>.</li>
+</ol>
+
+<h2>Chart-by-chart quick reference</h2>
+<p>Everything else (exact titles, colours per value, tooltip code, axis ranges) is under each chart in the chart book.</p>
+<div class="tbl"><table>
+  <thead><tr><th>#</th><th>Tool &amp; type</th><th>CSV</th><th>Watch out for</th></tr></thead>
+  <tbody>
+    <tr><td>01</td><td><span class="chip dw">DW</span> Table, search on</td><td><code>01_wonderkid_table.csv</code></td><td>Highlight rows where Featured = Yes, then hide that column. Colour Status and "Made it" text. Gap as a bar column.</td></tr>
+    <tr><td>02</td><td><span class="chip dw">DW</span> Column chart</td><td><code>02_promise_inflation.csv</code></td><td>Plot "Wonderkids per 1,000 under-21s". Darker bar and an annotation on the peak (FIFA 20).</td></tr>
+    <tr><td>03</td><td><span class="chip fl">FL</span> Line chart</td><td><code>03_rating_trajectories.csv</code></td><td>Five gold lines need different dash styles plus end labels. Connect gaps OFF, so Živković's line visibly stops.</td></tr>
+    <tr><td>04</td><td><span class="chip dw">DW</span> Scatter plot</td><td><code>04_promise_vs_reality.csv</code></td><td>2,321 dots: opacity about 40% and small size. Two custom lines from the notes. Label only the featured five.</td></tr>
+    <tr><td>05</td><td><span class="chip dw">DW</span> Range plot (arrows)</td><td><code>05_game_vs_reality.csv</code></td><td>Start = reached in the game, end = made it in real life. Keep band order &lt;70 … 85+. Label both ends.</td></tr>
+    <tr><td>06</td><td><span class="chip dw">DW</span> Range plot</td><td><code>06_busts_and_bloomers.csv</code></td><td>Busts above bloomers, grouped. Peak dot red for busts, blue for bloomers.</td></tr>
+    <tr><td>07</td><td><span class="chip fl">FL</span> Line chart</td><td><code>07_did_ea_learn.csv</code></td><td>Two lines, both teal: one solid, one dashed (players present in all 4 editions). y axis 0–50%.</td></tr>
+    <tr><td>08</td><td><span class="chip dw">DW</span> Choropleth, World</td><td><code>08_nation_map.csv</code></td><td>Match on the ISO3 column. Diverging scale centred on 0 (blue below, red above). The UK is one row, "United Kingdom".</td></tr>
+    <tr><td>09</td><td><span class="chip fl">FL</span> Column chart ×2</td><td><code>09_age_at_entry.csv</code></td><td>Build two charts from the same CSV: shortfall with error bars, and "made it %" underneath. Put the first in slot <code>09</code> and the second in slot <code>09b</code> of embeds.json.</td></tr>
+    <tr><td>10</td><td><span class="chip fl">FL</span> Scatter</td><td><code>10_club_badge.csv</code></td><td>Size = Players. Grey dots by default; colour only |shortfall| ≥ 3. A y = 0 reference line. Label the top clubs.</td></tr>
+    <tr><td>11</td><td><span class="chip fl">FL</span> Bar chart (horizontal)</td><td><code>11_position_gap.csv</code></td><td>Error bars from CI low / CI high. Grey for positions whose interval crosses 0.</td></tr>
+    <tr><td>12</td><td><span class="chip dw">DW</span> Range plot / dot plot</td><td><code>12_who_predicted_best.csv</code></td><td>Range = CI low to CI high, with a dot at the AUC. x axis 0.6–0.78. EA potential gold, market value teal.</td></tr>
+    <tr><td>13</td><td><span class="chip fl">FL</span> Line chart + filter</td><td><code>13_game_vs_market.csv</code></td><td>Filter = Player (dropdown). Connect gaps ON: each row has only one of the two values.</td></tr>
+    <tr><td>14</td><td><span class="chip fl">FL</span> Sankey</td><td><code>14_where_they_ended_up.csv</code></td><td>Source / Target / Value. Node colours from the notes.</td></tr>
+  </tbody>
+</table></div>
+<p>If a Flourish template can't do something the notes ask for (error bars, a reference line), say so in the chart's notes and tell Sahil. The chart book suggests a Datawrapper fallback for charts 9 and 11.</p>
+
+<h2>Putting the charts into the story site</h2>
+<p>The site is generated: <code>website/index.html</code> holds the five acts, the connecting text (its numbers come from <code>findings.json</code>) and one slot per chart. Until a slot has an ID it shows a dashed "not embedded yet" box.</p>
+<ol class="steps">
+  <li><b>Paste the IDs</b>Open <code>website/embeds.json</code>. For each chart you published, fill in <code>"id"</code>: the Datawrapper ID (e.g. <code>"AbC12"</code>) or the Flourish number (e.g. <code>"12345678"</code>). Leave <code>"tool"</code> as it is.
+<pre>"04": {
+  "tool": "datawrapper",
+  "id": "AbC12",
+  "embed_html": "",
+  "height": 560,
+  "csv": "outputs/charts/04_promise_vs_reality.csv"
+}</pre>
+    If you'd rather paste the tool's own embed code, put it in <code>"embed_html"</code> instead; it overrides <code>"id"</code>. Chart 9's second panel ("made it %" by age) has its own slot, <code>"09b"</code>.</li>
+  <li><b>Rebuild the page</b>From the repo folder, run <code>.venv/bin/python -I scripts/build_story_site.py</code>. It prints how many of the 15 slots (14 charts; chart 9 has two) are filled. (Or ask your Claude Code: "fill website/embeds.json with these IDs and rebuild the site".)</li>
+  <li><b>Check it in a browser</b>Open <code>website/index.html</code>. Datawrapper charts resize themselves (the page includes Datawrapper's resize script); Flourish charts load through Flourish's embed script. Check a phone-width window too. If a chart is cut off, raise its <code>"height"</code> in embeds.json and rebuild.</li>
+  <li><b>Publish the site</b>The repo is private, so GitHub Pages needs either a public repo or GitHub Pro (free with the GitHub Student Developer Pack). Other options: drag the <code>website</code> folder onto Netlify Drop, or submit the folder however the course asks. Charts are hosted by Datawrapper and Flourish, so the site folder is just one HTML file.</li>
+</ol>
+<div class="box">
+  <p><b>What the generated embeds look like</b> (for reference; you don't need to write these):</p>
+<pre>&lt;!-- Datawrapper --&gt;
+&lt;iframe title="…" id="datawrapper-chart-AbC12" src="https://datawrapper.dwcdn.net/AbC12/"
+  scrolling="no" frameborder="0" style="width:0;min-width:100%!important;border:none;" height="560"&gt;&lt;/iframe&gt;
+
+&lt;!-- Flourish --&gt;
+&lt;div class="flourish-embed flourish-chart" data-src="visualisation/12345678"&gt;&lt;/div&gt;
+&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;</pre>
+</div>
+
+<h2>Before you say "done": QA checklist</h2>
+<ul class="check">
+  <li>The title, subtitle, notes and source line match the chart book word for word (numbers especially).</li>
+  <li>Featured players (Sterling, Živković, Kane, Depay, Werner) are gold with a dark outline and a name label wherever players appear.</li>
+  <li>Colours follow the palette, and red vs teal never carries meaning on its own.</li>
+  <li>Tooltips work and show the fields in the chart book.</li>
+  <li>The chart reads at phone width (Datawrapper and Flourish both have a mobile preview).</li>
+  <li>Chart 10's source line credits both the ClubElo mirror (Kaggle, adamgbor) and ClubElo.</li>
+  <li>The chart is published, and its ID is in <code>website/embeds.json</code>.</li>
+  <li>No CSV was edited. If a number looks wrong, tell Sahil; the fix happens in the notebooks, then the CSV is re-exported and re-uploaded.</li>
+</ul>
+
+<footer>Generated with the data pipeline on 5 Nov 2026. Data questions: Sahil. The chart book has the per-chart detail; DECISIONS.md in the repo records every analytical choice.</footer>
+</div>

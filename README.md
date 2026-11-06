@@ -39,3 +39,11 @@ Outputs: `data/clean/` (parquet), `outputs/findings.json`, `outputs/charts/`, an
 
 `data/raw/` and `data/clean/` are not committed. After cloning, download the raw data (table above) and run
 notebooks 00–04 to rebuild `data/clean/` before working on later notebooks.
+
+## Charts and the story site
+
+- `outputs/charts/` – the 14 upload-ready CSVs and `chart_specs.md` (written by notebooks 10–12).
+- `outputs/chart_previews.html` – previews of all 14 charts with build notes (`python -I scripts/render_chart_previews.py`).
+- `outputs/build_guide.html` – step-by-step guide for building the charts in Datawrapper/Flourish and embedding them.
+- `website/` – the story site. Paste each published chart's ID into `website/embeds.json`, then run
+  `python -I scripts/build_story_site.py` to regenerate `website/index.html`.

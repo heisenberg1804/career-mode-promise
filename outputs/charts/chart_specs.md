@@ -116,7 +116,7 @@ One entry per chart, written by export notebooks 10–12.
 - Colours: columns positive #D1495B, negative #2E86AB; made-it line #1B998B; headroom shown in the tooltip
 - Tooltip (HTML): <b>Age {{ Age at entry }}</b> ({{ Players }} players)<br>Headroom given: {{ Headroom given (potential − overall) }} points<br>Shortfall vs similar prospects: {{ Shortfall vs similar prospects }} (95% CI {{ CI low }} to {{ CI high }})<br>Made it in real life: {{ Made it in real life (%) }}%
 - Source line: [EA Sports FC 24 Complete Player Dataset (Kaggle, stefanoleone992)](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset); [Transfermarkt Football Data (Kaggle, davidcariboo)](https://www.kaggle.com/datasets/davidcariboo/player-scores)
-- Notes for the builder: Build panel 2 as a second Flourish column chart (or a Flourish 'small multiples' grid) placed directly under panel 1. Flourish 'Column chart' with error bars (Data > Error bars: CI low / CI high). If error bars are awkward, use a Datawrapper range plot instead and say so. The age-16 bar is based on only 72 players (wide CI). The difference between ages ≤17 and 21 is 3.52 points (95% CI 3.03–4.08).
+- Notes for the builder: Build panel 2 as a second Flourish column chart (or a Flourish 'small multiples' grid) placed directly under panel 1. Flourish 'Column chart' with error bars (Data > Error bars: CI low / CI high). If error bars are awkward, use a Datawrapper range plot instead and say so. The age-16 bar is based on only 72 players (wide CI). The difference between ages ≤17 and 21 is 3.52 points (95% CI 2.98–4.08).
 <!-- END CHART 09 -->
 
 <!-- BEGIN CHART 10 -->
@@ -150,12 +150,12 @@ One entry per chart, written by export notebooks 10–12.
 - File: outputs/charts/12_who_predicted_best.csv
 - Tool / template: Datawrapper range plot (AUC with 95% CI)
 - Title (states the finding, numbers from findings.json): The game's potential predicted who would make it as well as the transfer market did
-- Subtitle (what is measured, units): AUC 0.71 for EA potential vs 0.72 for market value at entry. AUC: the chance a predictor ranks a player who made it (3,000+ Big-5 minutes) above one who didn't; 0.5 = coin flip, 1 = perfect. 4,674 matched entrants with a market value at entry
+- Subtitle (what is measured, units): AUC 0.71 for EA potential vs 0.72 for market value at entry. AUC: the chance a predictor ranks a player who made it (3,000+ Big-5 minutes) above one who didn't; 0.5 = coin flip, 1 = perfect. 4,696 matched entrants with a market value at entry
 - Column → role mapping: rows = Predictor; range start = CI low; range end = CI high; dot = AUC: who made it; tooltip adds 'Correlation with peak later rating' and 'What it is'
 - Colours: EA potential #F2A900; market value #1B998B; the two benchmarks #C5CAD3
 - Tooltip (HTML): <b>{{ Predictor }}</b><br>AUC: {{ AUC: who made it }} (95% CI {{ CI low }}–{{ CI high }})<br>Correlation with the game's own later rating: {{ Correlation with peak later rating }}<br>{{ What it is }}
 - Source line: [EA Sports FC 24 Complete Player Dataset (Kaggle, stefanoleone992)](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset); [Transfermarkt Football Data (Kaggle, davidcariboo)](https://www.kaggle.com/datasets/davidcariboo/player-scores)
-- Notes for the builder: x axis 0.5–0.8. Potential vs market: difference -0.002 (95% CI -0.02 to 0.016), not distinguishable. Potential still adds information beyond market value (AUC 0.617 within value quintiles). The game's own current rating predicts its future rating better than potential does (0.57 vs 0.5): put that in the text or the notes.
+- Notes for the builder: x axis 0.5–0.8. Potential vs market: difference -0.002 (95% CI -0.019 to 0.015), not distinguishable. Potential still adds information beyond market value (AUC 0.619 within value quintiles). The game's own current rating predicts its future rating better than potential does (0.57 vs 0.5): put that in the text or the notes.
 <!-- END CHART 12 -->
 
 <!-- BEGIN CHART 13 -->

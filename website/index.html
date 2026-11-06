@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Career Mode Promise</title>
+<meta name="description" content="Did FIFA spot football's future stars? A data story testing EA Sports' potential ratings against real careers.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Light-only by design: Flourish embeds do not follow dark mode, so the page matches the charts. */
+:root { --bg:#ffffff; --ink:#1D2433; --ink-2:#4a5466; --muted:#7b8496; --rule:#dde1e8; --promise:#F2A900; --promise-ink:#7a5700;
+  --display:"Saira Condensed","Arial Narrow",sans-serif; --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace; color-scheme: light }
+* { box-sizing: border-box }
+body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.65 var(--body) }
+.wrap { max-width: 760px; margin: 0 auto; padding: 32px max(16px, env(safe-area-inset-left)) 80px max(16px, env(safe-area-inset-right)) }
+header { border-bottom: 3px solid var(--ink); padding-bottom: 24px }
+.kicker, .act-n { font: 500 12px/1 var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--muted) }
+h1 { font: 800 clamp(44px, 9vw, 76px)/.95 var(--display); margin: 12px 0; text-wrap: balance }
+h1 em { font-style: normal; color: var(--promise-ink) }
+.dek { font-size: 20px; color: var(--ink-2); margin: 0 }
+.byline { font-size: 14px; color: var(--muted); margin-top: 14px }
+nav { display:flex; flex-wrap:wrap; gap: 6px 18px; margin: 18px 0 0; font: 500 13px var(--mono) }
+nav a { color: var(--ink-2); text-decoration:none; border-bottom:1px solid var(--rule) }
+section.act { margin-top: 56px }
+h2 { font: 700 40px/1 var(--display); margin: 6px 0 16px }
+p { max-width: 66ch }
+figure { margin: 28px 0 36px; width: 100% }
+.placeholder { display:grid; gap:6px; align-content:center; justify-items:start; border:2px dashed var(--rule); border-radius:8px; padding:20px; color:var(--ink-2); font-size:14px }
+.placeholder b { font: 700 20px var(--display); color: var(--ink) }
+code { font: 13px var(--mono); background:#f3f4f7; padding: 1px 5px; border-radius: 4px }
+footer { margin-top: 64px; border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; color: var(--ink-2) }
+footer a { color: var(--ink) }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="kicker">A data story · IE6600 Project 1</p>
+  <h1>The Career Mode <em>Promise</em></h1>
+  <p class="dek">EA Sports rates every young footballer's potential. We followed 48 FIFA 15 wonderkids and 11,519 young players into real careers to see how often the game was right.</p>
+  <p class="byline">By Sahil Mohanty, Devarshi Mahajan and Sarthak Sonawane</p>
+  <nav aria-label="Acts"><a href="#act-1">The promise</a><a href="#act-2">The reckoning</a><a href="#act-3">Who the game misjudged</a><a href="#act-4">What actually mattered</a><a href="#act-5">Where they are now</a></nav>
+</header>
+<main>
+<section class="act" id="act-1"><p class="act-n">Act 1</p><h2>The promise</h2>
+<p>Every autumn, EA Sports rates the world's young footballers and gives each a <em>potential</em>: the rating the game says he can grow into. Millions of Career Mode players build squads around those numbers. In FIFA 15 (September 2014), 48 under-21s were rated 85 or higher: the game's wonderkids.</p>
+<p>Over the next five editions EA handed out far more of them. By FIFA 20 there were 37.2 wonderkid ratings per 1,000 under-21s, 3.6× the FIFA 15 rate, while the average under-21's current ability rose only 1.7 points.</p>
+<figure id="chart-01"><div class="placeholder" style="min-height:360px"><b>Chart 01 not embedded yet</b><span>Only 7 of FIFA 15&#x27;s 48 wonderkids reached their potential in the game, but 40 became Big-5 regulars</span><span>Build it in Datawrapper from <code>outputs/charts/01_wonderkid_table.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+<figure id="chart-02"><div class="placeholder" style="min-height:360px"><b>Chart 02 not embedded yet</b><span>The game handed out 3.6× more wonderkid ratings in five years: from 10.4 to 37.2 per 1,000 under-21s by FIFA 20</span><span>Build it in Datawrapper from <code>outputs/charts/02_promise_inflation.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+<figure id="chart-03"><div class="placeholder" style="min-height:360px"><b>Chart 03 not embedded yet</b><span>Five FIFA 15 prospects, five different endings</span><span>Build it in Flourish from <code>outputs/charts/03_rating_trajectories.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+</section>
+<section class="act" id="act-2"><p class="act-n">Act 2</p><h2>The reckoning</h2>
+<p>We followed 11,519 young entrants from FIFA 15 to FIFA 18 through every later edition up to FC 24. Most promises weren't kept: among prospects rated 75+, 83% peaked below their potential, and every 10 points of promise delivered only 6.1 points of real rating.</p>
+<p>Yet the promise still meant something. Only 11% of 85+ prospects reached their number in the game, but 68% built real Big-5 careers (3,000+ league minutes), against 4% of those rated under 70. And as the wonderkid ratings multiplied, fewer came true: 25% of FIFA 15 entrants reached their potential within four editions, 6% of FIFA 20's.</p>
+<figure id="chart-04"><div class="placeholder" style="min-height:360px"><b>Chart 04 not embedded yet</b><span>Every 10 points of potential delivered only 6.1 points of real rating</span><span>Build it in Datawrapper from <code>outputs/charts/04_promise_vs_reality.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+<figure id="chart-05"><div class="placeholder" style="min-height:360px"><b>Chart 05 not embedded yet</b><span>The bigger the promise, the less often the number came true, and the more often the career did</span><span>Build it in Datawrapper from <code>outputs/charts/05_game_vs_reality.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+<figure id="chart-06"><div class="placeholder" style="min-height:360px"><b>Chart 06 not embedded yet</b><span>E. Abouchabaka fell 22 points short of his promise; Borja Iglesias beat his by 28</span><span>Build it in Datawrapper from <code>outputs/charts/06_busts_and_bloomers.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+<figure id="chart-07"><div class="placeholder" style="min-height:360px"><b>Chart 07 not embedded yet</b><span>As the promises grew, fewer came true: 25% of FIFA 15 entrants reached theirs within four editions, 6% by FIFA 20</span><span>Build it in Flourish from <code>outputs/charts/07_did_ea_learn.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+</section>
+<section class="act" id="act-3"><p class="act-n">Act 3</p><h2>Who the game misjudged</h2>
+<p>To compare groups fairly we measure each player against others given the same potential. By that yardstick EA over-promised most for the youngest: 17-year-olds got 15.1 points of headroom, nearly twice a 21-year-old's, and fell 3.5 points further short.</p>
+<p>The big-club badge, a common fan suspicion, barely mattered: an elite club added about 1.1 potential points compared with a weak one, and those players lived up to it. Among positions, goalkeepers and strikers fell short most.</p>
+<figure id="chart-08"><div class="placeholder" style="min-height:360px"><b>Chart 08 not embedded yet</b><span>Prospects from Brazil, Spain and France beat their promise; those from Ireland, Japan and Russia fell short</span><span>Build it in Datawrapper from <code>outputs/charts/08_nation_map.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+<figure id="chart-09"><div class="placeholder" style="min-height:360px"><b>Chart 09 not embedded yet</b><span>17-year-olds were promised 15.1 points of growth, nearly twice a 21-year-old&#x27;s, and fell 3.5 points further short</span><span>Build it in Flourish from <code>outputs/charts/09_age_at_entry.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+<figure id="chart-09b"><div class="placeholder" style="min-height:280px"><b>Chart 09 not embedded yet</b><span>Made it in real life by age at entry (panel 2 of chart 9)</span><span>Build it in Flourish from <code>outputs/charts/09_age_at_entry.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+<figure id="chart-10"><div class="placeholder" style="min-height:360px"><b>Chart 10 not embedded yet</b><span>A big badge bought almost no extra promise (1.1 potential points from a weak to an elite club), and big-club prospects lived up to it</span><span>Build it in Flourish from <code>outputs/charts/10_club_badge.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+<figure id="chart-11"><div class="placeholder" style="min-height:360px"><b>Chart 11 not embedded yet</b><span>Goalkeepers fell furthest short of their promise; defensive midfielders beat theirs</span><span>Build it in Flourish from <code>outputs/charts/11_position_gap.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+</section>
+<section class="act" id="act-4"><p class="act-n">Act 4</p><h2>What actually mattered</h2>
+<p>As a ranking, the game's potential worked about as well as the transfer market. Measured by AUC (the chance of ranking a player who made it above one who didn't, where 0.5 is a coin flip), EA potential scored 0.71 and Transfermarkt market value at the same moment 0.72. The number overstated the size of the gap between players, but the order was largely right.</p>
+<figure id="chart-12"><div class="placeholder" style="min-height:360px"><b>Chart 12 not embedded yet</b><span>The game&#x27;s potential predicted who would make it as well as the transfer market did</span><span>Build it in Datawrapper from <code>outputs/charts/12_who_predicted_best.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+<figure id="chart-13"><div class="placeholder" style="min-height:360px"><b>Chart 13 not embedded yet</b><span>Two verdicts on the same careers: the game&#x27;s rating and the market&#x27;s price</span><span>Build it in Flourish from <code>outputs/charts/13_game_vs_market.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+</section>
+<section class="act" id="act-5"><p class="act-n">Act 5</p><h2>Where they are now</h2>
+<p>Of 2,488 prospects rated potential 75+, 17% play in a Big-5 league today. H. Kane outgrew a modest promise; R. Živković never came close to his; M. Depay now plays for Sport Club Corinthians Paulista.</p>
+<figure id="chart-14"><div class="placeholder" style="min-height:360px"><b>Chart 14 not embedded yet</b><span>Of 2,488 prospects rated potential 75+, 17% play in the Big-5 today</span><span>Build it in Flourish from <code>outputs/charts/14_where_they_ended_up.csv</code>, then paste its ID into <code>website/embeds.json</code> and re-run <code>python -I scripts/build_story_site.py</code>.</span></div></figure>
+</section>
+</main>
+<footer>
+  <p><b>Method.</b> Cohort: each player's first FIFA 15–18 edition at age 21 or under (11,519 players). Peak later rating: best overall in any later edition up to FC 24. Made it: 3,000+ Big-5 league minutes after entry (Transfermarkt). Shortfall vs similar prospects: typical peak for a given potential minus the player's actual peak. Full method and every judgement call: the project's DECISIONS.md.</p>
+  <p><b>Sources.</b> <a href="https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset">EA Sports FC 24 Complete Player Dataset (Kaggle, stefanoleone992)</a> · <a href="https://www.kaggle.com/datasets/davidcariboo/player-scores">Transfermarkt Football Data (Kaggle, davidcariboo)</a> · <a href="http://clubelo.com">ClubElo</a> · <a href="https://www.kaggle.com/datasets/adamgbor/club-football-match-data-2000-2025">Club Football Match Data (2000–2025), Kaggle, by adamgbor; Elo data from ClubElo</a> · <a href="https://www.kaggle.com/datasets/lucasyukioimafuko/fifa-mens-world-ranking">FIFA Men&#x27;s World Ranking (Kaggle, lucasyukioimafuko)</a>.</p>
+</footer>
+</div>
+
+
+</body>
+</html>

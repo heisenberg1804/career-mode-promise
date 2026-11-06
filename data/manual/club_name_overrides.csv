@@ -1,33 +1,33 @@
 fifa_club_id,fifa_club,clubelo_country,clubelo_club,status,reviewer,note
-100087,OH Leuven,BEL,Oud-Heverlee Leuven,mapped,claude (seed) – Devarshi to check,same club
-820,AaB,DEN,Aalborg,mapped,claude (seed) – Devarshi to check,AaB = Aalborg BK
-271,AGF,DEN,Aarhus,mapped,claude (seed) – Devarshi to check,AGF = Aarhus Gymnastikforening
-272,OB,DEN,Odense,mapped,claude (seed) – Devarshi to check,OB = Odense Boldklub
-110,Wolverhampton Wanderers,ENG,Wolves,mapped,claude (seed) – Devarshi to check,abbreviation
-15,Queens Park Rangers,ENG,QPR,mapped,claude (seed) – Devarshi to check,abbreviation
-448,Athletic Club,ESP,Ath Bilbao,mapped,claude (seed) – Devarshi to check,Athletic Club de Bilbao
-100325,HJK,FIN,HJK Helsinki,mapped,claude (seed) – Devarshi to check,same club
-66,Olympique Lyonnais,FRA,Lyon,mapped,claude (seed) – Devarshi to check,same club
-58,Bastia,FRA,Bastia,mapped,claude (seed) – Devarshi to check,SC Bastia (Ligue 1); 'CA Bastia' is a different club
-28,Hamburger SV,GER,Hamburg,mapped,claude (seed) – Devarshi to check,same club
-33,1860 München,GER,Munich 1860,mapped,claude (seed) – Devarshi to check,TSV 1860 München
-21,FC Bayern München,GER,Bayern Munich,mapped,claude (seed) – Devarshi to check,same club
-110169,SC Fortuna Köln,GER,,not_in_clubelo,claude (seed) – Devarshi to check,"3. Liga club; ClubElo 'FC Koln' is 1. FC Köln, a different club"
-247,PSV,NED,PSV Eindhoven,mapped,claude (seed) – Devarshi to check,same club
-1910,NEC,NED,Nijmegen,mapped,claude (seed) – Devarshi to check,NEC Nijmegen
-1456,Odd,NOR,Odd Grenland,mapped,claude (seed) – Devarshi to check,same club
-1569,Wisła Płock,POL,Plock,mapped,claude (seed) – Devarshi to check,ClubElo 'Wisla' is Wisła Kraków
-1887,Vitória SC,POR,Guimaraes,mapped,claude (seed) – Devarshi to check,Vitória de Guimarães
-237,Sporting CP,POR,Sp Lisbon,mapped,claude (seed) – Devarshi to check,Sporting Clube de Portugal (Lisbon)
-111264,FC Ural Yekaterinburg,RUS,Sverdlovsk,mapped,claude (seed) – Devarshi to check,"by elimination: only unassigned RUS name rated in all 4 seasons 2014–18, as Ural was; Yekaterinburg is in Sverdlovsk Oblast. Please verify"
-312,Dinamo Moscow,RUS,Dynamo Moskva,mapped,claude (seed) – Devarshi to check,spelling
-100765,Lokomotiv Moskva,RUS,Lok Moskva,mapped,claude (seed) – Devarshi to check,abbreviation
-100764,Krylya Sovetov Samara,RUS,Kryliya Sovetov,mapped,claude (seed) – Devarshi to check,spelling
-110089,Kuban Krasnodar,RUS,Kuban,mapped,claude (seed) – Devarshi to check,ClubElo 'FC Krasnodar' is a different club; Elo matches Kuban's match Elo exactly
-100768,Torpedo Moscow,RUS,Torpedo Moskva,mapped,claude (seed) – Devarshi to check,spelling
-320,Malmö FF,SWE,Malmoe,mapped,claude (seed) – Devarshi to check,transliteration
-319,IFK Göteborg,SWE,Goeteborg,mapped,claude (seed) – Devarshi to check,transliteration
-111835,Åtvidabergs FF,SWE,Atvidaberg,mapped,claude (seed) – Devarshi to check,transliteration
-112130,Jönköpings Södra IF,SWE,Joenkoeping,mapped,claude (seed) – Devarshi to check,transliteration
-101014,İstanbul Başakşehir,TUR,Buyuksehyr,mapped,claude (seed) – Devarshi to check,"İstanbul Büyükşehir Belediyespor, Başakşehir's former name"
-110316,GFC Ajaccio,FRA,Gazelec,mapped,claude (seed) – Devarshi to check,"Gazélec Ajaccio; ClubElo 'Ajaccio' is AC Ajaccio, a different club"
+100087,OH Leuven,BEL,Oud-Heverlee Leuven,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",same club. Verified: match Elo of football-data team 'Oud-Heverlee Leuven' equals this rating series (median diff 0)
+820,AaB,DEN,Aalborg,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",AaB = Aalborg BK. Verified: match Elo of football-data team 'Aalborg' equals this rating series (median diff 0)
+271,AGF,DEN,Aarhus,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",AGF = Aarhus Gymnastikforening. Verified: match Elo of football-data team 'Aarhus' equals this rating series (median diff 0); Elo changes track 'Aarhus' results (r = 0.58 vs next 0.11)
+272,OB,DEN,Odense,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",OB = Odense Boldklub. Verified: match Elo of football-data team 'Odense' equals this rating series (median diff 0); Elo changes track 'Odense' results (r = 0.49 vs next 0.1)
+110,Wolverhampton Wanderers,ENG,Wolves,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",abbreviation. Verified: match Elo of football-data team 'Wolves' equals this rating series (median diff 0); Elo changes track 'Wolves' results (r = 0.83 vs next 0.21)
+15,Queens Park Rangers,ENG,QPR,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",abbreviation. Verified: match Elo of football-data team 'QPR' equals this rating series (median diff 0); Elo changes track 'QPR' results (r = 0.78 vs next 0.17)
+448,Athletic Club,ESP,Ath Bilbao,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",Athletic Club de Bilbao. Verified: match Elo of football-data team 'Ath Bilbao' equals this rating series (median diff 0); Elo changes track 'Ath Bilbao' results (r = 0.73 vs next 0.23)
+100325,HJK,FIN,HJK Helsinki,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",same club. Verified: name is an unambiguous transliteration/abbreviation; league too thin in the mirror's match file for a numeric test
+66,Olympique Lyonnais,FRA,Lyon,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",same club. Verified: match Elo of football-data team 'Lyon' equals this rating series (median diff 0); Elo changes track 'Lyon' results (r = 0.69 vs next 0.27)
+58,Bastia,FRA,Bastia,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",SC Bastia (Ligue 1); 'CA Bastia' is a different club. Verified: match Elo of football-data team 'Bastia' equals this rating series (median diff 0); Elo changes track 'Bastia' results (r = 0.65 vs next 0.17)
+28,Hamburger SV,GER,Hamburg,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",same club. Verified: match Elo of football-data team 'Hamburg' equals this rating series (median diff 0); Elo changes track 'Hamburg' results (r = 0.79 vs next 0.15)
+33,1860 München,GER,Munich 1860,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",TSV 1860 München. Verified: match Elo of football-data team 'Munich 1860' equals this rating series (median diff 0); Elo changes track 'Munich 1860' results (r = 0.7 vs next 0.21)
+21,FC Bayern München,GER,Bayern Munich,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",same club. Verified: match Elo of football-data team 'Bayern Munich' equals this rating series (median diff 0); Elo changes track 'Bayern Munich' results (r = 0.58 vs next 0.21)
+110169,SC Fortuna Köln,GER,,not_in_clubelo,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)","3. Liga club; ClubElo 'FC Koln' is 1. FC Köln, a different club. Verified: 3. Liga club, not in the mirror's ClubElo list"
+247,PSV,NED,PSV Eindhoven,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",same club. Verified: match Elo of football-data team 'PSV Eindhoven' equals this rating series (median diff 0); Elo changes track 'PSV Eindhoven' results (r = 0.65 vs next 0.17)
+1910,NEC,NED,Nijmegen,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",NEC Nijmegen. Verified: match Elo of football-data team 'Nijmegen' equals this rating series (median diff 0); Elo changes track 'Nijmegen' results (r = 0.59 vs next 0.36)
+1456,Odd,NOR,Odd Grenland,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",same club. Verified: Elo changes track 'Odd' results (r = 0.6 vs next 0.15)
+1569,Wisła Płock,POL,Plock,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",ClubElo 'Wisla' is Wisła Kraków. Verified: name is an unambiguous transliteration/abbreviation; league too thin in the mirror's match file for a numeric test
+1887,Vitória SC,POR,Guimaraes,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",Vitória de Guimarães. Verified: match Elo of football-data team 'Guimaraes' equals this rating series (median diff 0); Elo changes track 'Guimaraes' results (r = 0.71 vs next 0.14)
+237,Sporting CP,POR,Sp Lisbon,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",Sporting Clube de Portugal (Lisbon). Verified: match Elo of football-data team 'Sp Lisbon' equals this rating series (median diff 0); Elo changes track 'Sp Lisbon' results (r = 0.6 vs next 0.25)
+111264,FC Ural Yekaterinburg,RUS,Sverdlovsk,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)","by elimination: only unassigned RUS name rated in all 4 seasons 2014–18, as Ural was; Yekaterinburg is in Sverdlovsk Oblast. Verified: Elo changes track 'Ural' results (r = 0.61 vs next 0.23)"
+312,Dinamo Moscow,RUS,Dynamo Moskva,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",spelling. Verified: Elo changes track 'Dynamo Moscow' results (r = 0.47 vs next 0.41)
+100765,Lokomotiv Moskva,RUS,Lok Moskva,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",abbreviation. Verified: Elo changes track 'Lokomotiv Moscow' results (r = 0.47 vs next 0.16)
+100764,Krylya Sovetov Samara,RUS,Kryliya Sovetov,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",spelling. Verified: name is an unambiguous transliteration/abbreviation; league too thin in the mirror's match file for a numeric test
+110089,Kuban Krasnodar,RUS,Kuban,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",ClubElo 'FC Krasnodar' is a different club; Elo matches Kuban's match Elo exactly. Verified: match Elo of football-data team 'Kuban' equals this rating series (median diff 0); Elo changes track 'Kuban' results (r = 0.44 vs next 0.21)
+100768,Torpedo Moscow,RUS,Torpedo Moskva,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",spelling. Verified: Elo changes track 'T. Moscow' results (r = 0.75 vs next 0.35)
+320,Malmö FF,SWE,Malmoe,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",transliteration. Verified: name is an unambiguous transliteration/abbreviation; league too thin in the mirror's match file for a numeric test
+319,IFK Göteborg,SWE,Goeteborg,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",transliteration. Verified: Elo changes track 'Goteborg' results (r = 0.46 vs next 0.22)
+111835,Åtvidabergs FF,SWE,Atvidaberg,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",transliteration. Verified: Elo changes track 'Atvidabergs' results (r = 0.46 vs next 0.3)
+112130,Jönköpings Södra IF,SWE,Joenkoeping,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)",transliteration. Verified: Elo changes track 'Jonkopings' results (r = 0.43 vs next 0.27)
+101014,İstanbul Başakşehir,TUR,Buyuksehyr,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)","İstanbul Büyükşehir Belediyespor, Başakşehir's former name. Verified: match Elo of football-data team 'Buyuksehyr' equals this rating series (median diff 0); Elo changes track 'Buyuksehyr' results (r = 0.55 vs next 0.45)"
+110316,GFC Ajaccio,FRA,Gazelec,mapped,"Claude (principal DS review, 2026-11-05; evidence in reports/club_override_evidence.csv)","Gazélec Ajaccio; ClubElo 'Ajaccio' is AC Ajaccio, a different club. Verified: Elo changes track 'Ajaccio GFCO' results (r = 0.82 vs next 0.17)"

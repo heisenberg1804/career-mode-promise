@@ -1,5 +1,5 @@
 Predictor,AUC: who made it,CI low,CI high,Correlation with peak later rating,What it is
-EA potential rating,0.713,0.696,0.731,0.5,The game's promise for the player
-Transfermarkt market value at entry,0.716,0.697,0.735,,What the transfer market paid for
-Simple formula: overall + age,0.7,0.682,0.718,0.56,Out-of-sample fit on the other editions
-EA overall rating (current ability),0.691,0.673,0.71,0.57,"The game's rating today, no promise"
+EA potential rating,0.714,0.696,0.732,0.5,The game's promise for the player
+Transfermarkt market value at entry,0.716,0.699,0.733,,What the transfer market paid for
+Simple formula: overall + age,0.701,0.682,0.718,0.56,Out-of-sample fit on the other editions
+EA overall rating (current ability),0.692,0.674,0.711,0.57,"The game's rating today, no promise"

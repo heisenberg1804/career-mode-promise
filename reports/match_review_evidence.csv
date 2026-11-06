@@ -1,0 +1,953 @@
+fifa_player_id,tm_player_id,candidate_type,fifa_name,tm_name,name_score,dob_diff_days,club_overlap,club_overlap_names,nation_match,gk_agrees,dob_typo_like,first_name_match,fifa_nation,tm_citizenship,fifa_entry_club,potential,evidence_score
+230767,258027,same DOB,Renato Júnior Luz Sanches,Renato Sanches,100.0,0,6,bayern munich=bayern munich; roma=roma; swansea city=swansea; swansea city=swansea city,True,True,True,True,Portugal,Portugal,FC Bayern München,90,11
+230767,390667,same DOB,Renato Júnior Luz Sanches,Jean-Armel Drolé,41.2,0,0,,False,True,True,False,Portugal,Cote d'Ivoire,FC Bayern München,90,2
+230767,483460,same DOB,Renato Júnior Luz Sanches,Akim Abdallah,33.3,0,0,,False,True,True,False,Portugal,Comoros,FC Bayern München,90,2
+231443,288230,same DOB,Ousmane Dembélé,Ousmane Dembélé,100.0,0,4,borussia dortmund=dortmund; borussia dortmund=borussia dortmund; paris saint germain=paris saint germain; barcelona=barcelona,True,True,True,True,France,France,Borussia Dortmund,90,11
+231443,522719,same DOB,Ousmane Dembélé,Samuel Obeng,44.4,0,0,,False,True,True,False,France,Ghana,Borussia Dortmund,90,2
+231443,635864,same DOB,Ousmane Dembélé,Jonathan Dean,42.9,0,0,,False,True,True,False,France,United States,Borussia Dortmund,90,2
+195864,122153,same DOB,Paul Pogba,Paul Pogba,100.0,0,6,manchester united=manchester united u21; manchester united=manchester united reserves; manchester united=manchester united u18; manchester united=manchester united,True,True,True,True,France,France,Juventus,89,11
+195864,166584,same DOB,Paul Pogba,Mykyta Polyulyakh,42.1,0,0,,False,True,True,False,France,Ukraine,Juventus,89,2
+195864,329145,same DOB,Paul Pogba,Diego Carlos,36.4,0,0,,False,True,True,False,France,Brazil,Juventus,89,2
+240507,392770,same DOB,Adilson Angel Abreu de Almeida Gomes,Angel Gomes,100.0,0,6,manchester united=manchester united youth; manchester united=manchester united u18; manchester united=manchester united; manchester united=manchester united u23,True,True,True,False,England,England,Manchester United,89,11
+240507,858372,same DOB,Adilson Angel Abreu de Almeida Gomes,Elvis Claros,42.1,0,0,,False,True,True,False,England,El Salvador,Manchester United,89,2
+240507,903706,same DOB,Adilson Angel Abreu de Almeida Gomes,Albion Rrahmani,39.2,0,0,,False,True,True,False,England,Kosovo,Manchester United,89,2
+199151,81455,same DOB,Juan Manuel Iturbe Arévalo,Juan Iturbe,100.0,0,3,pumas unam=unam pumas; tijuana=tijuana; roma=roma,True,True,True,True,Argentina,Paraguay,Roma,88,11
+199151,283386,same DOB,Juan Manuel Iturbe Arévalo,Lucas Diarte,50.0,0,0,,True,True,True,False,Argentina,Argentina,Roma,88,4
+199151,144696,same DOB,Juan Manuel Iturbe Arévalo,Dmitri Otstavnov,33.3,0,0,,False,True,True,False,Argentina,Russia,Roma,88,2
+201535,164770,same DOB,Raphaël Varane,Raphaël Varane,100.0,0,2,manchester united=manchester united; real madrid=real madrid,True,True,True,True,France,France,Real Madrid,88,11
+201535,140554,same DOB,Raphaël Varane,Martin Boyle,40.0,0,0,,False,True,True,False,France,Australia,Real Madrid,88,2
+201535,131275,same DOB,Raphaël Varane,Choco Lozano,37.5,0,0,,False,True,True,False,France,Honduras,Real Madrid,88,2
+202556,167850,same DOB,Memphis Depay,Memphis Depay,100.0,0,4,barcelona=barcelona; manchester united=manchester united; atletico madrid=atletico; atletico madrid=atletico madrid,True,True,True,True,Netherlands,Netherlands,PSV,88,11
+202556,395069,same DOB,Memphis Depay,Volodymyr Odaryuk,50.0,0,0,,False,True,True,False,Netherlands,Ukraine,PSV,88,2
+202556,290540,same DOB,Memphis Depay,Jonathan Correia,37.5,0,0,,False,True,True,False,Netherlands,Monaco,PSV,88,2
+212218,176553,same DOB,Aymeric Laporte,Aymeric Laporte,100.0,0,5,athletic=athletic; athletic=bilbao athletic; athletic=athletic bilbao; al nassr=al nassr,True,True,True,True,France,Spain,Athletic Club,88,11
+212218,198086,same DOB,Aymeric Laporte,Federico Ricci,41.4,0,0,,False,True,True,False,France,Italy,Athletic Club,88,2
+212218,252005,same DOB,Aymeric Laporte,Murat Torun,40.0,0,0,,False,True,True,False,France,Turkey,Athletic Club,88,2
+216393,249565,same DOB,Youri Tielemans,Youri Tielemans,100.0,0,7,monaco=monaco; anderlecht=anderlecht; anderlecht=anderlecht yth; anderlecht=anderlecht u17,True,True,True,True,Belgium,Belgium,Anderlecht,88,11
+216393,294780,same DOB,Youri Tielemans,Oleksandr Pikhalyonok,38.9,0,0,,False,True,True,False,Belgium,Ukraine,Anderlecht,88,2
+216393,703433,same DOB,Youri Tielemans,Ibrahim Aisham,34.8,0,0,,False,True,True,False,Belgium,Maldives,Anderlecht,88,2
+224411,225122,same DOB,Gonçalo Manuel Ganchinho Guedes,Gonçalo Guedes,100.0,0,10,valencia=valencia; wolverhampton wanderers=wolverhampton wanderers; benfica=benfica b; benfica=sl benfica,True,True,True,True,Portugal,Portugal,Benfica,88,11
+224411,535744,same DOB,Gonçalo Manuel Ganchinho Guedes,Hussein Ali,40.0,0,0,,False,True,True,False,Portugal,Iraq,Benfica,88,2
+224411,424993,same DOB,Gonçalo Manuel Ganchinho Guedes,Amar Sejdić,36.4,0,0,,False,True,True,False,Portugal,United States,Benfica,88,2
+230621,315858,same DOB,Gianluigi Donnarumma,Gianluigi Donnarumma,100.0,0,5,paris saint germain=paris saint germain; milan=milan u19; milan=milan youth; milan=milan,True,True,True,True,Italy,Italy,Milan,88,11
+230621,319171,same DOB,Gianluigi Donnarumma,Andrea Danzi,43.8,0,0,,True,False,True,False,Italy,Italy,Milan,88,3
+230621,412641,same DOB,Gianluigi Donnarumma,Denis Haruț,43.5,0,0,,False,False,True,False,Italy,Romania,Milan,88,1
+231677,258923,same DOB,Marcus Rashford,Marcus Rashford,100.0,0,3,manchester united=manchester united youth; manchester united=manchester united u18; manchester united=manchester united,True,True,True,True,England,England,Manchester United,88,11
+231677,637273,same DOB,Marcus Rashford,Mohammed Kamara,44.4,0,0,,False,True,True,False,England,Liberia,Manchester United,88,2
+231677,534015,same DOB,Marcus Rashford,Nordin Bakker,42.9,0,0,,False,False,True,False,England,Netherlands,Manchester United,88,1
+190813,94529,same DOB,Stephan El Shaarawy,Stephan El Shaarawy,100.0,0,6,monaco=monaco; shanghai shenhua=shanghai shenhua; shanghai shenhua=shanghai greenland shenhua; milan=milan,True,True,True,True,Italy,Italy,Milan,87,11
+190813,257062,same DOB,Stephan El Shaarawy,Álvaro García,38.5,0,0,,False,True,True,False,Italy,Spain,Milan,87,2
+190813,265930,same DOB,Stephan El Shaarawy,Maksim Prikhodnoy,27.8,0,0,,False,True,True,False,Italy,Russia,Milan,87,2
+200949,77100,same DOB,Lucas Rodrigues Moura da Silva,Lucas Moura,100.0,0,3,tottenham hotspur=tottenham hotspur; tottenham hotspur=tottenham; paris saint germain=paris saint germain,True,True,True,True,Brazil,Brazil,Paris Saint Germain,87,11
+200949,250638,same DOB,Lucas Rodrigues Moura da Silva,Collins Fai,37.5,0,0,,False,True,True,False,Brazil,Cameroon,Paris Saint Germain,87,2
+200949,249619,same DOB,Lucas Rodrigues Moura da Silva,Igor Brovko,27.3,0,0,,False,True,True,False,Brazil,Ukraine,Paris Saint Germain,87,2
+208330,177847,same DOB,Adnan Januzaj,Adnan Januzaj,100.0,0,7,real sociedad=real sociedad; sevilla=sevilla; manchester united=manchester united u21; manchester united=manchester united u18,True,True,True,True,Belgium,Belgium,Manchester United,87,11
+208330,305956,same DOB,Adnan Januzaj,Nano Mesa,44.4,0,0,,False,True,True,False,Belgium,Spain,Manchester United,87,2
+208330,315798,same DOB,Adnan Januzaj,Yasin Davus,41.7,0,0,,False,False,True,False,Belgium,Turkey,Manchester United,87,1
+210935,177843,same DOB,Domenico Berardi,Domenico Berardi,100.0,0,4,sassuolo=sassuolo primavera; sassuolo=sassuolo; sassuolo=sassuolo u20; sassuolo=sassuolo u17,True,True,True,True,Italy,Italy,Sassuolo,87,11
+210935,343489,same DOB,Domenico Berardi,Besir Demiri,50.0,0,0,,False,True,True,False,Italy,Albania,Sassuolo,87,2
+210935,237317,same DOB,Domenico Berardi,Adrian Danek,47.6,0,0,,False,True,True,False,Italy,Poland,Sassuolo,87,2
+212125,144303,same DOB,Lazar Marković,Lazar Markovic,100.0,0,4,gaziantep f k=gaziantep; sporting=sporting; fenerbahce=fenerbahce; liverpool=liverpool,True,True,True,True,Serbia,Serbia,Liverpool,87,11
+212125,193306,same DOB,Lazar Marković,Joe McGovern,40.0,0,0,,False,False,True,False,Serbia,Northern Ireland,Liverpool,87,1
+212125,111227,same DOB,Lazar Marković,Andrea Conti,38.5,0,0,,False,True,True,False,Serbia,Italy,Liverpool,87,2
+212150,146164,same DOB,Max Meyer,Max Meyer,100.0,0,4,schalke=schalke; fenerbahce=fenerbahce; crystal palace=crystal palace; luzern=luzern,True,True,True,True,Germany,Germany,Schalke 04,87,11
+212150,260468,same DOB,Max Meyer,Miljan Skrbic,40.0,0,0,,False,True,True,False,Germany,Serbia,Schalke 04,87,2
+212150,250478,same DOB,Max Meyer,Matt Targett,38.1,0,0,,False,True,True,False,Germany,England,Schalke 04,87,2
+212455,253267,same DOB,Hachim Mastour,Hachim Mastour,100.0,0,2,malaga=malaga; pec zwolle=pec zwolle,True,True,True,True,Morocco,Morocco,Málaga,87,11
+212455,276002,same DOB,Hachim Mastour,Emil Hansson,44.4,0,0,,False,True,True,False,Morocco,Sweden,Málaga,87,2
+212455,840538,same DOB,Hachim Mastour,Christ Afalna,44.4,0,0,,False,True,True,False,Morocco,Cameroon,Málaga,87,2
+212823,244275,same DOB,Gabriel Barbosa Almeida,Gabriel Barbosa,100.0,0,4,inter=inter; inter=inter milan; benfica=sl benfica; benfica=benfica,True,True,True,True,Brazil,Brazil,Inter,87,11
+212823,288376,same DOB,Gabriel Barbosa Almeida,Unai Etxebarria,42.1,0,0,,False,False,True,False,Brazil,Spain,Inter,87,1
+212823,435492,same DOB,Gabriel Barbosa Almeida,Alimami Gory,40.0,0,0,,False,True,True,False,Brazil,France,Inter,87,2
+220048,238993,same DOB,Simone Scuffet,Simone Scuffet,100.0,0,9,cfr cluj=cfr cluj; como=como; udinese=udinese u17; udinese=udinese youth,True,True,True,True,Italy,Italy,Udinese,87,11
+220048,690420,same DOB,Simone Scuffet,Luis Morán,41.7,0,0,,False,True,True,False,Italy,Guatemala,Udinese,87,2
+220048,830113,same DOB,Simone Scuffet,Steven Nsimba,36.4,0,0,,False,False,True,False,Italy,France,Udinese,87,1
+220746,206843,same DOB,Andrija Živković,Andrija Zivkovic,100.0,0,4,paok=paok thessaloniki; paok=paok; benfica=sl benfica; benfica=benfica,True,True,True,True,Serbia,Serbia,Benfica,87,11
+220746,449179,same DOB,Andrija Živković,Rustam Khalimbekov,43.5,0,0,,False,True,True,False,Serbia,Russia,Benfica,87,2
+220746,433824,same DOB,Andrija Živković,Sergio Chica,36.4,0,0,,False,True,True,False,Serbia,Spain,Benfica,87,2
+222509,319745,same DOB,Daniel Ceballos Fernández,Dani Ceballos,100.0,0,6,real madrid=real madrid; arsenal=arsenal; real betis=real betis balompie; real betis=real betis yth,True,True,True,False,Spain,Spain,Real Betis,87,11
+222509,427605,same DOB,Daniel Ceballos Fernández,Aaron Boupendza,40.0,0,0,,False,True,True,False,Spain,Gabon,Real Betis,87,2
+222509,357608,same DOB,Daniel Ceballos Fernández,Yan Vorogovskiy,35.7,0,0,,False,True,True,False,Spain,Kazakhstan,Real Betis,87,2
+231747,342229,same DOB,Kylian Mbappé Lottin,Kylian Mbappé,100.0,0,4,monaco=monaco u19; monaco=monaco; monaco=monaco youth; paris saint germain=paris saint germain,True,True,True,True,France,France,Monaco,87,11
+231747,431747,same DOB,Kylian Mbappé Lottin,Daniel Ask,44.4,0,0,,False,True,True,False,France,Sweden,Monaco,87,2
+231747,603149,same DOB,Kylian Mbappé Lottin,Mohammad Mohebi,37.5,0,0,,False,True,True,False,France,Iran,Monaco,87,2
+232270,315131,same DOB,Timothy Evans Fosu-Mensah,Timothy Fosu-Mensah,100.0,0,5,manchester united=manchester united u18; manchester united=manchester united; crystal palace=crystal palace; fulham=fulham,True,True,True,True,Netherlands,Netherlands,Manchester United,87,11
+232270,417669,same DOB,Timothy Evans Fosu-Mensah,Christos Kountouriotis,40.0,0,0,,False,True,True,False,Netherlands,Greece,Manchester United,87,2
+232270,846123,same DOB,Timothy Evans Fosu-Mensah,Mbouri Yamkam,38.5,0,0,,False,True,True,False,Netherlands,Cameroon,Manchester United,87,2
+192505,96341,same DOB,Romelu Lukaku Menama,Romelu Lukaku,100.0,0,6,inter=inter; inter=inter milan; roma=roma; manchester united=manchester united,True,True,True,True,Belgium,Belgium,Everton,86,11
+192505,370663,same DOB,Romelu Lukaku Menama,Fortune Makaringe,38.7,0,0,,False,True,True,False,Belgium,South Africa,Everton,86,2
+192505,187295,same DOB,Romelu Lukaku Menama,Cas Peters,33.3,0,0,,False,True,True,False,Belgium,Netherlands,Everton,86,2
+198784,143424,same DOB,Alex Oxlade-Chamberlain,Alex Oxlade-Chamberlain,100.0,0,3,liverpool=liverpool; besiktas=besiktas; arsenal=arsenal,True,True,True,True,England,England,Arsenal,86,11
+198784,253210,same DOB,Alex Oxlade-Chamberlain,Nicolai Poulsen,45.7,0,0,,False,True,True,False,England,Denmark,Arsenal,86,2
+198784,241119,same DOB,Alex Oxlade-Chamberlain,Clinton N'Jie,37.5,0,0,,False,True,True,False,England,Cameroon,Arsenal,86,2
+199189,131978,same DOB,Ross Barkley,Ross Barkley,100.0,0,7,chelsea=chelsea; everton=everton youth; everton=everton u18; everton=everton,True,True,True,True,England,England,Everton,86,11
+199189,365616,same DOB,Ross Barkley,Alex Júnior,46.2,0,0,,False,True,True,False,England,Haiti,Everton,86,2
+199189,214316,same DOB,Ross Barkley,Luciano Vietto,30.0,0,0,,False,True,True,False,England,Argentina,Everton,86,2
+199556,102558,same DOB,Marco Verratti,Marco Verratti,100.0,0,1,paris saint germain=paris saint germain,True,True,True,True,Italy,Italy,Paris Saint Germain,86,8
+199556,172802,same DOB,Marco Verratti,Rade Dugalic,38.5,0,0,,False,True,True,False,Italy,Serbia,Paris Saint Germain,86,2
+199556,137206,same DOB,Marco Verratti,Magomed Ozdoev,35.7,0,0,,False,True,True,False,Italy,Russia,Paris Saint Germain,86,2
+201399,68863,same DOB,Mauro Emanuel Icardi Rivero,Mauro Icardi,100.0,0,4,galatasaray=galatasaray; paris saint germain=paris saint germain; inter=inter; inter=inter milan,True,True,True,True,Argentina,Argentina,Inter,86,11
+201399,262915,same DOB,Mauro Emanuel Icardi Rivero,William Cuesta,37.5,0,0,,False,False,True,False,Argentina,Colombia,Inter,86,1
+201399,165513,same DOB,Mauro Emanuel Icardi Rivero,Berat Djimsiti,36.4,0,0,,False,True,True,False,Argentina,Albania,Inter,86,2
+202652,134425,same DOB,Raheem Sterling,Raheem Sterling,100.0,0,4,liverpool=liverpool; liverpool=liverpool u18; chelsea=chelsea; manchester city=manchester city,True,True,True,True,England,England,Liverpool,86,11
+202652,317806,same DOB,Raheem Sterling,Cyriel Dessers,42.1,0,0,,False,True,True,False,England,Nigeria,Liverpool,86,2
+202652,452707,same DOB,Raheem Sterling,Jordan Smith,37.0,0,0,,True,False,True,False,England,England,Liverpool,86,3
+203038,176485,same DOB,Gustavo Lucas Domingues Piazón,Lucas Piazón,100.0,0,7,rio ave=rio ave; fulham=fulham; sporting braga=braga; eintracht frankfurt=eintracht frankfurt,True,True,True,False,Brazil,Brazil,Eintracht Frankfurt,86,11
+203038,165008,same DOB,Gustavo Lucas Domingues Piazón,Pablo Iñiguez,41.9,0,0,,False,True,True,False,Brazil,Spain,Eintracht Frankfurt,86,2
+203038,261401,same DOB,Gustavo Lucas Domingues Piazón,Chang-min Lee,40.0,0,0,,False,True,True,False,Brazil,"Korea, South",Eintracht Frankfurt,86,2
+205525,175169,same DOB,Bernard Anício Caldeira Duarte,Bernard,100.0,0,3,everton=everton; panathinaikos=panathinaikos; shakhtar donetsk=shakhtar donetsk,True,True,True,True,Brazil,Brazil,Shakhtar Donetsk,86,11
+205988,183288,same DOB,Luke Shaw,Luke Shaw,100.0,0,1,manchester united=manchester united,True,True,True,True,England,England,Manchester United,86,8
+205988,537121,same DOB,Luke Shaw,Mohammed Al-Baqawi,47.1,0,0,,False,True,True,False,England,Saudi Arabia,Manchester United,86,2
+205988,274862,same DOB,Luke Shaw,Moses Simon,30.8,0,0,,False,True,True,False,England,Nigeria,Manchester United,86,2
+206058,88682,same DOB,Mattia De Sciglio,Mattia De Sciglio,100.0,0,5,milan=milan u17; milan=milan u19; milan=milan; milan=milan primavera,True,True,True,True,Italy,Italy,Milan,86,11
+206058,186621,same DOB,Mattia De Sciglio,Vasilios Gavriilidis,43.8,0,0,,False,True,True,False,Italy,Greece,Milan,86,2
+206058,94037,same DOB,Mattia De Sciglio,Ferhat Yazgan,33.3,0,0,,False,True,True,False,Italy,Turkey,Milan,86,2
+207410,51471,same DOB,Mateo Kovačić,Mateo Kovacic,100.0,0,5,chelsea=chelsea; inter=inter; inter=inter milan; real madrid=real madrid,True,True,True,True,Croatia,Croatia,Inter,86,11
+207410,263267,same DOB,Mateo Kovačić,Riad Bajic,50.0,0,0,,False,True,True,False,Croatia,Bosnia-Herzegovina,Inter,86,2
+207410,177998,same DOB,Mateo Kovačić,Raed Al-Ghamdi,37.0,0,0,,False,True,True,False,Croatia,Saudi Arabia,Inter,86,2
+207865,181767,same DOB,Marcos Aoás Corrêa,Marquinhos,100.0,0,1,paris saint germain=paris saint germain,True,True,True,False,Brazil,Brazil,Paris Saint Germain,86,8
+207865,182688,same DOB,Marcos Aoás Corrêa,Manolis Siopis,44.4,0,0,,False,True,True,False,Brazil,Greece,Paris Saint Germain,86,2
+207865,1023950,same DOB,Marcos Aoás Corrêa,Hamad Al-Habsi,43.8,0,0,,False,True,True,False,Brazil,Oman,Paris Saint Germain,86,2
+210513,122582,same DOB,Juan Fernando Quintero Paniagua,Juan Fernando Quintero,100.0,0,6,river plate=river plate; river plate=atletico river plate; racing=racing; independiente medellin=independiente medellin,True,True,True,True,Colombia,Colombia,Porto,86,11
+210513,132214,same DOB,Juan Fernando Quintero Paniagua,João Carlos Teixeira,50.0,0,1,porto=porto,False,True,True,False,Colombia,Portugal,Porto,86,5
+210513,222275,same DOB,Juan Fernando Quintero Paniagua,Nicolai Naess,35.3,0,0,,False,True,True,False,Colombia,Norway,Porto,86,2
+212194,187492,same DOB,Julian Brandt,Julian Brandt,100.0,0,4,borussia dortmund=dortmund; borussia dortmund=borussia dortmund; bayer leverkusen=leverkusen; bayer leverkusen=bayer leverkusen,True,True,True,True,Germany,Germany,Bayer 04 Leverkusen,86,11
+212194,524537,same DOB,Julian Brandt,Jack Iredale,47.1,0,0,,False,True,True,False,Germany,Australia,Bayer 04 Leverkusen,86,2
+212194,333802,same DOB,Julian Brandt,François Kamano,42.9,0,0,,False,True,True,False,Germany,Guinea,Bayer 04 Leverkusen,86,2
+212210,252755,same DOB,Richairo Živković,Richairo Zivkovic,100.0,0,5,emmen=emmen; utrecht=utrecht; oostende=oostende; ajax=ajax amsterdam,True,True,True,True,Netherlands,Curacao,Ajax,86,11
+212210,376632,same DOB,Richairo Živković,Milan Jezdimirovic,50.0,0,0,,False,True,True,False,Netherlands,Serbia,Ajax,86,2
+212210,343154,same DOB,Richairo Živković,Igor Bykovskyi,38.1,0,0,,False,True,True,False,Netherlands,Ukraine,Ajax,86,2
+214997,266807,same DOB,Ángel Martín Correa,Ángel Correa,100.0,0,4,san lorenzo=san lorenzo; san lorenzo=san lorenzo almagro; atletico madrid=atletico; atletico madrid=atletico madrid,True,True,True,True,Argentina,Argentina,San Lorenzo,86,11
+214997,262999,same DOB,Ángel Martín Correa,Cristian Arango,52.9,0,0,,False,True,True,False,Argentina,Colombia,San Lorenzo,86,2
+214997,285323,same DOB,Ángel Martín Correa,Baptiste Santamaria,45.2,0,0,,False,True,True,False,Argentina,France,San Lorenzo,86,2
+216349,226074,same DOB,Alen Halilović,Alen Halilovic,100.0,0,9,las palmas=las palmas; standard liege=standard liege; hamburger=hamburger; sporting gijon=sporting gijon,True,True,True,True,Croatia,Croatia,FC Barcelona B,86,11
+216349,254708,same DOB,Alen Halilović,Giacomo Parigi,42.1,0,0,,False,True,True,False,Croatia,Italy,FC Barcelona B,86,2
+216349,315442,same DOB,Alen Halilović,Cătălin Căbuz,41.7,0,0,,False,False,True,False,Croatia,Romania,FC Barcelona B,86,1
+216860,242063,same DOB,Václav Černý,Vaclav Cerny,100.0,0,11,ajax=ajax u17; ajax=ajax amsterdam; ajax=ajax amsterdam u19; ajax=ajax u19,True,True,True,True,Czech Republic,Czech Republic,Ajax,86,11
+216860,346621,same DOB,Václav Černý,Nikki Baggerman,44.4,0,0,,False,True,True,False,Czech Republic,Netherlands,Ajax,86,2
+216860,356473,same DOB,Václav Černý,Paschal Okoli,32.0,0,0,,False,True,True,False,Czech Republic,Nigeria,Ajax,86,2
+225908,314295,same DOB,Reece Oxford,Reece Oxford,100.0,0,5,borussia monchengladbach=borussia monchengladbach; borussia monchengladbach=monchengladbach; augsburg=augsburg; west ham united=west ham united,True,True,True,True,England,England,West Ham United,86,11
+225908,399506,same DOB,Reece Oxford,Judicaël Boizart,35.7,0,0,,False,False,True,False,England,France,West Ham United,86,1
+225908,328914,same DOB,Reece Oxford,Álex Blanco,26.1,0,0,,False,True,True,False,England,Spain,West Ham United,86,2
+228414,225984,same DOB,Matheus Fellipe Costa Pereira,Matheus Pereira,100.0,0,12,chaves=gd chaves; chaves=chaves; al hilal=al hilal sfc; al hilal=al hilal,True,True,True,True,Brazil,Brazil,Sporting CP,86,11
+228414,864537,same DOB,Matheus Fellipe Costa Pereira,Mohamed Rabia,50.0,0,0,,False,True,True,False,Brazil,Egypt,Sporting CP,86,2
+228414,242299,same DOB,Matheus Fellipe Costa Pereira,Roberto Olabe,42.9,0,0,,False,True,True,False,Brazil,Spain,Sporting CP,86,2
+228650,257456,same DOB,Francisco Oliveira Geraldes,Chico Geraldes,81.2,0,5,rio ave=rio ave; eintracht frankfurt=eintracht frankfurt; estoril=gd estoril praia; aek athens=aek athens,True,True,True,False,Portugal,Portugal,Moreirense,86,10
+228650,218355,same DOB,Francisco Oliveira Geraldes,Conor Grant,41.4,0,0,,False,True,True,False,Portugal,England,Moreirense,86,2
+228650,327911,same DOB,Francisco Oliveira Geraldes,Felipe Pires,40.0,0,2,eintracht frankfurt=frankfurt; moreirense=moreirense,False,True,True,False,Portugal,Brazil,Moreirense,86,8
+228941,198008,same DOB,André Miguel Valente da Silva,André Silva,100.0,0,11,rb leipzig=rb leipzig; rb leipzig=leipzig; real sociedad=real sociedad; eintracht frankfurt=eintracht frankfurt,True,True,True,True,Portugal,Portugal,Porto,86,11
+228941,524813,same DOB,André Miguel Valente da Silva,Manvir Singh,52.2,0,0,,False,True,True,False,Portugal,India,Porto,86,2
+228941,325223,same DOB,André Miguel Valente da Silva,Mama Baldé,47.6,0,0,,False,True,True,False,Portugal,Guinea-Bissau,Porto,86,2
+229593,205940,same DOB,Marko Pjaca,Marko Pjaca,100.0,0,6,genoa=genoa; turin=turin; fiorentina=acf fiorentina; fiorentina=fiorentina,True,True,True,True,Croatia,Croatia,Juventus,86,11
+229593,171062,same DOB,Marko Pjaca,Nemanja Antonov,38.5,0,0,,False,True,True,False,Croatia,Serbia,Juventus,86,2
+229593,158052,same DOB,Marko Pjaca,Maximilian Rossmann,38.1,0,0,,False,True,True,False,Croatia,Germany,Juventus,86,2
+231638,308801,same DOB,Adalberto Peñaranda Maestre,Adalberto Peñaranda,100.0,0,5,las palmas=las palmas; boavista=boavista; udinese=udinese; malaga=malaga,True,True,True,True,Venezuela,Venezuela,Udinese,86,11
+231638,402887,same DOB,Adalberto Peñaranda Maestre,Anastasios Chatzigiovanis,37.0,0,0,,False,True,True,False,Venezuela,Greece,Udinese,86,2
+231638,394285,same DOB,Adalberto Peñaranda Maestre,Víctor Campuzano,36.4,0,0,,False,True,True,False,Venezuela,Spain,Udinese,86,2
+231691,357117,same DOB,Alban Lafont,Alban Lafont,100.0,0,5,fiorentina=acf fiorentina; fiorentina=fiorentina; nantes=nantes; toulouse=toulouse u19,False,True,True,True,France,Cote d'Ivoire,Toulouse,86,9
+231691,344596,same DOB,Alban Lafont,Malang Sarr,52.2,0,0,,True,False,True,False,France,France,Toulouse,86,3
+231691,524941,same DOB,Alban Lafont,Imran Alsultanov,50.0,0,0,,False,False,True,False,France,Russia,Toulouse,86,1
+233049,401173,same DOB,Jadon Sancho,Jadon Sancho,100.0,0,3,manchester united=manchester united; borussia dortmund=dortmund; borussia dortmund=borussia dortmund,True,True,True,True,England,England,Borussia Dortmund,86,11
+233049,533913,same DOB,Jadon Sancho,Jordan Stevens,47.1,0,0,,True,True,True,False,England,England,Borussia Dortmund,86,4
+233049,926381,same DOB,Jadon Sancho,Jaime Diaz,42.9,0,0,,False,True,True,False,England,Colombia,Borussia Dortmund,86,2
+235266,336307,same DOB,Christian Früchtl,Christian Früchtl,100.0,0,2,bayern munich=bayern munich; austria vienna=austria vienna,True,True,True,True,Germany,Germany,FC Bayern München,86,11
+235266,340376,same DOB,Christian Früchtl,Abel Ruiz,40.0,0,0,,False,False,True,False,Germany,Spain,FC Bayern München,86,1
+235266,403571,same DOB,Christian Früchtl,Jordan Houston,38.7,0,0,,False,False,True,False,Germany,Scotland,FC Bayern München,86,1
+235883,392775,same DOB,Kouassi Ryan Sessegnon,Ryan Sessegnon,100.0,0,4,tottenham hotspur=tottenham hotspur; tottenham hotspur=tottenham; fulham=fulham; fulham=fulham u18,True,True,True,False,England,England,Fulham,86,11
+235883,406558,same DOB,Kouassi Ryan Sessegnon,Steven Sessegnon,90.9,0,1,fulham=fulham,False,True,True,False,England,,Fulham,86,6
+235883,400550,same DOB,Kouassi Ryan Sessegnon,Nikolai Baden Frederiksen,40.0,0,0,,False,True,True,False,England,Denmark,Fulham,86,2
+236920,330659,same DOB,Justin Kluivert,Justin Kluivert,100.0,0,9,nice=nice; bournemouth=bournemouth; roma=roma; ajax=ajax u17,True,True,True,True,Netherlands,Netherlands,Ajax,86,11
+236920,620091,same DOB,Justin Kluivert,Ahmet Celalettin Seckinli,40.0,0,0,,False,True,True,False,Netherlands,Turkey,Ajax,86,2
+236920,393240,same DOB,Justin Kluivert,Boyd Reith,35.3,0,0,,True,True,True,False,Netherlands,Netherlands,Ajax,86,4
+237221,480763,same DOB,Juan Marcos Foyth,Juan Foyth,100.0,0,3,villarreal=villarreal; tottenham hotspur=tottenham hotspur; tottenham hotspur=tottenham,True,True,True,True,Argentina,Argentina,Tottenham Hotspur,86,11
+237221,461906,same DOB,Juan Marcos Foyth,João Moutinho,58.8,0,0,,False,True,True,False,Argentina,Portugal,Tottenham Hotspur,86,2
+237221,447143,same DOB,Juan Marcos Foyth,Florimond Smars,50.0,0,0,,False,True,True,False,Argentina,Belgium,Tottenham Hotspur,86,2
+237369,323944,same DOB,Victor Hugo Santana Carvalho,Vitinho,100.0,0,0,,True,True,True,False,Brazil,Brazil,FC Barcelona B,86,5
+237369,466816,same DOB,Victor Hugo Santana Carvalho,Bradley Vliet,42.9,0,0,,False,True,True,False,Brazil,Netherlands,FC Barcelona B,86,2
+237369,593088,same DOB,Victor Hugo Santana Carvalho,Aaron Smith,42.9,0,0,,False,True,True,False,Brazil,England,FC Barcelona B,86,2
+238232,402193,same DOB,Kwang Song Han,Kwang-song Han,100.0,0,2,perugia=perugia; cagliari=cagliari,True,True,True,True,Korea DPR,"Korea, North",Perugia,86,11
+238232,599287,same DOB,Kwang Song Han,Aleksandr Golubtsov,42.4,0,0,,False,True,True,False,Korea DPR,Russia,Perugia,86,2
+238232,200495,same DOB,Kwang Song Han,Ofri Arad,40.0,0,0,,False,True,True,False,Korea DPR,Israel,Perugia,86,2
+189575,54235,same DOB,Iker Muniain Goñi,Iker Muniain,100.0,0,3,athletic=athletic; athletic=bilbao athletic; athletic=athletic bilbao,True,True,True,True,Spain,Spain,Athletic Club,85,11
+189575,150482,same DOB,Iker Muniain Goñi,Gojko Cimirot,30.8,0,0,,False,True,True,False,Spain,Bosnia-Herzegovina,Athletic Club,85,2
+189575,111428,same DOB,Iker Muniain Goñi,Raphael Spiegel,23.1,0,0,,False,False,True,False,Spain,Switzerland,Athletic Club,85,1
+198009,110923,same DOB,Mattia Perin,Mattia Perin,100.0,0,3,genoa=genoa; genoa=genoa u19; juventus=juventus,True,True,True,True,Italy,Italy,Genoa,85,11
+198009,139198,same DOB,Mattia Perin,Gevaro Nepomuceno,42.1,0,0,,False,False,True,False,Italy,Curacao,Genoa,85,1
+198009,39125,same DOB,Mattia Perin,Borna Barisic,40.0,0,0,,False,False,True,False,Italy,Croatia,Genoa,85,1
+200454,126716,same DOB,Francisco Alcácer García,Paco Alcácer,100.0,0,4,villarreal=villarreal; borussia dortmund=borussia dortmund; valencia=valencia; barcelona=barcelona,True,True,True,False,Spain,Spain,Valencia,85,11
+200454,258207,same DOB,Francisco Alcácer García,Carlos Cisneros,45.5,0,0,,False,True,True,False,Spain,Mexico,Valencia,85,2
+200454,478518,same DOB,Francisco Alcácer García,Byron Bonilla,32.0,0,0,,False,True,True,False,Spain,Nicaragua,Valencia,85,2
+201153,128223,same DOB,Álvaro Borja Morata Martín,Álvaro Morata,100.0,0,8,juventus=juventus; chelsea=chelsea; real madrid=real madrid castilla; real madrid=real madrid u18,True,True,True,True,Spain,Spain,Juventus,85,11
+201153,155233,same DOB,Álvaro Borja Morata Martín,Michael Harriman,44.4,0,0,,False,True,True,False,Spain,Ireland,Juventus,85,2
+201153,77757,same DOB,Álvaro Borja Morata Martín,Thomas Kaminski,34.1,0,0,,False,False,True,False,Spain,Belgium,Juventus,85,1
+201510,126710,same DOB,Layvin Kurzawa,Layvin Kurzawa,100.0,0,6,monaco=monaco b; monaco=monaco u19; monaco=monaco; monaco=monaco u17,True,True,True,True,France,France,Monaco,85,11
+201510,197678,same DOB,Layvin Kurzawa,Nikomanolis Nyktaris,29.4,0,0,,False,True,True,False,France,Greece,Monaco,85,2
+202166,85148,same DOB,Julian Draxler,Julian Draxler,100.0,0,4,schalke=schalke; wolfsburg=wolfsburg; paris saint germain=paris saint germain; benfica=sl benfica,True,True,True,True,Germany,Germany,Schalke 04,85,11
+202166,140511,same DOB,Julian Draxler,Liam Caddis,40.0,0,0,,False,True,True,False,Germany,Scotland,Schalke 04,85,2
+202166,271891,same DOB,Julian Draxler,Artem Orsaev,35.3,0,0,,False,False,True,False,Germany,Russia,Schalke 04,85,1
+205569,181579,same DOB,James Ward-Prowse,James Ward-Prowse,100.0,0,5,southampton=southampton u18; southampton=southampton; southampton=southampton aca; west ham united=west ham united,True,True,True,True,England,England,Southampton,85,11
+205569,242416,same DOB,James Ward-Prowse,Mason Springthorpe,40.0,0,0,,True,False,True,False,England,England,Southampton,85,3
+205569,107518,same DOB,James Ward-Prowse,Parvizdzhon Umarbaev,36.4,0,0,,False,True,True,False,England,Tajikistan,Southampton,85,2
+207441,214316,same DOB,Luciano Darío Vietto,Luciano Vietto,100.0,0,8,fulham=fulham; sevilla=sevilla; villarreal=villarreal; sporting=sporting,True,True,True,True,Argentina,Argentina,Villarreal,85,11
+207441,365616,same DOB,Luciano Darío Vietto,Alex Júnior,33.3,0,0,,False,True,True,False,Argentina,Haiti,Villarreal,85,2
+207441,131978,same DOB,Luciano Darío Vietto,Ross Barkley,31.2,0,0,,False,True,True,False,Argentina,England,Villarreal,85,2
+207862,124502,same DOB,Matthias Ginter,Matthias Ginter,100.0,0,8,borussia dortmund=dortmund; borussia dortmund=borussia dortmund; borussia monchengladbach=borussia monchengladbach; borussia monchengladbach=monchengladbach,True,True,True,True,Germany,Germany,Borussia Dortmund,85,11
+207862,534909,same DOB,Matthias Ginter,Guillermo Soto,45.5,0,0,,False,True,True,False,Germany,Chile,Borussia Dortmund,85,2
+207862,199757,same DOB,Matthias Ginter,Simone Brugaletta,44.4,0,0,,False,True,True,False,Germany,Italy,Borussia Dortmund,85,2
+208777,214775,same DOB,Óliver Torres Muñoz,Óliver Torres,100.0,0,4,porto=porto; sevilla=sevilla; atletico madrid=atletico; atletico madrid=atletico madrid,True,True,True,True,Spain,Spain,Porto,85,11
+208777,316406,same DOB,Óliver Torres Muñoz,Olivier Myny,58.1,0,0,,False,True,True,False,Spain,Belgium,Porto,85,2
+208777,178926,same DOB,Óliver Torres Muñoz,Aron Elís Thrándarson,47.1,0,0,,False,True,True,False,Spain,Iceland,Porto,85,2
+208790,203378,same DOB,Zakaria Bakkali,Zakaria Bakkali,100.0,0,4,anderlecht=anderlecht; valencia=valencia; deportivo la coruna=deportivo la coruna; rkc waalwijk=rkc waalwijk,True,True,True,True,Belgium,Belgium,PSV,85,11
+208790,478872,same DOB,Zakaria Bakkali,Alexis Guendouz,41.7,0,0,,False,False,True,False,Belgium,Algeria,PSV,85,1
+208790,241502,same DOB,Zakaria Bakkali,Achille Vaarnold,40.0,0,0,,False,True,True,False,Belgium,Netherlands,PSV,85,2
+209658,153084,same DOB,Leon Christoph Goretzka,Leon Goretzka,100.0,0,2,bayern munich=bayern munich; schalke=schalke,True,True,True,True,Germany,Germany,Schalke 04,85,11
+209658,270188,same DOB,Leon Christoph Goretzka,Lucas Evangelista,52.2,0,0,,False,True,True,False,Germany,Brazil,Schalke 04,85,2
+209658,263065,same DOB,Leon Christoph Goretzka,Marijan Coric,38.9,0,0,,False,False,True,False,Germany,Croatia,Schalke 04,85,1
+210248,129593,same DOB,Bernard Malanda-Adje,Junior Malanda,100.0,0,1,wolfsburg=wolfsburg,True,True,True,False,Belgium,Belgium,VfL Wolfsburg,85,8
+210248,426763,same DOB,Bernard Malanda-Adje,Je-woon Yeon,37.5,0,0,,False,True,True,False,Belgium,"Korea, South",VfL Wolfsburg,85,2
+210248,255768,same DOB,Bernard Malanda-Adje,Nahom Girmai Netabay,37.0,0,0,,False,True,True,False,Belgium,Eritrea,VfL Wolfsburg,85,2
+211176,159026,same DOB,Ricardo Dennie Kishna,Ricardo Kishna,100.0,0,4,ajax=ajax amsterdam; ajax=ajax amsterdam u21; lazio=lazio; ado den haag=ado den haag,True,True,True,True,Netherlands,Netherlands,Ajax,85,11
+211176,398675,same DOB,Ricardo Dennie Kishna,Mykola Kvasnyi,47.1,0,0,,False,True,True,False,Netherlands,Ukraine,Ajax,85,2
+211176,234882,same DOB,Ricardo Dennie Kishna,Iacopo Cernigoi,44.4,0,0,,False,True,True,False,Netherlands,Italy,Ajax,85,2
+212188,170527,same DOB,Timo Werner,Timo Werner,100.0,0,7,stuttgart=stuttgart; stuttgart=stuttgart u19; stuttgart=stuttgart yth; stuttgart=stuttgart u17,True,True,True,True,Germany,Germany,VfB Stuttgart,85,11
+212188,248938,same DOB,Timo Werner,Maksym Tretyakov,36.4,0,0,,False,True,True,False,Germany,Ukraine,VfB Stuttgart,85,2
+212188,287876,same DOB,Timo Werner,Antonino La Gumina,34.5,0,0,,False,True,True,False,Germany,Italy,VfB Stuttgart,85,2
+212231,122077,same DOB,Tobias Pereira Figueiredo,Tobias Figueiredo,100.0,0,9,nottingham forest=nottingham forest; nacional=nacional; hull city=hull city; sporting=sporting u19,True,True,True,True,Portugal,Portugal,Sporting CP,85,11
+212231,197494,same DOB,Tobias Pereira Figueiredo,Nicola Pescatore,39.0,0,0,,False,True,True,False,Portugal,Italy,Sporting CP,85,2
+212231,204659,same DOB,Tobias Pereira Figueiredo,Isnik Alimi,35.7,0,0,,False,True,True,False,Portugal,North Macedonia,Sporting CP,85,2
+213135,148368,same DOB,Divock Okoth Origi,Divock Origi,100.0,0,9,liverpool=liverpool; nottingham forest=nottingham forest; lille=lille b; lille=lille u19,True,True,True,True,Belgium,Belgium,Lille,85,11
+213135,262709,same DOB,Divock Okoth Origi,Sebastian Ring,46.2,0,0,,False,True,True,False,Belgium,Sweden,Lille,85,2
+213135,218355,same DOB,Divock Okoth Origi,Conor Grant,34.5,0,0,,False,True,True,False,Belgium,England,Lille,85,2
+215639,281404,same DOB,Robert Kenedy Nunes do Nascimento,Kenedy,100.0,0,6,granada=granada; newcastle united=newcastle; newcastle united=newcastle united; watford=watford,True,True,True,False,Brazil,Brazil,Chelsea,85,11
+215639,332686,same DOB,Robert Kenedy Nunes do Nascimento,Lennard Hens,44.4,0,0,,False,True,True,False,Brazil,Belgium,Chelsea,85,2
+215639,291236,same DOB,Robert Kenedy Nunes do Nascimento,Andrey Timofeev,37.5,0,0,,False,False,True,False,Brazil,Russia,Chelsea,85,1
+215716,51152,same DOB,Aleksandar Mitrović,Aleksandar Mitrović,100.0,0,6,al hilal=al hilal sfc; al hilal=al hilal; newcastle united=newcastle; newcastle united=newcastle united,True,True,True,True,Serbia,Serbia,Anderlecht,85,11
+215716,256358,same DOB,Aleksandar Mitrović,Bruno Petkovic,60.0,0,0,,False,True,True,False,Serbia,Croatia,Anderlecht,85,2
+215716,206563,same DOB,Aleksandar Mitrović,Dimitrios Manos,40.0,0,0,,False,True,True,False,Serbia,Greece,Anderlecht,85,2
+215785,238752,same DOB,Keita Baldé Diao,Keita Baldé,100.0,0,8,inter=inter; inter=inter milan; lazio=lazio; lazio=lazio u19,True,True,True,True,Spain,Senegal,Lazio,85,11
+215785,441384,same DOB,Keita Baldé Diao,Maximiliano Velazco,45.7,0,0,,False,False,True,False,Spain,Argentina,Lazio,85,1
+215785,284020,same DOB,Keita Baldé Diao,Florian Kamberi,45.2,0,0,,False,True,True,False,Spain,Albania,Lazio,85,2
+222060,294798,same DOB,Nathan Allan de Souza,Nathan,100.0,0,1,vitesse=vitesse arnhem,True,True,True,True,Brazil,Brazil,Vitesse,85,8
+222060,260828,same DOB,Nathan Allan de Souza,Søren Andreasen,50.0,0,0,,False,True,True,False,Brazil,Denmark,Vitesse,85,2
+222060,612869,same DOB,Nathan Allan de Souza,Aleksey Kashtanov,47.4,0,0,,False,True,True,False,Brazil,Russia,Vitesse,85,2
+225645,248410,same DOB,Giorgian Daniel De Arrascaeta Benedetti,Giorgian de Arrascaeta,100.0,0,2,cruzeiro=cruzeiro esporte clube; cruzeiro=cruzeiro,True,True,True,True,Uruguay,Uruguay,Cruzeiro,85,11
+225645,182582,same DOB,Giorgian Daniel De Arrascaeta Benedetti,Joris van Overeem,32.1,0,0,,False,True,True,False,Uruguay,Netherlands,Cruzeiro,85,2
+225645,329212,same DOB,Giorgian Daniel De Arrascaeta Benedetti,Lucas Colitto,25.0,0,0,,False,True,True,False,Uruguay,Argentina,Cruzeiro,85,2
+225719,295330,same DOB,Kelechi Promise Iheanacho,Kelechi Iheanacho,100.0,0,4,leicester city=leicester; leicester city=leicester city; manchester city=manchester city u18; manchester city=manchester city,True,True,True,True,Nigeria,Nigeria,Manchester City,85,11
+225719,526873,same DOB,Kelechi Promise Iheanacho,Jake Eastwood,41.7,0,0,,False,False,True,False,Nigeria,England,Manchester City,85,1
+225719,267356,same DOB,Kelechi Promise Iheanacho,Sergey Makarov,40.0,0,0,,False,True,True,False,Nigeria,Russia,Manchester City,85,2
+225953,284165,same DOB,Steven Charles Bergwijn,Steven Bergwijn,100.0,0,5,ajax=ajax amsterdam; ajax=ajax; ajax=ajax youth; tottenham hotspur=tottenham hotspur,True,True,True,True,Netherlands,Netherlands,PSV,85,11
+225953,335721,same DOB,Steven Charles Bergwijn,Ben White,43.8,0,0,,False,True,True,False,Netherlands,England,PSV,85,2
+225953,285951,same DOB,Steven Charles Bergwijn,Nathan de Medina,38.1,0,0,,False,True,True,False,Netherlands,Belgium,PSV,85,2
+226766,256977,same DOB,Daniel Castelo Podence,Daniel Podence,100.0,0,8,moreirense=moreirense; wolverhampton wanderers=wolverhampton wanderers; sporting=sporting u19; sporting=sporting sub 15,True,True,True,True,Portugal,Portugal,Moreirense,85,11
+226766,208512,same DOB,Daniel Castelo Podence,Álex Craninx,41.2,0,0,,False,False,True,False,Portugal,Belgium,Moreirense,85,1
+226766,262545,same DOB,Daniel Castelo Podence,Connor Randall,33.3,0,0,,False,True,True,False,Portugal,England,Moreirense,85,2
+227055,257448,same DOB,Gelson Dany Batalha Martins,Gelson Martins,100.0,0,7,monaco=monaco; sporting=sporting u19; sporting=sporting u17; sporting=sporting b,True,True,True,True,Portugal,Portugal,Sporting CP,85,11
+227055,395659,same DOB,Gelson Dany Batalha Martins,Ivan Sergeev,25.6,0,0,,False,True,True,False,Portugal,Russia,Sporting CP,85,2
+227055,371009,same DOB,Gelson Dany Batalha Martins,Rony,22.2,0,0,,False,True,True,False,Portugal,Brazil,Sporting CP,85,2
+228687,283196,same DOB,Kasper Dolberg Rasmussen,Kasper Dolberg,100.0,0,6,anderlecht=anderlecht; ajax=ajax amsterdam; ajax=ajax u19; ajax=ajax,True,True,True,True,Denmark,Denmark,Ajax,85,11
+228687,533777,same DOB,Kasper Dolberg Rasmussen,Mohammed Al-Hardan,38.1,0,0,,False,True,True,False,Denmark,Bahrain,Ajax,85,2
+228687,656344,same DOB,Kasper Dolberg Rasmussen,Homer Martínez,36.8,0,0,,False,True,True,False,Denmark,Colombia,Ajax,85,2
+229337,323934,same DOB,Matheus Pereira da Silva,Matheus Pereira,100.0,0,9,bordeaux=girondins bordeaux; bordeaux=g bordeaux; eibar=eibar; empoli=empoli,True,True,True,True,Brazil,Brazil,Empoli,85,11
+229337,402141,same DOB,Matheus Pereira da Silva,Dae-won Park,38.9,0,0,,False,True,True,False,Brazil,"Korea, South",Empoli,85,2
+229337,410225,same DOB,Matheus Pereira da Silva,Ismaïla Sarr,38.9,0,0,,False,True,True,False,Brazil,Senegal,Empoli,85,2
+231242,400485,same DOB,Adam Mohamed Ounas,Adam Ounas,100.0,0,6,naples=naples; lille=lille; bordeaux=bordeaux u19; bordeaux=g bordeaux,True,True,True,True,France,Algeria,Bordeaux,85,11
+231242,660528,same DOB,Adam Mohamed Ounas,Naeem Mohammed,64.3,0,0,,False,True,True,False,France,Ghana,Bordeaux,85,2
+231242,308256,same DOB,Adam Mohamed Ounas,Andrés Ponce,57.1,0,0,,False,True,True,False,France,Venezuela,Bordeaux,85,2
+231352,331726,same DOB,Tammy Bakumo-Abraham,Tammy Abraham,100.0,0,9,bristol city=bristol city; swansea city=swansea; swansea city=swansea city; chelsea=chelsea u18,True,True,True,True,England,England,Bristol City,85,11
+231352,251070,same DOB,Tammy Bakumo-Abraham,Übeyd Adiyaman,42.1,0,0,,False,False,True,False,England,Turkey,Bristol City,85,1
+231352,526164,same DOB,Tammy Bakumo-Abraham,Kristian Kirkegaard,35.9,0,0,,False,True,True,False,England,Denmark,Bristol City,85,2
+231395,342148,same DOB,José Gomes,Zé Gomes,77.8,0,7,benfica=benfica u17; benfica=benfica u15; benfica=benfica b; benfica=benfica yth,True,True,True,False,Portugal,Portugal,Benfica,85,10
+231395,523972,same DOB,José Gomes,Sergio López,47.1,0,0,,False,True,True,False,Portugal,Spain,Benfica,85,2
+231395,541017,same DOB,José Gomes,Davino Liessens,40.0,0,0,,False,True,True,False,Portugal,Belgium,Benfica,85,2
+231943,378710,same DOB,Richarlison de Andrade,Richarlison,100.0,0,4,tottenham hotspur=tottenham hotspur; tottenham hotspur=tottenham; everton=everton; watford=watford,True,True,True,True,Brazil,Brazil,Watford,85,11
+231943,476355,same DOB,Richarlison de Andrade,Cícero,47.1,0,0,,True,True,True,False,Brazil,Brazil,Watford,85,4
+231943,267614,same DOB,Richarlison de Andrade,Julian Kristoffersen,45.2,0,0,,False,True,True,False,Brazil,Norway,Watford,85,2
+232099,222813,same DOB,Marko Grujić,Marko Grujić,100.0,0,3,liverpool=liverpool; hertha bsc=hertha bsc; porto=porto,True,True,True,True,Serbia,Serbia,Liverpool,85,11
+232099,391887,same DOB,Marko Grujić,Yuri Araújo,50.0,0,0,,False,True,True,False,Serbia,Brazil,Liverpool,85,2
+232099,283166,same DOB,Marko Grujić,Marcos Felipe,48.0,0,0,,False,False,True,False,Serbia,Brazil,Liverpool,85,1
+233795,426192,same DOB,Benjamin Anthony Brereton Díaz,Ben Brereton Díaz,100.0,0,4,nottingham forest=nottingham forest; villarreal=villarreal; blackburn rovers=blackburn; blackburn rovers=blackburn rovers,True,True,True,False,England,Chile,Nottingham Forest,85,11
+233795,458537,same DOB,Benjamin Anthony Brereton Díaz,Tobias Børkeeiet,51.6,0,0,,False,True,True,False,England,Norway,Nottingham Forest,85,2
+233795,629572,same DOB,Benjamin Anthony Brereton Díaz,Martin Gneba,37.0,0,0,,False,True,True,False,England,France,Nottingham Forest,85,2
+234317,316760,same DOB,Vincent Thill,Vincent Thill,100.0,0,6,nacional=nacional; orleans loiret=orleans; metz=metz u17; metz=metz,True,True,True,True,Luxembourg,Luxembourg,Metz,85,11
+234317,466120,same DOB,Vincent Thill,Bojica Nikcevic,35.7,0,0,,False,True,True,False,Luxembourg,Montenegro,Metz,85,2
+234317,465537,same DOB,Vincent Thill,Georgios Antzoulas,33.3,0,0,,False,True,True,False,Luxembourg,Greece,Metz,85,2
+236248,344015,same DOB,Benjamin Luke Woodburn,Ben Woodburn,100.0,0,3,liverpool=liverpool; preston north end=preston north end; oxford united=oxford united,True,True,True,False,Wales,Wales,Liverpool,85,11
+236248,456292,same DOB,Benjamin Luke Woodburn,Ellery Balcombe,37.8,0,0,,False,False,True,False,Wales,England,Liverpool,85,1
+236248,717685,same DOB,Benjamin Luke Woodburn,Emanuel Sittaro,37.8,0,0,,False,False,True,False,Wales,Argentina,Liverpool,85,1
+236311,317482,same DOB,Marko Rog,Marko Rog,100.0,0,2,naples=naples; cagliari=cagliari,True,True,True,True,Croatia,Croatia,Napoli,85,11
+236311,245893,same DOB,Marko Rog,Matt Miazga,46.2,0,0,,False,True,True,False,Croatia,United States,Napoli,85,2
+236311,216172,same DOB,Marko Rog,Axel Gulin,37.5,0,0,,False,True,True,False,Croatia,Italy,Napoli,85,2
+236499,447661,same DOB,Douglas Luiz Soares de Paulo,Douglas Luiz,100.0,0,3,manchester city=manchester city; girona=girona; aston villa=aston villa,True,True,True,True,Brazil,Brazil,Girona,85,11
+236499,331725,same DOB,Douglas Luiz Soares de Paulo,Faiq Bolkiah,41.7,0,0,,False,True,True,False,Brazil,Brunei Darussalam,Girona,85,2
+236499,586559,same DOB,Douglas Luiz Soares de Paulo,Dimitrios Theodoropoulos,40.9,0,0,,False,False,True,False,Brazil,Greece,Girona,85,1
+236893,328943,same DOB,Rui Pedro da Silva e Sousa,Rui Pedro,100.0,0,1,boavista=boavista,True,True,True,True,Portugal,Portugal,Boavista,85,8
+236893,605326,same DOB,Rui Pedro da Silva e Sousa,Pedro Vitor,71.4,0,0,,False,True,True,False,Portugal,Brazil,Boavista,85,2
+236893,401440,same DOB,Rui Pedro da Silva e Sousa,Aaron Murillo,45.5,0,0,,False,True,True,False,Portugal,Costa Rica,Boavista,85,2
+237670,345345,same DOB,Bruno Alexandre Vieira Almeida,Xadas,100.0,0,2,maritimo=cs maritimo; sporting braga=braga,True,True,True,False,Portugal,Portugal,Sporting Braga,85,11
+237670,524207,same DOB,Bruno Alexandre Vieira Almeida,Spyros Glynos,42.1,0,0,,False,True,True,False,Portugal,Greece,Sporting Braga,85,2
+237670,446657,same DOB,Bruno Alexandre Vieira Almeida,Brandon Onkony,40.0,0,0,,False,True,True,False,Portugal,Switzerland,Sporting Braga,85,2
+239053,369081,same DOB,Federico Santiago Valverde Dipetta,Federico Valverde,100.0,0,3,real madrid=real madrid castilla; real madrid=real madrid; deportivo la coruna=deportivo la coruna,True,True,True,True,Uruguay,Uruguay,Deportivo de La Coruña,85,11
+239053,369367,same DOB,Federico Santiago Valverde Dipetta,Joackim Fagerjord,47.6,0,0,,False,True,True,False,Uruguay,Sweden,Deportivo de La Coruña,85,2
+239053,289643,same DOB,Federico Santiago Valverde Dipetta,Roman Tugarev,42.1,0,0,,False,True,True,False,Uruguay,Russia,Deportivo de La Coruña,85,2
+239231,284857,same DOB,Marc Cucurella Saseta,Marc Cucurella,100.0,0,9,brighton hove albion=brighton hove albion; brighton hove albion=brighton; getafe=getafe; chelsea=chelsea,True,True,True,True,Spain,Spain,FC Barcelona B,85,11
+239231,342930,same DOB,Marc Cucurella Saseta,Michele Cevoli,40.0,0,0,,False,True,True,False,Spain,San Marino,FC Barcelona B,85,2
+239231,414933,same DOB,Marc Cucurella Saseta,Mihail Caimacov,38.9,0,0,,False,True,True,False,Spain,Moldova,FC Barcelona B,85,2
+239249,282721,same DOB,Oriol Busquets Mas,Uri Busquets,88.9,0,5,barcelona b=barcelona b; clermont=clermont foot; clermont=clermont foot 63; barcelona=barcelona b,True,True,True,False,Spain,Spain,FC Barcelona B,85,10
+239249,346332,same DOB,Oriol Busquets Mas,Nassim Boujellab,41.2,0,0,,False,True,True,False,Spain,Morocco,FC Barcelona B,85,2
+239249,750754,same DOB,Oriol Busquets Mas,Sebastián Zaracho,40.0,0,0,,False,True,True,False,Spain,Paraguay,FC Barcelona B,85,2
+239441,331498,same DOB,Jordi Mboula Queralt,Jordi Mboula,100.0,0,6,hellas verona=hellas verona; racing santander=racing santander; racing santander=racing; monaco=monaco,True,True,True,True,Spain,Spain,Monaco,85,11
+239441,719456,same DOB,Jordi Mboula Queralt,Thibo Somers,41.7,0,1,cercle brugge=cercle brugge,False,True,True,False,Spain,Belgium,Monaco,85,5
+239441,344457,same DOB,Jordi Mboula Queralt,Lazar Carević,40.0,0,0,,False,False,True,False,Spain,Montenegro,Monaco,85,1
+239981,343337,same DOB,Jann-Fiete Arp,Fiete Arp,100.0,0,4,bayern munich=bayern munich; bayern munich=bayern; hamburger=hamburger; holstein kiel=holstein kiel,True,True,True,False,Germany,Germany,Hamburger SV,85,11
+239981,404912,same DOB,Jann-Fiete Arp,Vladislav Karapuzov,50.0,0,0,,False,True,True,False,Germany,Russia,Hamburger SV,85,2
+239981,418553,same DOB,Jann-Fiete Arp,Jesper Daland,46.2,0,0,,False,True,True,False,Germany,Norway,Hamburger SV,85,2
+240000,335002,same DOB,Elias Abouchabaka,Elias Abouchabaka,100.0,0,4,greuther furth=greuther furth; vitoria=vitoria guimaraes b; vitoria=vitoria guimaraes; rb leipzig=rb leipzig,True,True,True,True,Germany,Germany,RB Leipzig,85,11
+240000,345780,same DOB,Elias Abouchabaka,Lukas Mai,38.5,0,0,,True,True,True,False,Germany,Germany,RB Leipzig,85,4
+240000,505512,same DOB,Elias Abouchabaka,Asier Córdoba,36.4,0,0,,False,True,True,False,Germany,Spain,RB Leipzig,85,2
+240976,373916,same DOB,Marcelo Josemir Saracchi Pintos,Marcelo Saracchi,100.0,0,7,river plate=river plate; rb leipzig=rb leipzig; rb leipzig=leipzig; boca juniors=atletico boca juniors,True,True,True,True,Uruguay,Uruguay,River Plate,85,11
+240976,543409,same DOB,Marcelo Josemir Saracchi Pintos,Taofiq Jibril,36.4,0,0,,False,True,True,False,Uruguay,Nigeria,River Plate,85,2
+240976,807687,same DOB,Marcelo Josemir Saracchi Pintos,Ali Kalla,35.3,0,0,,False,True,True,False,Uruguay,France,River Plate,85,2
+230740,351898,near-DOB suggestion,Leandro Henrique do Nascimento,Leandrinho,100.0,30,1,naples=naples,True,True,True,False,Brazil,Brazil,Napoli,84,7
+210930,127987,near-DOB suggestion,Carles Gil de Pareja Vicent,Carles Gil,100.0,20,7,new england=new england revolution; new england=new england; valencia=valencia u19; valencia=valencia b,True,True,True,True,Spain,Spain,Valencia,83,10
+215107,530421,near-DOB suggestion,Héctor Daniel Villalba,Daniel,100.0,81,0,,False,False,False,False,Argentina,Brazil,San Lorenzo,83,1
+215107,240913,near-DOB suggestion,Héctor Daniel Villalba,Lucas Villalba,90.0,24,0,,True,True,False,False,Argentina,Argentina,San Lorenzo,83,4
+215107,269817,near-DOB suggestion,Héctor Daniel Villalba,Leonardo Villalba,90.0,126,0,,True,True,False,False,Argentina,Argentina,San Lorenzo,83,4
+222059,294817,same DOB,Thiago Rodrigues da Silva,Thiago Rodrigues,100.0,0,0,,True,False,True,True,Brazil,Brazil,UE Llagostera,83,4
+222059,296188,same DOB,Thiago Rodrigues da Silva,Alexander Rossipal,45.7,0,0,,False,True,True,False,Brazil,Germany,UE Llagostera,83,2
+222059,369153,same DOB,Thiago Rodrigues da Silva,Daniil Solomakha,43.9,0,0,,False,True,True,False,Brazil,Ukraine,UE Llagostera,83,2
+222577,539183,near-DOB suggestion,Jown Anderson Cardona Agudelo,Anderson,100.0,52,0,,False,True,False,False,Colombia,Brazil,Cortuluá,83,2
+222577,353674,near-DOB suggestion,Jown Anderson Cardona Agudelo,Keshi Anderson,88.9,87,0,,False,True,False,False,Colombia,England,Cortuluá,83,1
+222577,215089,near-DOB suggestion,Jown Anderson Cardona Agudelo,Djavan Anderson,88.9,102,0,,False,True,False,False,Colombia,Suriname,Cortuluá,83,1
+237295,392964,near-DOB suggestion,Emmanuel Delan Junior Latte Lath,Emmanuel Latte Lath,100.0,1,5,middlesbrough=middlesbrough; saint gallen=saint gallen 1879; saint gallen=saint gallen; pescara=pescara,True,True,True,True,Côte d'Ivoire,Cote d'Ivoire,Pescara,83,10
+215328,217886,near-DOB suggestion,Gastón Ignacio Gil Romero,Óscar Romero,85.7,306,0,,False,True,False,False,Argentina,Paraguay,Estudiantes,82,1
+215328,262262,near-DOB suggestion,Gastón Ignacio Gil Romero,Ángel Romero,85.7,306,0,,False,True,False,False,Argentina,Paraguay,Estudiantes,82,1
+215328,242201,near-DOB suggestion,Gastón Ignacio Gil Romero,Lucas Romero,85.7,347,0,,True,True,False,False,Argentina,Argentina,Estudiantes,82,3
+220655,236202,near-DOB suggestion,Wanderson Ferreira de Oliveira,Wanderson,100.0,3,2,internacional=sport internacional; internacional=internacional,True,True,True,True,Brazil,Brazil,Internacional,82,10
+220655,153108,near-DOB suggestion,Wanderson Ferreira de Oliveira,Wanderson,100.0,239,0,,True,True,False,True,Brazil,Brazil,Internacional,82,4
+220655,275287,near-DOB suggestion,Wanderson Ferreira de Oliveira,Rúben Oliveira,88.9,71,0,,False,True,False,False,Brazil,Portugal,Internacional,82,1
+235522,217144,near-DOB suggestion,Aleix Febas Pérez,Aleix Febas,100.0,20,10,albacete=albacete; albacete=albacete balompie; real zaragoza=real zaragoza; mallorca=mallorca,True,True,True,True,Spain,Spain,Real Madrid,82,10
+236378,357991,near-DOB suggestion,Alessandro Plizzari,Alessandro Plizzari,100.0,1,3,livorno=livorno; ternana=ternana unicusano; milan=milan,True,True,True,True,Italy,Italy,Ternana,82,10
+240776,371990,near-DOB suggestion,Sonny Patrick Laiton,Patrick,100.0,31,0,,False,False,True,False,France,Brazil,Auxerre,82,1
+241046,687609,near-DOB suggestion,Jonás Samuel Romero,Isaac Romero,87.5,95,0,,False,True,False,False,Argentina,Spain,Atlético Tucumán,82,1
+241046,696890,near-DOB suggestion,Jonás Samuel Romero,Cristo Romero,87.5,113,0,,False,True,False,False,Argentina,Spain,Atlético Tucumán,82,1
+241046,491604,near-DOB suggestion,Jonás Samuel Romero,Fernando Romero,87.5,119,0,,False,True,False,False,Argentina,Paraguay,Atlético Tucumán,82,1
+214919,376155,near-DOB suggestion,Diego Nicolás Rojas Orellana,Diego,100.0,218,0,,False,True,False,True,Chile,Brazil,Universidad Católica,81,2
+214919,417327,near-DOB suggestion,Diego Nicolás Rojas Orellana,Matías Rojas,85.7,261,0,,False,True,False,False,Chile,Paraguay,Universidad Católica,81,1
+222881,337670,near-DOB suggestion,Auro Alvaro da Cruz Junior,Alessio Da Cruz,87.5,361,0,,False,True,False,False,Brazil,Cape Verde,São Paulo,81,1
+224566,284000,near-DOB suggestion,Carlos Blanco Moreno,Carlos Júnior,100.0,144,0,,False,True,False,True,Spain,Brazil,Juventus,81,2
+224566,312731,near-DOB suggestion,Carlos Blanco Moreno,Diego Moreno,85.7,52,0,,False,True,False,False,Spain,Colombia,Juventus,81,1
+224566,199321,near-DOB suggestion,Carlos Blanco Moreno,Rubén Blanco,85.7,165,0,,True,False,False,False,Spain,Spain,Juventus,81,2
+226591,212310,near-DOB suggestion,Harold Fabián Preciado Villarreal,Ayrton Preciado,90.0,46,0,,False,True,False,False,Colombia,Ecuador,Deportivo Cali,81,2
+230033,292982,near-DOB suggestion,Dennon Elliot Lewis,Clayton Lewis,85.7,86,0,,False,True,False,False,England,New Zealand,Watford,81,1
+230033,341043,near-DOB suggestion,Dennon Elliot Lewis,Harry Lewis,85.7,225,0,,True,False,False,False,England,England,Watford,81,2
+230033,346018,near-DOB suggestion,Dennon Elliot Lewis,Jamal Lewis,85.7,261,1,watford=watford,True,True,False,False,England,Northern Ireland,Watford,81,6
+232066,353047,near-DOB suggestion,Walter Rodrigo González Sosa,Walter González,100.0,31,4,arouca=arouca; olimpia=olimpia asuncion; everton=everton; leon=leon,True,True,True,True,Paraguay,Paraguay,Arouca,81,10
+232066,281979,near-DOB suggestion,Walter Rodrigo González Sosa,Sergi González,90.0,26,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,349836,near-DOB suggestion,Walter Rodrigo González Sosa,Diego González,90.0,144,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232754,635673,near-DOB suggestion,Thomas Olivier Amang,Andrew Thomas,85.7,204,0,,False,False,False,False,Cameroon,United States,Molde,81,0
+232754,207273,near-DOB suggestion,Thomas Olivier Amang,Sander Thomas,85.7,228,0,,False,True,False,False,Cameroon,Netherlands,Molde,81,1
+232754,298240,near-DOB suggestion,Thomas Olivier Amang,George Thomas,85.7,322,0,,False,True,False,False,Cameroon,Wales,Molde,81,1
+233193,697818,near-DOB suggestion,Lucas Ribamar Lopes dos Santos Bibiano,Marcelo dos Santos,90.9,67,0,,True,True,False,False,Brazil,Brazil,1860 München,81,4
+233193,241500,near-DOB suggestion,Lucas Ribamar Lopes dos Santos Bibiano,Dabney dos Santos,90.9,304,0,,False,True,False,False,Brazil,Netherlands,1860 München,81,2
+233193,603137,near-DOB suggestion,Lucas Ribamar Lopes dos Santos Bibiano,Rafael Santos,85.7,257,0,,True,True,False,False,Brazil,Brazil,1860 München,81,3
+233736,419936,near-DOB suggestion,Juan Pablo Ramírez Velásquez,Jesús Ramírez,100.0,159,1,atletico nacional=nacional,False,True,False,False,Colombia,Venezuela,Deportivo Pasto,81,5
+233736,655471,near-DOB suggestion,Juan Pablo Ramírez Velásquez,Pascual Ramírez,88.9,34,0,,False,False,False,False,Colombia,Dominican Republic,Deportivo Pasto,81,0
+233736,402079,near-DOB suggestion,Juan Pablo Ramírez Velásquez,Ignacio Ramírez,88.9,295,1,atletico nacional=nacional,False,True,False,False,Colombia,Uruguay,Deportivo Pasto,81,4
+239986,844800,near-DOB suggestion,Javier Alonso Bello,Antony Alonso,85.7,82,0,,False,True,False,False,Spain,Uruguay,Tenerife,81,1
+239986,521455,near-DOB suggestion,Javier Alonso Bello,Julio Alonso,85.7,135,0,,True,True,False,False,Spain,Spain,Tenerife,81,3
+240969,491707,near-DOB suggestion,Julián Simón Carranza,Julián Carranza,100.0,2,6,banfield=banfield; banfield=banfield u20; philadelphia union=philadelphia; philadelphia union=philadelphia union,True,True,True,True,Argentina,Argentina,Banfield,81,10
+210972,162029,same DOB,Javier Manquillo Gaitán,Javier Manquillo,100.0,0,6,liverpool=liverpool; newcastle united=newcastle; newcastle united=newcastle united; sunderland=sunderland,True,True,True,True,Spain,Spain,Liverpool,80,11
+210972,278166,same DOB,Javier Manquillo Gaitán,Amari'i Bell,50.0,0,0,,False,True,True,False,Spain,Jamaica,Liverpool,80,2
+210972,197470,same DOB,Javier Manquillo Gaitán,Mattia Caldara,37.8,0,0,,False,True,True,False,Spain,Italy,Liverpool,80,2
+214446,234764,near-DOB suggestion,Felipe Manuel Campos Mosqueira,Nuno Campos,87.5,148,0,,False,True,False,False,Chile,Portugal,Palestino,80,1
+214446,310482,near-DOB suggestion,Felipe Manuel Campos Mosqueira,João Manuel,85.7,201,0,,False,False,False,False,Chile,Portugal,Palestino,80,0
+221695,291266,near-DOB suggestion,Godfred Donsah,Godfred Donsah,100.0,10,3,bologna=bologna 1909; cagliari=cagliari; crotone=crotone,True,True,True,True,Ghana,Ghana,Cagliari,80,10
+225150,277268,near-DOB suggestion,Alexis Araujo,Alexis Araujo,100.0,30,2,lille=lille; gfc ajaccio=gfc ajaccio,True,True,True,True,France,Portugal,Lille,80,10
+225150,482144,near-DOB suggestion,Alexis Araujo,Michel Araújo,87.5,70,0,,False,True,False,False,France,Uruguay,Lille,80,1
+225150,651471,near-DOB suggestion,Alexis Araujo,Sebastián Araujo,87.5,194,0,,False,False,False,False,France,Colombia,Lille,80,0
+230895,362347,near-DOB suggestion,Andre Antonio Wright,Akil Wright,100.0,208,0,,True,True,False,False,England,England,West Bromwich Albion,80,4
+230895,276914,near-DOB suggestion,Andre Antonio Wright,Scott Wright,87.5,244,0,,False,True,False,False,England,Scotland,West Bromwich Albion,80,1
+231025,730708,near-DOB suggestion,Hugo José Rama Calviño,Hugo,100.0,280,0,,False,True,False,True,Spain,Brazil,Deportivo de La Coruña,80,2
+231929,244261,near-DOB suggestion,George Miller,Calvin Miller,87.5,7,0,,False,True,True,False,England,Scotland,Bury,80,1
+231929,242152,near-DOB suggestion,George Miller,Martin Miller,87.5,99,0,,False,True,False,False,England,Estonia,Bury,80,1
+231929,487504,near-DOB suggestion,George Miller,Kamal Miller,87.5,231,0,,False,True,False,False,England,Canada,Bury,80,1
+234835,257376,near-DOB suggestion,Domingos Sousa Coutinho Meneses Duarte,Domingos Duarte,100.0,7,7,granada=granada; chaves=gd chaves; chaves=chaves; belenenses=belenenses,True,True,True,True,Portugal,Portugal,Belenenses,80,10
+234835,873252,near-DOB suggestion,Domingos Sousa Coutinho Meneses Duarte,Bruno Duarte,85.7,109,0,,False,True,False,False,Portugal,Argentina,Belenenses,80,1
+234835,177046,near-DOB suggestion,Domingos Sousa Coutinho Meneses Duarte,Rubén Duarte,85.7,229,0,,False,True,False,False,Portugal,Spain,Belenenses,80,1
+235937,305686,near-DOB suggestion,Alberto Picchi,Alberto Picchi,100.0,4,3,spal=spal 2013; empoli=empoli primavera; empoli=empoli,True,True,True,True,Italy,Italy,SPAL,80,10
+239319,668799,near-DOB suggestion,Alexander Benjamin Bradley,Alexander,100.0,124,0,,False,False,False,True,England,Brazil,West Bromwich Albion,80,1
+239319,321403,near-DOB suggestion,Alexander Benjamin Bradley,Kyle Bradley,88.9,18,0,,False,True,False,False,England,Scotland,West Bromwich Albion,80,1
+239319,416390,near-DOB suggestion,Alexander Benjamin Bradley,Bradley Martis,87.5,198,0,,False,True,False,False,England,Curacao,West Bromwich Albion,80,1
+240201,453704,near-DOB suggestion,Ignacio Méndez Navia Fernández,Álvaro Fernández,90.0,14,0,,True,False,False,False,Spain,Spain,Sporting Gijón,80,3
+240201,400677,near-DOB suggestion,Ignacio Méndez Navia Fernández,Nicolás Fernández,90.0,28,0,,False,True,True,False,Spain,Uruguay,Sporting Gijón,80,2
+240201,415205,near-DOB suggestion,Ignacio Méndez Navia Fernández,Víctor Fernández,90.0,33,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+241033,450854,near-DOB suggestion,Cameron Gregory,Innes Cameron,87.5,215,0,,False,False,False,False,England,Scotland,Shrewsbury Town,80,0
+229516,298976,same DOB,David Mayoral Lastras,Borja Mayoral,100.0,0,0,,True,True,True,False,Spain,Spain,Real Valladolid,79,5
+229516,355629,same DOB,David Mayoral Lastras,David Mayoral,100.0,0,4,lugo=lugo; hermannstadt=hermannstadt; real valladolid=real valladolid b; real valladolid=real valladolid,True,True,True,True,Spain,Spain,Real Valladolid,79,11
+229516,415049,same DOB,David Mayoral Lastras,Abdelrahman Moustafa,43.9,0,0,,False,True,True,False,Spain,Qatar,Real Valladolid,79,2
+213613,255473,same DOB,Simon Gustafson,Samuel Gustafson,100.0,0,2,hacken=hacken u19; hacken=hacken,True,True,True,False,Sweden,Sweden,Häcken,78,11
+213613,255474,same DOB,Simon Gustafson,Simon Gustafson,100.0,0,6,utrecht=utrecht; hacken=hacken; roda jc kerkrade=roda jc kerkrade; roda jc kerkrade=roda jc,True,True,True,True,Sweden,Sweden,Häcken,78,11
+213613,169573,same DOB,Simon Gustafson,Sam Nicholson,45.5,0,0,,False,True,True,False,Sweden,Scotland,Häcken,78,2
+214092,255450,same DOB,Aleksey Miranchuk,Aleksey Miranchuk,100.0,0,4,turin=turin; lokomotiv moscow=lokomotiv moscow; atalanta=atalanta bc; atalanta=atalanta,True,True,True,True,Russia,Russia,Lokomotiv Moskva,78,11
+214092,255451,same DOB,Aleksey Miranchuk,Anton Miranchuk,100.0,0,1,lokomotiv moscow=lokomotiv moscow,True,True,True,False,Russia,Russia,Lokomotiv Moskva,78,8
+214092,295630,same DOB,Aleksey Miranchuk,Dimitrios Giannoulis,43.5,0,0,,False,True,True,False,Russia,Greece,Lokomotiv Moskva,78,2
+226266,544794,same DOB,Jeisson Andrés Vargas Salazar,José Varela,75.0,0,0,,False,True,True,False,Chile,Cape Verde,Universidad Católica,78,2
+226266,342341,same DOB,Jeisson Andrés Vargas Salazar,Leonardo Candellone,41.7,0,0,,False,True,True,False,Chile,Italy,Universidad Católica,78,2
+226266,573974,same DOB,Jeisson Andrés Vargas Salazar,Aimen Mahious,35.3,0,0,,False,True,True,False,Chile,Algeria,Universidad Católica,78,2
+231912,429730,same DOB,김건웅 金建熊,Geon-ung Kim,84.6,0,5,ulsan=ulsan hyundai; ulsan=ulsan h u18; suwon=suwon; jeju united=jeju,True,True,True,False,Korea Republic,"Korea, South",Ulsan,78,10
+231912,395685,same DOB,김건웅 金建熊,Gédéon Kalulu,44.4,0,0,,False,True,True,False,Korea Republic,DR Congo,Ulsan,78,2
+231912,285845,same DOB,김건웅 金建熊,Ainsley Maitland-Niles,38.3,0,0,,False,True,True,False,Korea Republic,England,Ulsan,78,2
+226105,347439,same DOB,Jack McKay,Jack McKay,100.0,0,1,cardiff city=cardiff city,False,True,True,True,England,Scotland,Doncaster Rovers,77,6
+226105,265398,same DOB,Jack McKay,Yannik Oettl,28.6,0,0,,False,False,True,False,England,Germany,Doncaster Rovers,77,1
+226105,533926,same DOB,Jack McKay,Gleyson,14.3,0,0,,False,True,True,False,England,Brazil,Doncaster Rovers,77,2
+233309,401712,same DOB,Simon Alonso Ramírez Cuevas,Simón Ramírez,100.0,0,1,union la calera=union la calera,True,True,True,True,Chile,Chile,Huachipato,77,8
+233309,573392,same DOB,Simon Alonso Ramírez Cuevas,Richet Gómez,50.0,0,0,,False,True,True,False,Chile,Bolivia,Huachipato,77,2
+233309,621369,same DOB,Simon Alonso Ramírez Cuevas,Andrés Herrera,39.0,0,0,,False,True,True,False,Chile,Argentina,Huachipato,77,2
+206083,199527,same DOB,Josh Murphy,Jacob Murphy,100.0,0,2,norwich city=norwich city; norwich city=norwich,True,True,True,False,England,England,Norwich City,76,11
+206083,199528,same DOB,Josh Murphy,Josh Murphy,100.0,0,5,milton keynes dons=milton keynes dons; cardiff city=cardiff city; norwich city=norwich city; preston north end=preston north end,True,True,True,True,England,England,Norwich City,76,11
+206083,433646,same DOB,Josh Murphy,José Murillo,60.9,0,0,,False,True,True,False,England,Panama,Norwich City,76,2
+221630,403151,same DOB,Alveiro Sánchez Ramírez,Robert Sánchez,88.9,0,0,,False,False,True,False,Colombia,Spain,Deportivo Pasto,74,1
+221630,412661,same DOB,Alveiro Sánchez Ramírez,Muhammet Uyanik,35.3,0,0,,False,True,True,False,Colombia,Turkey,Deportivo Pasto,74,2
+221630,360412,same DOB,Alveiro Sánchez Ramírez,Jordy Caicedo,33.3,0,0,,False,True,True,False,Colombia,Ecuador,Deportivo Pasto,74,2
+225813,319131,same DOB,David Castañeda Muñoz,Miguel Muñoz,83.3,0,0,,False,True,True,False,Colombia,Spain,Cortuluá,74,2
+225813,198005,same DOB,David Castañeda Muñoz,Cristian Ponde,56.0,0,0,,False,True,True,False,Colombia,Portugal,Cortuluá,74,2
+225813,513346,same DOB,David Castañeda Muñoz,Matheus Costa,55.6,0,0,,False,True,True,False,Colombia,Brazil,Cortuluá,74,2
+226106,347439,same DOB,Paul McKay,Jack McKay,85.7,0,0,,False,True,True,False,England,Scotland,Doncaster Rovers,73,2
+226106,265398,same DOB,Paul McKay,Yannik Oettl,18.2,0,0,,False,False,True,False,England,Germany,Doncaster Rovers,73,1
+226106,533926,same DOB,Paul McKay,Gleyson,14.3,0,0,,False,True,True,False,England,Brazil,Doncaster Rovers,73,2
+228789,403151,same DOB,Robert Lynch Sánchez,Robert Sánchez,100.0,0,5,brighton hove albion=brighton hove albion; brighton hove albion=brighton; chelsea=chelsea; forest green rovers=forest green,True,True,True,True,Spain,Spain,Brighton & Hove Albion,73,11
+228789,273689,same DOB,Robert Lynch Sánchez,Jake Grech,41.7,0,0,,False,False,True,False,Spain,Malta,Brighton & Hove Albion,73,1
+228789,412661,same DOB,Robert Lynch Sánchez,Muhammet Uyanik,34.5,0,0,,False,False,True,False,Spain,Turkey,Brighton & Hove Albion,73,1
+206085,199527,same DOB,Jacob Murphy,Jacob Murphy,100.0,0,7,coventry city=coventry city; coventry city=coventry; newcastle united=newcastle; newcastle united=newcastle united,True,True,True,True,England,England,Norwich City,72,11
+206085,199528,same DOB,Jacob Murphy,Josh Murphy,100.0,0,1,norwich city=norwich city,True,True,True,False,England,England,Norwich City,72,8
+206085,433646,same DOB,Jacob Murphy,José Murillo,58.8,0,0,,False,True,True,False,England,Panama,Norwich City,72,2
+206358,148484,same DOB,Artem Leonov,Artem Potapov,72.0,0,0,,True,True,True,True,Russia,Russia,FC Ufa,72,4
+206358,12907,same DOB,Artem Leonov,Alessio Cragno,54.5,0,0,,False,True,True,False,Russia,Italy,FC Ufa,72,2
+206358,221037,same DOB,Artem Leonov,Juan Cavallaro,36.4,0,0,,False,False,True,False,Russia,Argentina,FC Ufa,72,1
+220648,198638,same DOB,Jordano Andrés Cisterna Torreblanca,João Costa,70.6,0,0,,False,False,True,False,Chile,Portugal,Everton,72,1
+220648,285754,same DOB,Jordano Andrés Cisterna Torreblanca,Pietro Cianci,44.4,0,0,,False,True,True,False,Chile,Italy,Everton,72,2
+220648,260842,same DOB,Jordano Andrés Cisterna Torreblanca,Andrej Kadlec,41.7,0,0,,False,True,True,False,Chile,Slovakia,Everton,72,2
+234228,244260,same DOB,Robby McCrorie,Robby McCrorie,100.0,0,6,rangers=rangers u17; rangers=rangers; rangers=rangers b; rangers=berwick rangers,True,True,True,True,Scotland,Scotland,Rangers,72,11
+234228,293746,same DOB,Robby McCrorie,Ross McCrorie,100.0,0,2,rangers=rangers; rangers=rangers u20,True,False,True,False,Scotland,Scotland,Rangers,72,10
+234228,400194,same DOB,Robby McCrorie,Ricardo Marín,58.8,0,0,,False,False,True,False,Scotland,Mexico,Rangers,72,1
+238234,1169016,same DOB,Ayman Shafiq Al Khulaif,Abdulelah Al-Khaibri,75.0,0,1,al ahli jeddah=al ahli,True,True,True,False,Saudi Arabia,Saudi Arabia,Al Ahli Jeddah,72,7
+238234,332798,same DOB,Ayman Shafiq Al Khulaif,Roland Sallai,60.0,0,0,,False,True,True,False,Saudi Arabia,Hungary,Al Ahli Jeddah,72,2
+238234,329055,same DOB,Ayman Shafiq Al Khulaif,Enes Mahmutovic,41.7,0,0,,False,True,True,False,Saudi Arabia,Luxembourg,Al Ahli Jeddah,72,2
+216741,184382,same DOB,Mingyang Yang,Ming-Yang Yang,81.8,0,2,lausanne sport=lausanne sport; nantong zhiyun=nantong zhiyun,True,True,True,False,Switzerland,China,Lausanne Sport,71,10
+216741,255440,same DOB,Mingyang Yang,Nikita Haikin,38.1,0,0,,False,False,True,False,Switzerland,Russia,Lausanne Sport,71,1
+216741,290696,same DOB,Mingyang Yang,Enzo Di Santantonio,37.5,0,0,,False,True,True,False,Switzerland,France,Lausanne Sport,71,2
+222368,255450,same DOB,Anton Miranchuk,Aleksey Miranchuk,100.0,0,1,lokomotiv moscow=lokomotiv moscow,True,True,True,False,Russia,Russia,Lokomotiv Moskva,71,8
+222368,255451,same DOB,Anton Miranchuk,Anton Miranchuk,100.0,0,1,lokomotiv moscow=lokomotiv moscow,True,True,True,True,Russia,Russia,Lokomotiv Moskva,71,8
+222368,295630,same DOB,Anton Miranchuk,Dimitrios Giannoulis,43.5,0,0,,False,True,True,False,Russia,Greece,Lokomotiv Moskva,71,2
+232309,418425,same DOB,Jaime Alexandrino Gomes Pinto,Jaiminho,73.7,0,6,rio ave=rio ave; rio ave=rio ave sub 15; rio ave=rio ave b; rio ave=rio ave u17,True,True,True,False,Portugal,Portugal,Rio Ave,71,10
+232309,450406,same DOB,Jaime Alexandrino Gomes Pinto,Sebastián Jurado,37.0,0,0,,False,False,True,False,Portugal,Mexico,Rio Ave,71,1
+232309,528386,same DOB,Jaime Alexandrino Gomes Pinto,Albert Gabaraev,36.4,0,0,,False,True,True,False,Portugal,Russia,Rio Ave,71,2
+235747,345437,same DOB,Matteo Belvisi,Mateusz Lis,71.4,0,0,,False,False,True,False,Italy,Poland,Frosinone,71,1
+235747,265893,same DOB,Matteo Belvisi,Michał Walski,58.8,0,0,,False,True,True,False,Italy,Poland,Frosinone,71,2
+235747,395068,same DOB,Matteo Belvisi,Yan Vichnyi,44.4,0,0,,False,False,True,False,Italy,Ukraine,Frosinone,71,1
+209475,173592,same DOB,John Anthony James O'Sullivan,John O'Sullivan,100.0,0,1,blackburn rovers=blackburn rovers,True,True,True,True,Republic of Ireland,Ireland,Blackburn Rovers,70,8
+209475,126285,same DOB,John Anthony James O'Sullivan,Sebastian Maier,38.5,0,0,,False,True,True,False,Republic of Ireland,Germany,Blackburn Rovers,70,2
+209475,185764,same DOB,John Anthony James O'Sullivan,Charles Banya,34.1,0,0,,False,True,True,False,Republic of Ireland,England,Blackburn Rovers,70,2
+214288,374142,same DOB,Henry Steven Sanhueza González,Manu Sánchez,73.7,0,0,,False,True,True,False,Chile,Spain,Antofagasta,70,2
+214288,334042,same DOB,Henry Steven Sanhueza González,Orbelín Pineda,44.4,0,0,,False,True,True,False,Chile,Mexico,Antofagasta,70,2
+214288,246027,same DOB,Henry Steven Sanhueza González,Albert Reyes,38.1,0,0,,False,True,True,False,Chile,Andorra,Antofagasta,70,2
+214923,288390,same DOB,Mohammed Qassem Al Nakhli,Mohammed Qassim,80.0,0,6,al ittihad=al ittihad; al ittihad=al ittihad u23; al faisaly=al faisaly; al nassr=al nassr u23,True,True,True,True,Saudi Arabia,Saudi Arabia,Al Ittihad,70,10
+214923,193006,same DOB,Mohammed Qassem Al Nakhli,Mike-Steven Bähre,57.1,0,0,,False,True,True,False,Saudi Arabia,Germany,Al Ittihad,70,2
+214923,950528,same DOB,Mohammed Qassem Al Nakhli,Saleh Al-Harthi,50.0,0,0,,True,True,True,False,Saudi Arabia,Saudi Arabia,Al Ittihad,70,4
+237778,402135,same DOB,안준수 安俊洙,Jun-su Ahn,75.0,0,1,cerezo osaka=cerezo osaka,True,True,True,False,Korea Republic,"Korea, South",Cerezo Osaka,70,7
+237778,357305,same DOB,안준수 安俊洙,Kamil Pajnowski,37.0,0,0,,False,False,True,False,Korea Republic,Poland,Cerezo Osaka,70,1
+237778,322075,same DOB,안준수 安俊洙,Thomas Isherwood,35.7,0,0,,False,False,True,False,Korea Republic,Sweden,Cerezo Osaka,70,1
+240231,696852,same DOB,Ibrahim Madi,Ibrahim Diarra,76.9,0,0,,True,True,True,True,France,France,Nîmes,70,4
+240231,734473,same DOB,Ibrahim Madi,Tuan Hai Pham,42.1,0,0,,False,True,True,False,France,Vietnam,Nîmes,70,2
+240231,587296,same DOB,Ibrahim Madi,Cristian Barrios,38.1,0,0,,False,True,True,False,France,Colombia,Nîmes,70,2
+224738,330190,same DOB,Sinan Eryüksel,Kenan Eryüksel,90.0,0,0,,True,True,True,False,Turkey,Turkey,Akhisar Belediyespor,69,5
+224738,421051,same DOB,Sinan Eryüksel,Subhasish Bose,35.7,0,0,,False,True,True,False,Turkey,India,Akhisar Belediyespor,69,2
+224738,52199,same DOB,Sinan Eryüksel,Benny Rogiest,34.8,0,0,,False,False,True,False,Turkey,Belgium,Akhisar Belediyespor,69,1
+229807,288690,same DOB,Mathias Saavedra,Manprit Sarkaria,70.0,0,0,,False,True,True,False,Chile,Austria,Antofagasta,69,2
+229807,317034,same DOB,Mathias Saavedra,Michalis Kallergis,47.6,0,0,,False,True,True,False,Chile,Greece,Antofagasta,69,2
+229807,488849,same DOB,Mathias Saavedra,Abubakar Kadyrov,42.1,0,0,,False,True,True,False,Chile,Russia,Antofagasta,69,2
+230057,294895,same DOB,Ramón Ignacio Sáez Navarro,Mathías Suárez,71.4,0,0,,False,True,True,False,Chile,,Huachipato,69,2
+230057,262105,same DOB,Ramón Ignacio Sáez Navarro,Nikola Vasiljevic,37.2,0,0,,False,False,True,False,Chile,Serbia,Huachipato,69,1
+230057,245070,same DOB,Ramón Ignacio Sáez Navarro,Alen Ozbolt,35.3,0,0,,False,True,True,False,Chile,Slovenia,Huachipato,69,2
+235979,401712,same DOB,Antonio Esteban Ramírez Cuevas,Simón Ramírez,88.9,0,1,universidad concepcion=universidad concepcion,True,True,True,False,Chile,Chile,Huachipato,69,7
+235979,621369,same DOB,Antonio Esteban Ramírez Cuevas,Andrés Herrera,55.6,0,0,,False,True,True,False,Chile,Argentina,Huachipato,69,2
+235979,573392,same DOB,Antonio Esteban Ramírez Cuevas,Richet Gómez,38.1,0,0,,False,True,True,False,Chile,Bolivia,Huachipato,69,2
+238321,376702,same DOB,Severin Buchta,Oscar Buch,71.4,0,0,,False,True,True,False,Germany,Denmark,Karlsruher SC,69,2
+238321,355490,same DOB,Severin Buchta,Lefteris Astras,48.3,0,0,,False,False,True,False,Germany,Greece,Karlsruher SC,69,1
+238321,453810,same DOB,Severin Buchta,Valentin Gheorghe,38.7,0,0,,False,True,True,False,Germany,Romania,Karlsruher SC,69,2
+213614,255473,same DOB,Samuel Gustafson,Samuel Gustafson,100.0,0,4,turin=turin; hellas verona=hellas verona; hacken=hacken u19; hacken=hacken,True,True,True,True,Sweden,Sweden,Häcken,68,11
+213614,255474,same DOB,Samuel Gustafson,Simon Gustafson,100.0,0,1,hacken=hacken,True,True,True,False,Sweden,Sweden,Häcken,68,8
+213614,181112,same DOB,Samuel Gustafson,Sergi Samper,50.0,0,0,,False,True,True,False,Sweden,Spain,Häcken,68,2
+222352,195906,same DOB,Albian Afrim Ajeti,Albian Ajeti,100.0,0,14,west ham united=west ham united; west ham united=west ham; sturm graz=sturm graz; gaziantep f k=gaziantep,True,True,True,True,Switzerland,Switzerland,Basel,68,11
+222352,276567,same DOB,Albian Afrim Ajeti,Justin Hoffmanns,43.5,0,0,,False,True,True,False,Switzerland,Germany,Basel,68,2
+222352,429243,same DOB,Albian Afrim Ajeti,Stefan Sapic,42.9,0,0,,False,True,True,False,Switzerland,Serbia,Basel,68,2
+224914,288716,same DOB,Alan José Bernardon,Claudiu Bălan,72.7,0,0,,False,False,True,False,Brazil,Romania,Cruzeiro,68,1
+224914,226155,same DOB,Alan José Bernardon,Carlinhos,46.2,0,0,,True,False,True,False,Brazil,Brazil,Cruzeiro,68,3
+224914,181375,same DOB,Alan José Bernardon,Sébastien Haller,44.4,0,0,,False,False,True,False,Brazil,Cote d'Ivoire,Cruzeiro,68,1
+234229,244260,same DOB,Ross McCrorie,Robby McCrorie,100.0,0,5,rangers=rangers u17; rangers=rangers; rangers=rangers b; rangers=berwick rangers,True,False,True,False,Scotland,Scotland,Rangers,68,10
+234229,293746,same DOB,Ross McCrorie,Ross McCrorie,100.0,0,5,rangers=rangers; rangers=rangers u20; bristol city=bristol city; aberdeen=aberdeen,True,True,True,True,Scotland,Scotland,Rangers,68,11
+234229,400194,same DOB,Ross McCrorie,Ricardo Marín,58.8,0,0,,False,True,True,False,Scotland,Mexico,Rangers,68,2
+235920,612869,same DOB,Aziz Murat Karahan,Aleksey Kashtanov,70.0,0,0,,False,False,True,False,Turkey,Russia,Alanyaspor,68,1
+235920,294798,same DOB,Aziz Murat Karahan,Nathan,53.3,0,0,,False,False,True,False,Turkey,Brazil,Alanyaspor,68,1
+235920,563120,same DOB,Aziz Murat Karahan,Keita Yamashita,50.0,0,0,,False,False,True,False,Turkey,Japan,Alanyaspor,68,1
+204891,130768,same DOB,Jonathan Millieras,Jonathan Bond,76.2,0,0,,False,True,True,True,France,England,Châteauroux,67,2
+204891,121570,same DOB,Jonathan Millieras,Konstantinos Laifis,48.6,0,0,,False,False,True,False,France,Cyprus,Châteauroux,67,1
+204891,162569,same DOB,Jonathan Millieras,Josef Martínez,47.6,0,0,,False,False,True,False,France,Venezuela,Châteauroux,67,1
+214081,260907,same DOB,Jesús David Murillo León,David Murillo,100.0,0,0,,True,True,True,False,Colombia,Colombia,Junior,67,5
+214081,260908,same DOB,Jesús David Murillo León,Jesús Murillo,100.0,0,0,,True,True,True,True,Colombia,Colombia,Junior,67,5
+214081,652707,same DOB,Jesús David Murillo León,Harlen Castillo,42.1,0,2,deportivo pereira=pereira; deportivo pereira=deportivo pereira,True,False,True,False,Colombia,Colombia,Junior,67,9
+216818,173592,same DOB,Mani O'Sullivan,John O'Sullivan,90.9,0,0,,False,True,True,False,England,Ireland,West Bromwich Albion,67,3
+216818,126285,same DOB,Mani O'Sullivan,Sebastian Maier,55.2,0,0,,False,True,True,False,England,Germany,West Bromwich Albion,67,2
+216818,167291,same DOB,Mani O'Sullivan,Gabriel Pires,29.6,0,0,,False,True,True,False,England,Brazil,West Bromwich Albion,67,2
+223654,307519,same DOB,Federico San Emeterio Díaz,Fede San Emeterio,100.0,0,6,racing santander=racing santander; racing santander=racing; granada=granada; sevilla atletico=sevilla atletico,True,True,True,False,Spain,Spain,Racing Santander,67,11
+223654,306024,same DOB,Federico San Emeterio Díaz,Dominic Calvert-Lewin,39.0,0,0,,False,True,True,False,Spain,England,Racing Santander,67,2
+223654,802809,same DOB,Federico San Emeterio Díaz,Maurício Garcez,39.0,0,0,,False,True,True,False,Spain,Brazil,Racing Santander,67,2
+238656,296879,same DOB,Steffen Tigges,Steffen Tigges,100.0,0,6,borussia dortmund=borussia dortmund; osnabruck=osnabruck yth; osnabruck=osnabruck; osnabruck=osnabruck u19,True,True,True,True,Germany,Germany,Osnabrück,67,11
+238656,415042,same DOB,Steffen Tigges,Marco Milanese,44.4,0,0,,False,True,True,False,Germany,Italy,Osnabrück,67,2
+238656,339866,same DOB,Steffen Tigges,Vincenzo Silvestro,42.1,0,0,,False,True,True,False,Germany,Italy,Osnabrück,67,2
+208638,193319,same DOB,Roberto Antonio Correa Silva,Luís Silva,83.3,0,0,,False,True,True,False,Spain,Portugal,Espanyol,66,2
+208638,226739,same DOB,Roberto Antonio Correa Silva,Anthony Cáceres,51.2,0,0,,False,True,True,False,Spain,Australia,Espanyol,66,2
+208638,156553,same DOB,Roberto Antonio Correa Silva,Ali Dere,44.4,0,0,,False,True,True,False,Spain,Turkey,Espanyol,66,2
+209210,225068,same DOB,Alexander Ian Grant,Alex Grant,83.3,0,2,pohang steelers=pohang steelers; perth glory=perth glory,True,True,True,False,Australia,Australia,Perth Glory,66,10
+209210,162942,same DOB,Alexander Ian Grant,Federico Franchini,54.1,0,0,,False,True,True,False,Australia,Italy,Perth Glory,66,2
+209210,353584,same DOB,Alexander Ian Grant,Sergiy Petko,32.3,0,0,,False,True,True,False,Australia,Ukraine,Perth Glory,66,2
+232210,196655,same DOB,Krzysztof Drzazga,Kemal Rüzgar,70.6,0,0,,False,True,True,False,Poland,Turkey,Wisła Kraków,66,2
+232210,271183,same DOB,Krzysztof Drzazga,Brandt Bronico,32.3,0,0,,False,True,True,False,Poland,United States,Wisła Kraków,66,2
+232210,873252,same DOB,Krzysztof Drzazga,Bruno Duarte,32.0,0,0,,False,True,True,False,Poland,Argentina,Wisła Kraków,66,2
+236435,339699,same DOB,Francisco González,Giovanni González,90.0,0,0,,False,False,True,False,Mexico,Uruguay,Atlas,66,2
+236435,229420,same DOB,Francisco González,Brandon Fernandes,45.7,0,0,,False,False,True,False,Mexico,India,Atlas,66,1
+236435,350396,same DOB,Francisco González,Rafael Furlan,45.2,0,0,,False,False,True,False,Mexico,Brazil,Atlas,66,1
+211510,162029,same DOB,Víctor Manquillo Gaitán,Javier Manquillo,100.0,0,0,,True,True,True,False,Spain,Spain,Alcorcón,65,5
+211510,278166,same DOB,Víctor Manquillo Gaitán,Amari'i Bell,50.0,0,0,,False,True,True,False,Spain,Jamaica,Alcorcón,65,2
+211510,240289,same DOB,Víctor Manquillo Gaitán,Marco Ferrara,38.9,0,0,,False,True,True,False,Spain,Italy,Alcorcón,65,2
+212122,257127,same DOB,Michael Freiter,Michael Ventre,75.9,0,0,,False,True,True,True,England,Italy,Gillingham,65,2
+212122,384060,same DOB,Michael Freiter,Tino Kadewere,42.1,0,0,,False,True,True,False,England,Zimbabwe,Gillingham,65,2
+212122,275614,same DOB,Michael Freiter,Nicolás Tripichio,38.5,0,0,,False,True,True,False,England,Argentina,Gillingham,65,2
+219546,260907,same DOB,Jesús David Murillo Largacha,David Murillo,100.0,0,0,,True,True,True,False,Colombia,Colombia,Deportivo Pasto,65,5
+219546,260908,same DOB,Jesús David Murillo Largacha,Jesús Murillo,100.0,0,0,,True,True,True,True,Colombia,Colombia,Deportivo Pasto,65,5
+219546,364058,same DOB,Jesús David Murillo Largacha,Jesús Murillo,100.0,0,5,patriotas boyaca=boyaca patriotas; patriotas boyaca=patriotas; deportivo pasto=deportivo pasto; independiente medellin=independiente medellin,True,True,True,True,Colombia,Colombia,Deportivo Pasto,65,11
+222565,259350,same DOB,한의권 韩权五,Chang-hoon Kwon,80.0,0,2,suwon bluewings=suwon samsung bluewings; suwon bluewings=suwon bluewings,True,True,True,False,Korea Republic,"Korea, South",Daejeon Citizen,65,10
+222565,302886,same DOB,한의권 韩权五,Abderrahmane Yousfi,38.7,0,0,,False,True,True,False,Korea Republic,Algeria,Daejeon Citizen,65,2
+222565,286181,same DOB,한의권 韩权五,Emmanuel Mensah,37.0,0,0,,False,True,True,False,Korea Republic,Ghana,Daejeon Citizen,65,2
+225583,292417,same DOB,Dale Anthony Gorman,Demarai Gray,71.4,0,0,,False,True,True,False,Northern Ireland,Jamaica,Stevenage,65,2
+225583,338680,same DOB,Dale Anthony Gorman,Alessandro Ciranni,47.1,0,0,,False,True,True,False,Northern Ireland,Belgium,Stevenage,65,2
+225583,201135,same DOB,Dale Anthony Gorman,Leon Guwara,42.1,0,0,,False,True,True,False,Northern Ireland,The Gambia,Stevenage,65,2
+228457,560958,same DOB,Adrian Dabasse,Alaa Abbas,75.0,0,0,,False,True,True,False,France,Iraq,Niort,65,2
+228457,329497,same DOB,Adrian Dabasse,Antonis Iliadis,44.4,0,0,,False,True,True,False,France,Greece,Niort,65,2
+228457,196978,same DOB,Adrian Dabasse,Ivan Lakicevic,42.9,0,0,,False,True,True,False,France,Serbia,Niort,65,2
+234958,342013,same DOB,William David Pérez Quintero,Trevor David,83.3,0,0,,False,True,True,False,Colombia,Netherlands,Deportivo Pasto,65,2
+234958,388361,same DOB,William David Pérez Quintero,Yusuf Acer,46.2,0,0,,False,True,True,False,Colombia,Turkey,Deportivo Pasto,65,2
+234958,260655,same DOB,William David Pérez Quintero,Eduard Löwen,42.9,0,0,,False,True,True,False,Colombia,Germany,Deportivo Pasto,65,2
+227753,418300,same DOB,Stephen Rennie,Scott Kennedy,70.6,0,0,,False,True,True,False,Scotland,Canada,Inverness Caledonian Thistle,64,2
+227753,387745,same DOB,Stephen Rennie,Kevin Tshiembe,42.9,0,0,,False,True,True,False,Scotland,Denmark,Inverness Caledonian Thistle,64,2
+227753,164593,same DOB,Stephen Rennie,Abdulrahman Ghareeb,35.3,0,0,,False,True,True,False,Scotland,Saudi Arabia,Inverness Caledonian Thistle,64,2
+238652,296879,same DOB,Leon Tigges,Steffen Tigges,87.5,0,4,osnabruck=osnabruck yth; osnabruck=osnabruck; osnabruck=osnabruck u19; osnabruck=osnabruck u17,True,False,True,False,Germany,Germany,Osnabrück,64,9
+238652,291383,same DOB,Leon Tigges,Leon Schaffran,53.3,0,0,,True,True,True,True,Germany,Germany,Osnabrück,64,4
+238652,415042,same DOB,Leon Tigges,Marco Milanese,44.4,0,0,,False,False,True,False,Germany,Italy,Osnabrück,64,1
+222146,260097,same DOB,Juan Andrés Balanta Palacios,Juan Corbalan,73.7,0,0,,False,True,True,True,Colombia,Malta,Deportivo Cali,63,2
+222146,385271,same DOB,Juan Andrés Balanta Palacios,Allan,57.1,0,0,,False,True,True,False,Colombia,Brazil,Deportivo Cali,63,2
+222146,521234,same DOB,Juan Andrés Balanta Palacios,Maximiliano Villa,38.5,0,0,,False,True,True,False,Colombia,Uruguay,Deportivo Cali,63,2
+231801,443937,same DOB,Alaa Al Hajji,Alaa Hejji,78.3,0,2,al khaleej=al khaleej u19; al khaleej=al khaleej,True,True,True,True,Saudi Arabia,Saudi Arabia,Al Khaleej,63,10
+231801,1051397,same DOB,Alaa Al Hajji,Hussain Al-Nuweqi,47.6,0,0,,True,True,True,False,Saudi Arabia,Saudi Arabia,Al Khaleej,63,4
+231801,322800,same DOB,Alaa Al Hajji,Srdjan Plavsic,31.6,0,0,,False,True,True,False,Saudi Arabia,Serbia,Al Khaleej,63,2
+214344,411563,same DOB,Ronald Rafael Herrera Polo,Rafael Gava,70.6,0,0,,False,True,True,False,Colombia,Brazil,Junior,62,2
+214344,172623,same DOB,Ronald Rafael Herrera Polo,Ramy Rabia,50.0,0,0,,False,True,True,False,Colombia,Egypt,Junior,62,2
+214344,288454,same DOB,Ronald Rafael Herrera Polo,Rafa Gálvez,37.8,0,0,,False,True,True,False,Colombia,Spain,Junior,62,2
+223379,270855,same DOB,Oscar Johansson,Oscar Johansson Schellhas,100.0,0,5,varnamo=ifk varnamo u19; varnamo=ifk varnamo; varnamo=varnamo; varnamo=ifk varnamo u17,True,False,True,True,Sweden,Sweden,Kalmar,62,10
+223379,171062,same DOB,Oscar Johansson,Nemanja Antonov,50.0,0,0,,False,False,True,False,Sweden,Serbia,Kalmar,62,1
+223379,268957,same DOB,Oscar Johansson,José Matos,48.0,0,0,,False,False,True,False,Sweden,Spain,Kalmar,62,1
+225258,307519,same DOB,Borja San Emeterio Díaz,Fede San Emeterio,92.3,0,3,sevilla atletico=sevilla atletico; racing santander=racing santander; racing santander=racing,True,True,True,False,Spain,Spain,Racing Santander,62,11
+225258,411119,same DOB,Borja San Emeterio Díaz,Reno Wilmots,37.5,0,0,,False,True,True,False,Spain,Belgium,Racing Santander,62,2
+225258,278332,same DOB,Borja San Emeterio Díaz,Florian Neuhaus,36.8,0,0,,False,True,True,False,Spain,Germany,Racing Santander,62,2
+213156,314197,same DOB,Stephen Rhys Browne,Facundo Boné,71.4,0,0,,False,True,True,False,Antigua and Barbuda,Uruguay,Grimsby Town,61,2
+213156,258188,same DOB,Stephen Rhys Browne,Rolando Aarons,62.5,0,0,,False,True,True,False,Antigua and Barbuda,,Grimsby Town,61,2
+213156,248393,same DOB,Stephen Rhys Browne,Peter Olayinka,36.4,0,0,,False,True,True,False,Antigua and Barbuda,Nigeria,Grimsby Town,61,2
+220021,220795,same DOB,Jack Phillips,Guyon Philips,84.2,0,0,,False,True,True,False,England,Netherlands,Accrington Stanley,61,2
+220021,280139,same DOB,Jack Phillips,Theodoros Tsikoudakis,34.8,0,0,,False,True,True,False,England,Greece,Accrington Stanley,61,2
+220021,247300,same DOB,Jack Phillips,Anthony Walongwa,26.1,0,0,,False,True,True,False,England,DR Congo,Accrington Stanley,61,2
+224377,220686,same DOB,Roberto Antonio Flórez Graterón,Antonio Vutov,70.0,0,0,,False,True,True,False,Colombia,Bulgaria,Alianza Petrolera,61,2
+224377,317582,same DOB,Roberto Antonio Flórez Graterón,Richelo Fecunda,47.1,0,0,,False,True,True,False,Colombia,Netherlands,Alianza Petrolera,61,2
+224377,443899,same DOB,Roberto Antonio Flórez Graterón,Clément Cabaton,43.5,0,0,,False,True,True,False,Colombia,France,Alianza Petrolera,61,2
+224736,330190,same DOB,Kenan Eryüksel,Kenan Eryüksel,100.0,0,0,,True,True,True,True,Turkey,Turkey,Akhisar Belediyespor,61,5
+224736,52199,same DOB,Kenan Eryüksel,Benny Rogiest,29.6,0,0,,False,False,True,False,Turkey,Belgium,Akhisar Belediyespor,61,1
+224736,183837,same DOB,Kenan Eryüksel,Gregor Zabret,29.6,0,0,,False,False,True,False,Turkey,Slovenia,Akhisar Belediyespor,61,1
+225437,166101,same DOB,Nicolás Francisco Canavessio,Moisés San Nicolás,70.0,0,0,,False,True,True,False,Argentina,Andorra,Atlético de Rafaela,61,2
+225437,160668,same DOB,Nicolás Francisco Canavessio,Antonio Colak,53.7,0,0,,False,True,True,False,Argentina,Croatia,Atlético de Rafaela,61,2
+225437,111376,same DOB,Nicolás Francisco Canavessio,Massimo Bruno,48.0,0,0,,False,True,True,False,Argentina,Belgium,Atlético de Rafaela,61,2
+239427,195906,same DOB,Adonis Afrim Ajeti,Albian Ajeti,100.0,0,2,saint gallen=saint gallen 1879; saint gallen=saint gallen,True,True,True,False,Switzerland,Switzerland,St. Gallen,61,11
+239427,276567,same DOB,Adonis Afrim Ajeti,Justin Hoffmanns,43.5,0,0,,False,True,True,False,Switzerland,Germany,St. Gallen,61,2
+239427,425753,same DOB,Adonis Afrim Ajeti,Eduard Valiakhmetov,43.2,0,0,,False,True,True,False,Switzerland,Russia,St. Gallen,61,2
+213551,191792,same DOB,Connor Waldon,Craig Watson,75.0,0,0,,False,True,True,False,England,Scotland,Swindon Town,59,2
+213551,290391,same DOB,Connor Waldon,Nuno Santos,50.0,0,0,,False,True,True,False,England,Portugal,Swindon Town,59,2
+213551,553453,same DOB,Connor Waldon,Harold Majadibodu,40.0,0,0,,False,True,True,False,England,South Africa,Swindon Town,59,2
+225178,343553,same DOB,Anthony Dupré,Mark-Anthony Kaye,70.0,0,0,,False,False,True,False,France,Canada,Valenciennes,58,1
+225178,182579,same DOB,Anthony Dupré,Karim Rekik,44.4,0,0,,False,False,True,False,France,Netherlands,Valenciennes,58,1
+225178,169801,same DOB,Anthony Dupré,Cauley Woodrow,38.1,0,0,,False,False,True,False,France,England,Valenciennes,58,1
+225087,364450,same DOB,Fawaz Al Sagourq,Fawaz Al-Sqoor,80.0,0,3,najran=najran u23; najran=najran; al shabab=al shabab,True,True,True,True,Saudi Arabia,Saudi Arabia,Najran SC,53,10
+225087,289065,same DOB,Fawaz Al Sagourq,Simone Palombi,40.0,0,0,,False,True,True,False,Saudi Arabia,Italy,Najran SC,53,2
+225087,391496,same DOB,Fawaz Al Sagourq,Mustafa Seyhan,40.0,0,0,,False,True,True,False,Saudi Arabia,Turkey,Najran SC,53,2
+230740,33572,name-only search,Leandro Henrique do Nascimento,Henrique,100.0,5671,0,,True,True,False,False,Brazil,Brazil,Napoli,84,4
+230740,42622,name-only search,Leandro Henrique do Nascimento,Leandro,100.0,4885,0,,True,True,False,True,Brazil,Brazil,Napoli,84,4
+230740,45953,name-only search,Leandro Henrique do Nascimento,Leandro,100.0,4972,0,,True,True,False,True,Brazil,Brazil,Napoli,84,4
+230740,52513,name-only search,Leandro Henrique do Nascimento,Henrique,100.0,4410,1,naples=naples,True,True,False,False,Brazil,Brazil,Napoli,84,7
+230740,54214,name-only search,Leandro Henrique do Nascimento,Leandrinho,100.0,4540,0,,True,True,False,False,Brazil,Brazil,Napoli,84,4
+230740,76071,name-only search,Leandro Henrique do Nascimento,Leandro,100.0,5430,0,,True,True,False,True,Brazil,Brazil,Napoli,84,4
+230740,86645,name-only search,Leandro Henrique do Nascimento,Henrique,100.0,4405,0,,False,True,False,False,Brazil,Portugal,Napoli,84,2
+230740,126203,name-only search,Leandro Henrique do Nascimento,Ricardo Nascimento,90.9,4294,0,,True,True,False,False,Brazil,Brazil,Napoli,84,4
+230740,159570,name-only search,Leandro Henrique do Nascimento,Bruno Nascimento,90.9,2721,0,,True,True,False,False,Brazil,Brazil,Napoli,84,4
+230740,197999,name-only search,Leandro Henrique do Nascimento,Filipe Nascimento,90.9,1403,0,,False,True,False,False,Brazil,Portugal,Napoli,84,2
+230740,226141,name-only search,Leandro Henrique do Nascimento,Henrique,100.0,1905,0,,True,True,False,False,Brazil,Brazil,Napoli,84,4
+230740,229854,name-only search,Leandro Henrique do Nascimento,Leandrinho,100.0,1872,0,,True,True,False,False,Brazil,Brazil,Napoli,84,4
+230740,264870,name-only search,Leandro Henrique do Nascimento,Leândro,100.0,3636,0,,True,True,False,True,Brazil,Brazil,Napoli,84,4
+230740,425939,name-only search,Leandro Henrique do Nascimento,Leandrinho,100.0,780,0,,True,True,False,False,Brazil,Brazil,Napoli,84,4
+230740,654099,name-only search,Leandro Henrique do Nascimento,Diogo Nascimento,90.9,1453,0,,False,True,False,False,Brazil,Portugal,Napoli,84,2
+230740,879766,name-only search,Leandro Henrique do Nascimento,Adler Nascimento,90.9,2207,0,,False,True,False,False,Brazil,Portugal,Napoli,84,2
+230740,1083885,name-only search,Leandro Henrique do Nascimento,Leandrinho,100.0,2319,0,,True,True,False,False,Brazil,Brazil,Napoli,84,4
+203324,131505,name-only search,Rodrigo Caio Coquette Russo,Rodrigo,100.0,895,0,,True,True,False,True,Brazil,Spain,São Paulo,83,4
+203324,1122898,name-only search,Rodrigo Caio Coquette Russo,Caio,100.0,2677,0,,True,True,False,False,Brazil,Brazil,São Paulo,83,4
+210930,101469,name-only search,Carles Gil de Pareja Vicent,Gil,100.0,1970,0,,False,True,False,False,Spain,Brazil,Valencia,83,2
+210930,910926,name-only search,Carles Gil de Pareja Vicent,Dé,100.0,1922,0,,False,True,False,False,Spain,Brazil,Valencia,83,2
+215107,92117,name-only search,Héctor Daniel Villalba,Daniel,100.0,2676,0,,False,True,False,False,Argentina,Portugal,San Lorenzo,83,2
+215107,311680,name-only search,Héctor Daniel Villalba,Fran Villalba,90.0,1385,0,,False,True,False,False,Argentina,Spain,San Lorenzo,83,2
+215107,312562,name-only search,Héctor Daniel Villalba,Iván Villalba,90.0,177,1,libertad=libertad u19,False,True,False,False,Argentina,Paraguay,San Lorenzo,83,5
+215107,401717,name-only search,Héctor Daniel Villalba,Julio Villalba,90.0,1514,0,,False,True,False,False,Argentina,Paraguay,San Lorenzo,83,2
+215107,652968,name-only search,Héctor Daniel Villalba,Carlos Villalba,90.0,1454,0,,True,True,False,False,Argentina,Argentina,San Lorenzo,83,4
+215107,746358,name-only search,Héctor Daniel Villalba,Daniel Jr,100.0,2844,0,,False,True,False,False,Argentina,Brazil,San Lorenzo,83,2
+215107,874844,name-only search,Héctor Daniel Villalba,Lucas Villalba,90.0,2481,0,,False,True,False,False,Argentina,Uruguay,San Lorenzo,83,2
+215107,1005800,name-only search,Héctor Daniel Villalba,Juan Villalba,90.0,4250,0,,True,True,False,False,Argentina,Argentina,San Lorenzo,83,4
+222577,31645,name-only search,Jown Anderson Cardona Agudelo,Anderson,100.0,2462,0,,False,True,False,False,Colombia,Brazil,Cortuluá,83,2
+222577,494830,name-only search,Jown Anderson Cardona Agudelo,Anderson,100.0,1090,0,,False,True,False,False,Colombia,Brazil,Cortuluá,83,2
+222577,598974,name-only search,Jown Anderson Cardona Agudelo,Anderson,100.0,1151,0,,False,False,False,False,Colombia,Brazil,Cortuluá,83,1
+222577,628443,name-only search,Jown Anderson Cardona Agudelo,Jorge Cardona,100.0,1506,0,,True,True,False,False,Colombia,Colombia,Cortuluá,83,4
+215328,101469,name-only search,Gastón Ignacio Gil Romero,Gil,100.0,2155,0,,False,True,False,False,Argentina,Brazil,Estudiantes,82,2
+215328,624291,name-only search,Gastón Ignacio Gil Romero,Ignácio,100.0,1305,0,,False,True,False,False,Argentina,Brazil,Estudiantes,82,2
+220655,42853,name-only search,Wanderson Ferreira de Oliveira,Ferreira,100.0,3632,0,,True,True,False,False,Brazil,Brazil,Internacional,82,4
+220655,51948,name-only search,Wanderson Ferreira de Oliveira,Daniel de Oliveira,91.7,3307,0,,True,True,False,False,Brazil,Brazil,Internacional,82,4
+220655,56643,name-only search,Wanderson Ferreira de Oliveira,Wanderson,100.0,3150,0,,True,True,False,True,Brazil,Brazil,Internacional,82,4
+220655,60607,name-only search,Wanderson Ferreira de Oliveira,Pierrick Valdivia,100.0,2360,0,,False,True,False,False,Brazil,France,Internacional,82,2
+220655,170841,name-only search,Wanderson Ferreira de Oliveira,Ferreira,100.0,5098,0,,False,False,False,False,Brazil,Portugal,Internacional,82,1
+220655,214144,name-only search,Wanderson Ferreira de Oliveira,Wanderson,100.0,2013,1,al ittihad=al ittihad kalba,True,True,False,True,Brazil,Brazil,Internacional,82,7
+220655,258933,name-only search,Wanderson Ferreira de Oliveira,Wanderson,100.0,856,0,,True,True,False,True,Brazil,Brazil,Internacional,82,4
+220655,832072,name-only search,Wanderson Ferreira de Oliveira,Alvaro de Oliveira,91.7,2427,0,,False,True,False,False,Brazil,United Arab Emirates,Internacional,82,2
+220655,910926,name-only search,Wanderson Ferreira de Oliveira,Dé,100.0,1221,0,,True,True,False,False,Brazil,Brazil,Internacional,82,4
+220655,1261179,name-only search,Wanderson Ferreira de Oliveira,Wanderson,100.0,3949,0,,True,True,False,True,Brazil,Brazil,Internacional,82,4
+220655,1279664,name-only search,Wanderson Ferreira de Oliveira,Christian Valdivia,100.0,4004,0,,False,True,False,False,Brazil,Mexico,Internacional,82,2
+220655,1355839,name-only search,Wanderson Ferreira de Oliveira,Wanderson Jr,100.0,4761,0,,True,True,False,True,Brazil,Brazil,Internacional,82,4
+229718,22720,name-only search,William Luke Patching,William,100.0,5001,0,,False,True,False,True,England,Brazil,Manchester City,82,2
+229718,49899,name-only search,William Luke Patching,William,100.0,5842,0,,False,True,False,True,England,Brazil,Manchester City,82,2
+229718,153207,name-only search,William Luke Patching,William,100.0,2507,0,,False,True,False,True,England,Brazil,Manchester City,82,2
+229718,341710,name-only search,William Luke Patching,William,100.0,1294,0,,False,True,False,True,England,Brazil,Manchester City,82,2
+236378,203374,name-only search,Alessandro Plizzari,Alessio Alessandro,90.9,1412,0,,False,False,False,False,Italy,Belgium,Ternana,82,1
+240776,333159,name-only search,Sonny Patrick Laiton,Patrick,100.0,2739,0,,False,False,False,False,France,Brazil,Auxerre,82,1
+240776,529646,name-only search,Sonny Patrick Laiton,Patrick,100.0,431,0,,False,False,False,False,France,Brazil,Auxerre,82,1
+240776,552534,name-only search,Sonny Patrick Laiton,Patrick,100.0,2237,0,,False,False,False,False,France,Cape Verde,Auxerre,82,1
+240776,1082625,name-only search,Sonny Patrick Laiton,Patrick,100.0,1512,0,,False,False,False,False,France,Brazil,Auxerre,82,1
+240776,1130054,name-only search,Sonny Patrick Laiton,Patrick,100.0,1857,0,,False,False,False,False,France,Brazil,Auxerre,82,1
+241046,50143,name-only search,Jonás Samuel Romero,Jonas,100.0,5986,0,,False,True,False,True,Argentina,Brazil,Atlético Tucumán,82,2
+241046,81998,name-only search,Jonás Samuel Romero,Jaime Romero,100.0,3674,0,,False,True,False,False,Argentina,Spain,Atlético Tucumán,82,2
+241046,814454,name-only search,Jonás Samuel Romero,Samuel,100.0,442,0,,False,True,False,False,Argentina,Brazil,Atlético Tucumán,82,2
+241046,1094959,name-only search,Jonás Samuel Romero,Samuel,100.0,1620,0,,False,True,False,False,Argentina,Brazil,Atlético Tucumán,82,2
+241046,1111695,name-only search,Jonás Samuel Romero,Juan Romero,100.0,1759,0,,False,True,False,False,Argentina,Colombia,Atlético Tucumán,82,2
+241046,1116834,name-only search,Jonás Samuel Romero,Samuel,100.0,1998,0,,False,True,False,False,Argentina,Brazil,Atlético Tucumán,82,2
+241046,1343067,name-only search,Jonás Samuel Romero,Joel Sebastián Romero,100.0,1967,0,,False,True,False,False,Argentina,Colombia,Atlético Tucumán,82,2
+241046,1420545,name-only search,Jonás Samuel Romero,Julio Romero,100.0,1656,0,,False,True,False,False,Argentina,Colombia,Atlético Tucumán,82,2
+214919,4248,name-only search,Diego Nicolás Rojas Orellana,Diego,100.0,3639,0,,False,True,False,True,Chile,Brazil,Universidad Católica,81,2
+214919,26229,name-only search,Diego Nicolás Rojas Orellana,Diego,100.0,5759,0,,False,False,False,True,Chile,Brazil,Universidad Católica,81,1
+214919,99523,name-only search,Diego Nicolás Rojas Orellana,Nícolas,100.0,2500,0,,False,False,False,False,Chile,Brazil,Universidad Católica,81,1
+214919,183646,name-only search,Diego Nicolás Rojas Orellana,Diego,100.0,2467,0,,False,True,False,True,Chile,Brazil,Universidad Católica,81,2
+214919,442258,name-only search,Diego Nicolás Rojas Orellana,Nicolas,100.0,740,0,,False,True,False,False,Chile,Brazil,Universidad Católica,81,2
+214919,1387007,name-only search,Diego Nicolás Rojas Orellana,Nicolas,100.0,4435,0,,False,True,False,False,Chile,Brazil,Universidad Católica,81,2
+219162,82377,name-only search,Raphael Guimarães de Paula,Dodo Elgabas,100.0,2439,0,,False,True,False,False,Brazil,Egypt,Atlético Mineiro,81,2
+219162,101823,name-only search,Raphael Guimarães de Paula,Dodô,100.0,2516,0,,True,True,False,False,Brazil,Brazil,Atlético Mineiro,81,4
+219162,109038,name-only search,Raphael Guimarães de Paula,Dodô,100.0,942,1,atletico mineiro=clube atletico mineiro,True,True,False,False,Brazil,Brazil,Atlético Mineiro,81,7
+219162,401529,name-only search,Raphael Guimarães de Paula,Dodô,100.0,1534,0,,True,True,False,False,Brazil,Brazil,Atlético Mineiro,81,4
+219162,520624,name-only search,Raphael Guimarães de Paula,Bruno Guimarães,90.0,1168,0,,True,True,False,False,Brazil,Brazil,Atlético Mineiro,81,4
+219162,910926,name-only search,Raphael Guimarães de Paula,Dé,100.0,1250,0,,True,True,False,False,Brazil,Brazil,Atlético Mineiro,81,4
+219162,1080725,name-only search,Raphael Guimarães de Paula,Nicholas Guimarães,90.0,4356,0,,False,False,False,False,Brazil,Philippines,Atlético Mineiro,81,1
+219162,1224500,name-only search,Raphael Guimarães de Paula,Dodô,100.0,4317,0,,True,True,False,False,Brazil,Brazil,Atlético Mineiro,81,4
+224566,13147,name-only search,Carlos Blanco Moreno,Moreno,100.0,5253,0,,False,True,False,False,Spain,Portugal,Juventus,81,2
+224566,119336,name-only search,Carlos Blanco Moreno,Jean Carlos Blanco,100.0,1370,0,,False,True,False,False,Spain,Colombia,Juventus,81,2
+224566,265152,name-only search,Carlos Blanco Moreno,Júnior Moreno,100.0,900,0,,False,True,False,False,Spain,Venezuela,Juventus,81,2
+224566,661481,name-only search,Carlos Blanco Moreno,Carlos Moreno,100.0,754,0,,False,False,False,True,Spain,Mexico,Juventus,81,1
+226591,450241,name-only search,Harold Fabián Preciado Villarreal,Angelo Preciado,90.0,1358,0,,False,True,False,False,Colombia,Ecuador,Deportivo Cali,81,2
+226591,656389,name-only search,Harold Fabián Preciado Villarreal,Adonis Preciado,90.0,1026,0,,False,True,False,False,Colombia,Ecuador,Deportivo Cali,81,2
+226591,1182665,name-only search,Harold Fabián Preciado Villarreal,Néiser Villarreal,90.9,3980,0,,True,True,False,False,Colombia,Colombia,Deportivo Cali,81,4
+226591,1210697,name-only search,Harold Fabián Preciado Villarreal,Alejandro Villarreal,90.9,4075,0,,True,True,False,False,Colombia,Colombia,Deportivo Cali,81,4
+226591,1305339,name-only search,Harold Fabián Preciado Villarreal,Santiago Villarreal,90.9,4190,0,,False,True,False,False,Colombia,Argentina,Deportivo Cali,81,2
+226591,1415109,name-only search,Harold Fabián Preciado Villarreal,Patrick Preciado,90.0,3966,0,,True,True,False,False,Colombia,Colombia,Deportivo Cali,81,4
+229364,1182550,name-only search,Julen Arellano Zaldúa,Jesús Arellano,100.0,2905,0,,False,True,False,False,Spain,Mexico,Athletic Club de Bilbao B,81,2
+229364,1364022,name-only search,Julen Arellano Zaldúa,Rubén Arellano,100.0,3014,0,,False,False,False,False,Spain,Mexico,Athletic Club de Bilbao B,81,1
+232066,7519,name-only search,Walter Rodrigo González Sosa,Rubén González,90.0,4891,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,7818,name-only search,Walter Rodrigo González Sosa,Óscar González,90.0,4604,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,21750,name-only search,Walter Rodrigo González Sosa,Mark González,90.0,3998,0,,False,True,False,False,Paraguay,Chile,Arouca,81,2
+232066,26244,name-only search,Walter Rodrigo González Sosa,Lucho González,90.0,5266,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,35560,name-only search,Walter Rodrigo González Sosa,Mikel González,90.0,3557,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,44073,name-only search,Walter Rodrigo González Sosa,Adrián González,90.0,2583,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,51713,name-only search,Walter Rodrigo González Sosa,Sisi González,90.0,3347,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,54578,name-only search,Walter Rodrigo González Sosa,Diego González,90.0,2689,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,55957,name-only search,Walter Rodrigo González Sosa,Álvaro González,90.0,3887,0,,False,True,False,False,Paraguay,Uruguay,Arouca,81,2
+232066,65243,name-only search,Walter Rodrigo González Sosa,Abraham González,90.0,3627,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,67648,name-only search,Walter Rodrigo González Sosa,Ignacio González,90.0,4786,0,,False,True,False,False,Paraguay,Uruguay,Arouca,81,2
+232066,77380,name-only search,Walter Rodrigo González Sosa,Federico González,90.0,3088,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,79352,name-only search,Walter Rodrigo González Sosa,Quique González,90.0,1862,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,86428,name-only search,Walter Rodrigo González Sosa,Luis González,90.0,1642,0,,False,True,False,False,Paraguay,Venezuela,Arouca,81,2
+232066,99690,name-only search,Walter Rodrigo González Sosa,Omar González,90.0,2444,0,,False,True,False,False,Paraguay,United States,Arouca,81,2
+232066,100497,name-only search,Walter Rodrigo González Sosa,Alejandro González,90.0,2646,0,,False,True,False,False,Paraguay,Uruguay,Arouca,81,2
+232066,101723,name-only search,Walter Rodrigo González Sosa,Fran González,90.0,2331,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,106404,name-only search,Walter Rodrigo González Sosa,Sebastián González,90.0,1204,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,111893,name-only search,Walter Rodrigo González Sosa,Giancarlo González,90.0,2690,0,,False,True,False,False,Paraguay,Costa Rica,Arouca,81,2
+232066,129031,name-only search,Walter Rodrigo González Sosa,Hugo González,90.0,1785,0,,False,False,False,False,Paraguay,Mexico,Arouca,81,1
+232066,130518,name-only search,Walter Rodrigo González Sosa,Yoiver González,90.0,2037,0,,False,True,False,False,Paraguay,Equatorial Guinea,Arouca,81,2
+232066,131505,name-only search,Walter Rodrigo González Sosa,Rodrigo,100.0,1568,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,147562,name-only search,Walter Rodrigo González Sosa,Alexander González,90.0,1011,0,,False,True,False,False,Paraguay,Venezuela,Arouca,81,2
+232066,158327,name-only search,Walter Rodrigo González Sosa,Julio González,90.0,1520,0,,False,False,False,False,Paraguay,Mexico,Arouca,81,1
+232066,182577,name-only search,Walter Rodrigo González Sosa,Derlis González,90.0,458,1,olimpia=olimpia asuncion,True,True,False,False,Paraguay,Paraguay,Arouca,81,7
+232066,183647,name-only search,Walter Rodrigo González Sosa,Álvaro González,90.0,1990,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,185012,name-only search,Walter Rodrigo González Sosa,Arturo González,90.0,289,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,188838,name-only search,Walter Rodrigo González Sosa,Bruno González,90.0,1854,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,193945,name-only search,Walter Rodrigo González Sosa,Gastón González,90.0,2675,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,253892,name-only search,Walter Rodrigo González Sosa,Ian González,90.0,860,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,255995,name-only search,Walter Rodrigo González Sosa,Mario González,90.0,249,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,262474,name-only search,Walter Rodrigo González Sosa,Yony González,90.0,345,0,,False,True,False,False,Paraguay,Colombia,Arouca,81,2
+232066,269860,name-only search,Walter Rodrigo González Sosa,Walter,100.0,2772,0,,False,False,False,True,Paraguay,Brazil,Arouca,81,1
+232066,274963,name-only search,Walter Rodrigo González Sosa,Fernando González,90.0,510,1,leon=leon,False,True,False,False,Paraguay,Mexico,Arouca,81,5
+232066,301721,name-only search,Walter Rodrigo González Sosa,Gonzalo González,90.0,622,0,,False,True,False,False,Paraguay,Uruguay,Arouca,81,2
+232066,308989,name-only search,Walter Rodrigo González Sosa,Sergio González,90.0,1157,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,332764,name-only search,Walter Rodrigo González Sosa,Jonathan González,90.0,1392,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,339699,name-only search,Walter Rodrigo González Sosa,Giovanni González,90.0,274,0,,False,True,False,False,Paraguay,Uruguay,Arouca,81,2
+232066,340870,name-only search,Walter Rodrigo González Sosa,Jacobo González,90.0,643,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,356546,name-only search,Walter Rodrigo González Sosa,Borja González,90.0,149,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,357628,name-only search,Walter Rodrigo González Sosa,Alfon González,90.0,1413,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,366620,name-only search,Walter Rodrigo González Sosa,Carlos González,90.0,867,0,,True,True,False,False,Paraguay,Paraguay,Arouca,81,4
+232066,388795,name-only search,Walter Rodrigo González Sosa,Oumar Gonzalez,90.0,980,0,,False,True,False,False,Paraguay,Cameroon,Arouca,81,2
+232066,401624,name-only search,Walter Rodrigo González Sosa,Edgar González,90.0,650,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,425571,name-only search,Walter Rodrigo González Sosa,Carlos González,90.0,699,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,426529,name-only search,Walter Rodrigo González Sosa,Imanol González,90.0,930,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,435500,name-only search,Walter Rodrigo González Sosa,Sergio González,90.0,693,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,456523,name-only search,Walter Rodrigo González Sosa,Eder González,90.0,566,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,466805,name-only search,Walter Rodrigo González Sosa,Nico González,90.0,2388,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,486031,name-only search,Walter Rodrigo González Sosa,Nico González,90.0,1020,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,489153,name-only search,Walter Rodrigo González Sosa,Mario González,90.0,699,0,,False,False,False,False,Paraguay,El Salvador,Arouca,81,1
+232066,503219,name-only search,Walter Rodrigo González Sosa,Juan González,90.0,711,0,,False,False,False,False,Paraguay,Uruguay,Arouca,81,1
+232066,505675,name-only search,Walter Rodrigo González Sosa,Rober González,90.0,2028,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,531062,name-only search,Walter Rodrigo González Sosa,Fabio González,90.0,602,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,537369,name-only search,Walter Rodrigo González Sosa,Adrián González,90.0,1734,0,,False,False,False,False,Paraguay,Spain,Arouca,81,1
+232066,600730,name-only search,Walter Rodrigo González Sosa,José González,90.0,1247,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,659589,name-only search,Walter Rodrigo González Sosa,Rodrigo González,100.0,1759,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,660198,name-only search,Walter Rodrigo González Sosa,Lucas González,90.0,767,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,662737,name-only search,Walter Rodrigo González Sosa,Daniel González,90.0,2436,0,,False,True,False,False,Paraguay,Chile,Arouca,81,2
+232066,686447,name-only search,Walter Rodrigo González Sosa,Jair González,90.0,2448,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,688778,name-only search,Walter Rodrigo González Sosa,Lucas González,90.0,1809,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,689052,name-only search,Walter Rodrigo González Sosa,Gastón González,90.0,2198,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,692209,name-only search,Walter Rodrigo González Sosa,Joan González,90.0,2417,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,703564,name-only search,Walter Rodrigo González Sosa,Francisco González,90.0,2116,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,704556,name-only search,Walter Rodrigo González Sosa,Bryan González,90.0,2850,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,707279,name-only search,Walter Rodrigo González Sosa,Hugo González,90.0,2788,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,772843,name-only search,Walter Rodrigo González Sosa,Jersson González,90.0,2278,0,,False,True,False,False,Paraguay,Colombia,Arouca,81,2
+232066,784717,name-only search,Walter Rodrigo González Sosa,Fran González,90.0,1149,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,825199,name-only search,Walter Rodrigo González Sosa,Facundo González,90.0,2907,0,,False,True,False,False,Paraguay,Uruguay,Arouca,81,2
+232066,831492,name-only search,Walter Rodrigo González Sosa,Matías González,90.0,2444,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,833340,name-only search,Walter Rodrigo González Sosa,Mario González,90.0,3151,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,837619,name-only search,Walter Rodrigo González Sosa,Armando González,90.0,2860,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,873981,name-only search,Walter Rodrigo González Sosa,Diego González,90.0,2757,0,,True,True,False,False,Paraguay,Paraguay,Arouca,81,4
+232066,928621,name-only search,Walter Rodrigo González Sosa,Franco González,90.0,3289,0,,False,True,False,False,Paraguay,Uruguay,Arouca,81,2
+232066,931404,name-only search,Walter Rodrigo González Sosa,Maximiliano González,90.0,3240,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,932163,name-only search,Walter Rodrigo González Sosa,Gabriel Gonzalez,90.0,4011,0,,False,True,False,False,Paraguay,Switzerland,Arouca,81,2
+232066,962120,name-only search,Walter Rodrigo González Sosa,Álvaro González,90.0,4310,0,,False,False,False,False,Paraguay,Spain,Arouca,81,1
+232066,985004,name-only search,Walter Rodrigo González Sosa,Matías González,90.0,1472,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,986260,name-only search,Walter Rodrigo González Sosa,Diego Gonzalez,90.0,2674,0,,False,True,False,False,Paraguay,United States,Arouca,81,2
+232066,989579,name-only search,Walter Rodrigo González Sosa,Tomás González,90.0,2888,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,1000666,name-only search,Walter Rodrigo González Sosa,Facundo González,90.0,3939,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,1019408,name-only search,Walter Rodrigo González Sosa,Iñaki González,90.0,3324,0,,False,True,False,False,Paraguay,Spain,Arouca,81,2
+232066,1022584,name-only search,Walter Rodrigo González Sosa,Robin González,90.0,1254,0,,False,True,False,False,Paraguay,Colombia,Arouca,81,2
+232066,1029299,name-only search,Walter Rodrigo González Sosa,Gonzalo González,90.0,2855,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,1043035,name-only search,Walter Rodrigo González Sosa,Ramón González,90.0,2474,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,1055220,name-only search,Walter Rodrigo González Sosa,Fran González,90.0,3656,0,,False,False,False,False,Paraguay,Spain,Arouca,81,1
+232066,1060740,name-only search,Walter Rodrigo González Sosa,Enso González,90.0,3501,0,,True,True,False,False,Paraguay,Paraguay,Arouca,81,4
+232066,1062319,name-only search,Walter Rodrigo González Sosa,Luciano González,90.0,3847,0,,False,True,False,False,Paraguay,Uruguay,Arouca,81,2
+232066,1067605,name-only search,Walter Rodrigo González Sosa,Fernando González,90.0,2136,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,1073177,name-only search,Walter Rodrigo González Sosa,Mauricio González,90.0,3374,0,,False,True,False,False,Paraguay,Colombia,Arouca,81,2
+232066,1094384,name-only search,Walter Rodrigo González Sosa,Owen González,90.0,2951,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,1097943,name-only search,Walter Rodrigo González Sosa,Luis González,90.0,2393,0,,False,True,False,False,Paraguay,Colombia,Arouca,81,2
+232066,1117221,name-only search,Walter Rodrigo González Sosa,Tomás González,90.0,1229,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,1126427,name-only search,Walter Rodrigo González Sosa,Maiken González,90.0,3977,0,,False,True,False,False,Paraguay,Venezuela,Arouca,81,2
+232066,1131898,name-only search,Walter Rodrigo González Sosa,Marcos González,90.0,3856,0,,False,False,False,False,Paraguay,Spain,Arouca,81,1
+232066,1200339,name-only search,Walter Rodrigo González Sosa,Iván González,90.0,4125,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,1203753,name-only search,Walter Rodrigo González Sosa,Alexis González,90.0,3494,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,1225038,name-only search,Walter Rodrigo González Sosa,Manu González,90.0,4319,0,,False,False,False,False,Paraguay,Spain,Arouca,81,1
+232066,1233182,name-only search,Walter Rodrigo González Sosa,Rogelio González,90.0,3517,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,1240042,name-only search,Walter Rodrigo González Sosa,Gonzalo González,90.0,3422,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,1241242,name-only search,Walter Rodrigo González Sosa,Joban González,90.0,3661,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232066,1249779,name-only search,Walter Rodrigo González Sosa,Santiago González,90.0,2873,0,,False,True,False,False,Paraguay,Argentina,Arouca,81,2
+232066,1411351,name-only search,Walter Rodrigo González Sosa,Josito González,90.0,3932,0,,False,True,False,False,Paraguay,Venezuela,Arouca,81,2
+232066,1431678,name-only search,Walter Rodrigo González Sosa,Oswaldo González,90.0,3855,0,,False,True,False,False,Paraguay,Mexico,Arouca,81,2
+232754,184299,name-only search,Thomas Olivier Amang,Thomás,100.0,1811,0,,False,True,False,True,Cameroon,Brazil,Molde,81,2
+233193,19439,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Santos,100.0,5755,0,,True,True,False,False,Brazil,Brazil,1860 München,81,4
+233193,44674,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Giovani dos Santos,90.9,2932,0,,False,True,False,False,Brazil,Mexico,1860 München,81,2
+233193,55240,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Mauro dos Santos,90.9,2875,0,,False,True,False,False,Brazil,Argentina,1860 München,81,2
+233193,60445,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Jonathan dos Santos,90.9,2582,0,,False,True,False,False,Brazil,Mexico,1860 München,81,2
+233193,140078,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Marcos dos Santos,90.9,5847,0,,True,True,False,False,Brazil,Brazil,1860 München,81,4
+233193,140811,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Santos,100.0,2622,0,,True,False,False,False,Brazil,Brazil,1860 München,81,3
+233193,151142,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Júnior Lopes,100.0,3502,0,,True,True,False,False,Brazil,Brazil,1860 München,81,4
+233193,190314,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Lucas,100.0,1764,0,,False,True,False,True,Brazil,,1860 München,81,2
+233193,274571,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Laurent Dos Santos,90.9,1522,0,,False,True,False,False,Brazil,France,1860 München,81,2
+233193,396341,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Álex dos Santos,90.9,604,0,,True,False,False,False,Brazil,Brazil,1860 München,81,3
+233193,532096,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,CJ dos Santos,90.9,1191,0,,False,False,False,False,Brazil,Cape Verde,1860 München,81,1
+233193,592347,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Júnior Santos,100.0,953,0,,True,True,False,False,Brazil,Brazil,1860 München,81,4
+233193,608212,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Daniel Dos Santos,90.9,2048,0,,False,True,False,False,Brazil,Switzerland,1860 München,81,2
+233193,685807,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Luís dos Santos,90.9,974,0,,False,True,False,False,Brazil,Portugal,1860 München,81,2
+233193,697520,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Santos,100.0,1528,0,,True,True,False,False,Brazil,Brazil,1860 München,81,4
+233193,1119940,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Tahirys Dos Santos,90.9,3327,0,,False,True,False,False,Brazil,France,1860 München,81,2
+233193,1273983,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Matthew Dos Santos,90.9,4033,0,,False,True,False,False,Brazil,United States,1860 München,81,2
+233193,1311594,name-only search,Lucas Ribamar Lopes dos Santos Bibiano,Enzo dos Santos,90.9,4270,0,,False,True,False,False,Brazil,Luxembourg,1860 München,81,2
+233736,148765,name-only search,Juan Pablo Ramírez Velásquez,Pablo,100.0,1979,0,,False,True,False,False,Colombia,Brazil,Deportivo Pasto,81,2
+233736,149577,name-only search,Juan Pablo Ramírez Velásquez,Pablo,100.0,2347,0,,False,True,False,False,Colombia,Brazil,Deportivo Pasto,81,2
+233736,170366,name-only search,Juan Pablo Ramírez Velásquez,Pablo,100.0,1801,0,,False,True,False,False,Colombia,Brazil,Deportivo Pasto,81,2
+233736,190756,name-only search,Juan Pablo Ramírez Velásquez,Juan Ramírez,100.0,1643,0,,False,True,False,True,Colombia,Argentina,Deportivo Pasto,81,2
+233736,319541,name-only search,Juan Pablo Ramírez Velásquez,José Carlos Ramírez,100.0,562,0,,False,True,False,False,Colombia,Spain,Deportivo Pasto,81,2
+233736,414774,name-only search,Juan Pablo Ramírez Velásquez,Jhon Velásquez,90.0,936,0,,True,True,False,False,Colombia,Colombia,Deportivo Pasto,81,4
+233736,638188,name-only search,Juan Pablo Ramírez Velásquez,Yilmar Velásquez,90.0,633,1,atletico nacional=atletico nacional,True,True,False,False,Colombia,Colombia,Deportivo Pasto,81,7
+233736,638216,name-only search,Juan Pablo Ramírez Velásquez,Samuel Velásquez,90.0,2010,1,atletico nacional=atletico nacional,True,True,False,False,Colombia,Colombia,Deportivo Pasto,81,7
+233736,662332,name-only search,Juan Pablo Ramírez Velásquez,Juan,100.0,1562,0,,False,True,False,True,Colombia,Brazil,Deportivo Pasto,81,2
+233736,817665,name-only search,Juan Pablo Ramírez Velásquez,Pablo,100.0,2228,0,,False,True,False,False,Colombia,Brazil,Deportivo Pasto,81,2
+233736,864877,name-only search,Juan Pablo Ramírez Velásquez,Anyelo Velásquez,90.0,2583,0,,False,True,False,False,Colombia,Nicaragua,Deportivo Pasto,81,2
+233736,960514,name-only search,Juan Pablo Ramírez Velásquez,Jhon Velásquez,90.0,1973,0,,False,True,False,False,Colombia,Bolivia,Deportivo Pasto,81,2
+233736,979355,name-only search,Juan Pablo Ramírez Velásquez,Pablo Ramirez,100.0,1938,0,,False,True,False,False,Colombia,Spain,Deportivo Pasto,81,2
+233736,1083887,name-only search,Juan Pablo Ramírez Velásquez,Pablo,100.0,1903,0,,False,False,False,False,Colombia,Brazil,Deportivo Pasto,81,1
+233736,1100071,name-only search,Juan Pablo Ramírez Velásquez,Pablo,100.0,2076,0,,False,True,False,False,Colombia,Brazil,Deportivo Pasto,81,2
+233736,1119364,name-only search,Juan Pablo Ramírez Velásquez,Juan Ramirez,100.0,1640,0,,True,True,False,True,Colombia,Colombia,Deportivo Pasto,81,4
+233736,1223833,name-only search,Juan Pablo Ramírez Velásquez,Pablo,100.0,3139,0,,False,True,False,False,Colombia,Brazil,Deportivo Pasto,81,2
+233736,1293854,name-only search,Juan Pablo Ramírez Velásquez,Diego Velasquez,90.0,3173,0,,False,True,False,False,Colombia,United States,Deportivo Pasto,81,2
+233736,1332141,name-only search,Juan Pablo Ramírez Velásquez,Pablo,100.0,3424,0,,False,True,False,False,Colombia,Brazil,Deportivo Pasto,81,2
+233736,1383094,name-only search,Juan Pablo Ramírez Velásquez,Juan Ramirez,100.0,2853,0,,True,True,False,True,Colombia,Colombia,Deportivo Pasto,81,4
+233736,1435801,name-only search,Juan Pablo Ramírez Velásquez,Jonatan Ramírez,100.0,3330,0,,False,True,False,False,Colombia,Mexico,Deportivo Pasto,81,2
+233743,349826,name-only search,Ballou Jean-Yves Tabla,Jean,100.0,1647,0,,False,True,False,False,Côte d'Ivoire,Brazil,CF Montréal,81,2
+233743,371231,name-only search,Ballou Jean-Yves Tabla,Jean,100.0,1252,0,,False,False,False,False,Côte d'Ivoire,Brazil,CF Montréal,81,1
+239986,273000,name-only search,Javier Alonso Bello,Júnior Alonso,100.0,1999,0,,False,True,False,False,Spain,Paraguay,Tenerife,81,2
+240969,78221,name-only search,Julián Simón Carranza,Jorge Carranza,100.0,6953,0,,True,False,False,False,Argentina,Argentina,Banfield,81,3
+240969,787249,name-only search,Julián Simón Carranza,Kléber Carranza,90.0,1346,0,,False,True,False,False,Argentina,Mexico,Banfield,81,2
+240969,1086897,name-only search,Julián Simón Carranza,Héctor Carranza,90.0,1323,0,,False,True,False,False,Argentina,Mexico,Banfield,81,2
+214446,17127,name-only search,Felipe Manuel Campos Mosqueira,Felipe,100.0,3387,0,,False,True,False,True,Chile,Brazil,Palestino,80,2
+214446,156501,name-only search,Felipe Manuel Campos Mosqueira,Felipe,100.0,1637,0,,False,True,False,True,Chile,Brazil,Palestino,80,2
+214446,1118712,name-only search,Felipe Manuel Campos Mosqueira,Joaquín Mosqueira,90.0,4011,0,,False,True,False,False,Chile,Argentina,Palestino,80,2
+225150,892097,name-only search,Alexis Araujo,Andrusw Araujo,100.0,2371,0,,False,True,False,False,France,Venezuela,Lille,80,2
+225150,1388794,name-only search,Alexis Araujo,Amancio Araujo,100.0,1966,0,,False,True,False,False,France,Timor-Leste,Lille,80,2
+225683,54149,name-only search,Jonathan Gonzáles,Jonathan,100.0,3413,0,,False,True,False,True,Ecuador,Brazil,León,80,2
+225683,158327,name-only search,Jonathan Gonzáles,Julio González,90.0,1532,0,,False,False,False,False,Ecuador,Mexico,León,80,1
+225683,250055,name-only search,Jonathan Gonzáles,Christofer Gonzales,90.0,994,0,,False,True,False,False,Ecuador,Peru,León,80,2
+225683,332764,name-only search,Jonathan Gonzáles,Jonathan González,94.1,1380,0,,False,True,False,True,Ecuador,Mexico,León,80,2
+225683,340870,name-only search,Jonathan Gonzáles,Jacobo González,90.0,631,0,,False,True,False,False,Ecuador,Spain,León,80,2
+225683,503219,name-only search,Jonathan Gonzáles,Juan González,90.0,723,0,,False,False,False,False,Ecuador,Uruguay,León,80,1
+225683,600730,name-only search,Jonathan Gonzáles,José González,90.0,1235,0,,False,True,False,False,Ecuador,Mexico,León,80,2
+225683,686447,name-only search,Jonathan Gonzáles,Jair González,90.0,2436,0,,False,True,False,False,Ecuador,Mexico,León,80,2
+225683,692209,name-only search,Jonathan Gonzáles,Joan González,90.0,2405,0,,False,True,False,False,Ecuador,Spain,León,80,2
+225683,772843,name-only search,Jonathan Gonzáles,Jersson González,90.0,2266,0,,False,True,False,False,Ecuador,Colombia,León,80,2
+225683,1241242,name-only search,Jonathan Gonzáles,Joban González,90.0,3649,0,,False,True,False,False,Ecuador,Mexico,León,80,2
+225683,1411351,name-only search,Jonathan Gonzáles,Josito González,90.0,3920,0,,False,True,False,False,Ecuador,Venezuela,León,80,2
+230895,63837,name-only search,Andre Antonio Wright,André André,100.0,2660,0,,False,True,False,True,England,Portugal,West Bromwich Albion,80,2
+230895,800176,name-only search,Andre Antonio Wright,André,100.0,1682,0,,False,True,False,True,England,Brazil,West Bromwich Albion,80,2
+230895,1221818,name-only search,Andre Antonio Wright,André,100.0,3482,0,,False,True,False,True,England,Brazil,West Bromwich Albion,80,2
+231025,13823,name-only search,Hugo José Rama Calviño,Hugo,100.0,7408,0,,False,True,False,True,Spain,Portugal,Deportivo de La Coruña,80,2
+231025,740157,name-only search,Hugo José Rama Calviño,Hugo,100.0,1763,0,,False,True,False,True,Spain,Brazil,Deportivo de La Coruña,80,2
+231929,36637,name-only search,George Miller,Gary Miller,100.0,3915,0,,False,True,False,False,England,Scotland,Bury,80,2
+234835,129224,name-only search,Domingos Sousa Coutinho Meneses Duarte,Duarte Duarte,100.0,2745,0,,True,True,False,False,Portugal,Portugal,Belenenses,80,4
+235311,55382,name-only search,Mario Cristian Osmin Briceño Portilla,Cristian,100.0,4744,0,,False,True,False,False,Chile,Brazil,Universidad de Chile,80,2
+235311,662335,name-only search,Mario Cristian Osmin Briceño Portilla,Cristian,100.0,2076,0,,False,False,False,False,Chile,Brazil,Universidad de Chile,80,1
+235311,675878,name-only search,Mario Cristian Osmin Briceño Portilla,Cristian,100.0,1271,0,,False,True,False,False,Chile,Brazil,Universidad de Chile,80,2
+239319,12682,name-only search,Alexander Benjamin Bradley,Neil Alexander,90.0,7628,0,,False,False,False,False,England,Scotland,West Bromwich Albion,80,1
+239319,1312046,name-only search,Alexander Benjamin Bradley,Benjamin,100.0,2679,0,,False,True,False,False,England,Ghana,West Bromwich Albion,80,2
+240201,7512,name-only search,Ignacio Méndez Navia Fernández,Borja Fernández,90.0,6284,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,10183,name-only search,Ignacio Méndez Navia Fernández,Dani Fernández,90.0,5548,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,23287,name-only search,Ignacio Méndez Navia Fernández,Nacho,100.0,6488,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,26462,name-only search,Ignacio Méndez Navia Fernández,Leandro Fernández,90.0,5538,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,30957,name-only search,Ignacio Méndez Navia Fernández,Gustavo Fernández,90.0,2795,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,37918,name-only search,Ignacio Méndez Navia Fernández,Matías Fernández,90.0,4337,1,sporting gijon=sporting,False,True,False,False,Spain,Chile,Sporting Gijón,80,5
+240201,39151,name-only search,Ignacio Méndez Navia Fernández,Augusto Fernández,90.0,4372,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,53293,name-only search,Ignacio Méndez Navia Fernández,Manu Fernández,90.0,4343,0,,True,False,False,False,Spain,Spain,Sporting Gijón,80,3
+240201,54217,name-only search,Ignacio Méndez Navia Fernández,Raúl Fernández,90.0,3669,0,,True,False,False,False,Spain,Spain,Sporting Gijón,80,3
+240201,56370,name-only search,Ignacio Méndez Navia Fernández,Guyon Fernandez,90.0,4364,0,,False,True,False,False,Spain,Curacao,Sporting Gijón,80,2
+240201,57522,name-only search,Ignacio Méndez Navia Fernández,Andrés Fernández,90.0,4122,0,,True,False,False,False,Spain,Spain,Sporting Gijón,80,3
+240201,57693,name-only search,Ignacio Méndez Navia Fernández,Mario Fernández,90.0,3621,0,,True,False,False,False,Spain,Spain,Sporting Gijón,80,3
+240201,57800,name-only search,Ignacio Méndez Navia Fernández,Roberto Fernández,90.0,7004,1,sporting gijon=sporting gijon,True,False,False,False,Spain,Spain,Sporting Gijón,80,6
+240201,58883,name-only search,Ignacio Méndez Navia Fernández,Aitor Fernández,90.0,4237,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,58884,name-only search,Ignacio Méndez Navia Fernández,Nacho Fernández,90.0,2993,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,64545,name-only search,Ignacio Méndez Navia Fernández,Sebastián Fernández,90.0,4694,0,,False,True,False,False,Spain,Uruguay,Sporting Gijón,80,2
+240201,65236,name-only search,Ignacio Méndez Navia Fernández,Walter Fernández,90.0,3150,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,65321,name-only search,Ignacio Méndez Navia Fernández,Yago Fernández,90.0,3737,0,,False,True,False,False,Spain,Portugal,Sporting Gijón,80,2
+240201,75407,name-only search,Ignacio Méndez Navia Fernández,José Luis Fernández,90.0,3808,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,85475,name-only search,Ignacio Méndez Navia Fernández,Federico Fernández,90.0,3324,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,89733,name-only search,Ignacio Méndez Navia Fernández,Álex Fernández,90.0,1992,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,91885,name-only search,Ignacio Méndez Navia Fernández,Jesús Fernández,90.0,3579,0,,True,False,False,False,Spain,Spain,Sporting Gijón,80,3
+240201,107318,name-only search,Ignacio Méndez Navia Fernández,Roberto Fernández,90.0,3653,0,,False,False,False,False,Spain,Paraguay,Sporting Gijón,80,1
+240201,118997,name-only search,Ignacio Méndez Navia Fernández,Aitor Fernández,90.0,2523,0,,True,False,False,False,Spain,Spain,Sporting Gijón,80,3
+240201,131840,name-only search,Ignacio Méndez Navia Fernández,Leandro Fernández,90.0,2575,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,142023,name-only search,Ignacio Méndez Navia Fernández,Guillermo Fernández,90.0,1772,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,172128,name-only search,Ignacio Méndez Navia Fernández,José Manuel Fernández,90.0,3054,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,176298,name-only search,Ignacio Méndez Navia Fernández,Marc Fernández,90.0,2892,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,216464,name-only search,Ignacio Méndez Navia Fernández,Carlos Fernández,90.0,677,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,221321,name-only search,Ignacio Méndez Navia Fernández,Joaquín Fernández,90.0,668,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,230212,name-only search,Ignacio Méndez Navia Fernández,Luis Fernández,90.0,1645,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,259930,name-only search,Ignacio Méndez Navia Fernández,Gabriel Fernández,90.0,1417,0,,False,True,False,False,Spain,Uruguay,Sporting Gijón,80,2
+240201,267676,name-only search,Ignacio Méndez Navia Fernández,Brian Fernández,90.0,1281,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,271988,name-only search,Ignacio Méndez Navia Fernández,Borja Fernández,90.0,957,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,285810,name-only search,Ignacio Méndez Navia Fernández,Omar Fernández,90.0,1873,0,,False,True,False,False,Spain,Colombia,Sporting Gijón,80,2
+240201,287240,name-only search,Ignacio Méndez Navia Fernández,Nico Fernández,90.0,4151,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,331496,name-only search,Ignacio Méndez Navia Fernández,Valery Fernández,90.0,603,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,333921,name-only search,Ignacio Méndez Navia Fernández,Nicolás Fernández,90.0,781,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,368582,name-only search,Ignacio Méndez Navia Fernández,Pablo Fernández,90.0,559,2,sporting gijon=sporting gijon; sporting gijon=sporting gijon atletico,True,True,False,False,Spain,Spain,Sporting Gijón,80,10
+240201,402082,name-only search,Ignacio Méndez Navia Fernández,Wiston Fernández,90.0,85,0,,False,True,False,False,Spain,Uruguay,Sporting Gijón,80,2
+240201,403187,name-only search,Ignacio Méndez Navia Fernández,Dani Fernández,90.0,334,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,467271,name-only search,Ignacio Méndez Navia Fernández,Omir Fernandez,90.0,315,0,,False,True,False,False,Spain,United States,Sporting Gijón,80,2
+240201,491589,name-only search,Ignacio Méndez Navia Fernández,Roberto Fernández,90.0,800,0,,False,True,False,False,Spain,Paraguay,Sporting Gijón,80,2
+240201,495627,name-only search,Ignacio Méndez Navia Fernández,Álvaro Fernández,90.0,742,0,,True,False,False,False,Spain,Spain,Sporting Gijón,80,3
+240201,547261,name-only search,Ignacio Méndez Navia Fernández,Izan Fernández,90.0,1283,0,,False,True,False,False,Spain,Andorra,Sporting Gijón,80,2
+240201,549597,name-only search,Ignacio Méndez Navia Fernández,Nicolás Fernández,90.0,491,0,,False,True,False,False,Spain,Chile,Sporting Gijón,80,2
+240201,580142,name-only search,Ignacio Méndez Navia Fernández,Joaquín Fernández,90.0,298,0,,False,True,False,False,Spain,Uruguay,Sporting Gijón,80,2
+240201,598101,name-only search,Ignacio Méndez Navia Fernández,Roberto Fernández,90.0,469,0,,False,True,False,False,Spain,Bolivia,Sporting Gijón,80,2
+240201,613364,name-only search,Ignacio Méndez Navia Fernández,Tomás Fernández,90.0,47,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,624291,name-only search,Ignacio Méndez Navia Fernández,Ignácio,100.0,484,0,,False,True,False,True,Spain,Brazil,Sporting Gijón,80,2
+240201,638124,name-only search,Ignacio Méndez Navia Fernández,Manu Fernández,90.0,1120,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,639733,name-only search,Ignacio Méndez Navia Fernández,Peque Fernández,90.0,1649,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,646741,name-only search,Ignacio Méndez Navia Fernández,César Fernández,90.0,2130,0,,True,False,False,False,Spain,Spain,Sporting Gijón,80,3
+240201,648195,name-only search,Ignacio Méndez Navia Fernández,Enzo Fernández,90.0,1024,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,664708,name-only search,Ignacio Méndez Navia Fernández,Equi Fernández,90.0,1578,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,668184,name-only search,Ignacio Méndez Navia Fernández,Quique Fernández,90.0,1996,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,670341,name-only search,Ignacio Méndez Navia Fernández,Martín Fernández,90.0,1135,0,,False,True,False,False,Spain,Uruguay,Sporting Gijón,80,2
+240201,692208,name-only search,Ignacio Méndez Navia Fernández,Pelayo Fernández,90.0,1856,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,706562,name-only search,Ignacio Méndez Navia Fernández,Damián Fernández,90.0,1009,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,707153,name-only search,Ignacio Méndez Navia Fernández,Matías Fernández,90.0,1181,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,720518,name-only search,Ignacio Méndez Navia Fernández,Roberto Fernández,90.0,1556,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,743495,name-only search,Ignacio Méndez Navia Fernández,Nehemiah Fernandez,90.0,2448,0,,False,True,False,False,Spain,France,Sporting Gijón,80,2
+240201,807417,name-only search,Ignacio Méndez Navia Fernández,Emmanuel Fernandez,90.0,1331,0,,False,True,False,False,Spain,Nigeria,Sporting Gijón,80,2
+240201,822141,name-only search,Ignacio Méndez Navia Fernández,Martín Fernández,90.0,1911,0,,False,True,False,False,Spain,Uruguay,Sporting Gijón,80,2
+240201,877208,name-only search,Ignacio Méndez Navia Fernández,Adrián Fernández,90.0,1147,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,908102,name-only search,Ignacio Méndez Navia Fernández,Esteban Fernández,90.0,1378,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,929864,name-only search,Ignacio Méndez Navia Fernández,Rafa Fernández,90.0,2225,0,,True,False,False,False,Spain,Spain,Sporting Gijón,80,3
+240201,937952,name-only search,Ignacio Méndez Navia Fernández,Javier Fernández,90.0,3165,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,947432,name-only search,Ignacio Méndez Navia Fernández,Marcos Fernández,90.0,1935,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,961948,name-only search,Ignacio Méndez Navia Fernández,Marcos Fernández,90.0,1874,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,984053,name-only search,Ignacio Méndez Navia Fernández,Julián Fernández,90.0,2132,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,1015639,name-only search,Ignacio Méndez Navia Fernández,Nick Fernández,90.0,1363,0,,False,True,False,False,Spain,United States,Sporting Gijón,80,2
+240201,1050120,name-only search,Ignacio Méndez Navia Fernández,Guille Fernández,90.0,3733,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,1065369,name-only search,Ignacio Méndez Navia Fernández,Adrián Fernández,90.0,2958,0,,False,True,False,False,Spain,Mexico,Sporting Gijón,80,2
+240201,1065830,name-only search,Ignacio Méndez Navia Fernández,Adrián Fernández,90.0,2760,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,1066206,name-only search,Ignacio Méndez Navia Fernández,Toni Fernández,90.0,3760,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,1071596,name-only search,Ignacio Méndez Navia Fernández,Dro Fernández,90.0,3575,0,,True,True,False,False,Spain,Spain,Sporting Gijón,80,4
+240201,1095107,name-only search,Ignacio Méndez Navia Fernández,Noah Fernandez,90.0,3572,0,,False,True,False,False,Spain,Belgium,Sporting Gijón,80,2
+240201,1106217,name-only search,Ignacio Méndez Navia Fernández,Santiago Fernández,90.0,2557,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,1124285,name-only search,Ignacio Méndez Navia Fernández,David Fernández,90.0,2838,0,,False,True,False,False,Spain,Paraguay,Sporting Gijón,80,2
+240201,1127730,name-only search,Ignacio Méndez Navia Fernández,Thiago Fernández,90.0,2196,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,1153735,name-only search,Ignacio Méndez Navia Fernández,Tomás Fernández,90.0,2109,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240201,1297991,name-only search,Ignacio Méndez Navia Fernández,Damián Fernández,90.0,2221,0,,False,False,False,False,Spain,Argentina,Sporting Gijón,80,1
+240201,1322217,name-only search,Ignacio Méndez Navia Fernández,Manuel Fernández,90.0,2384,0,,False,True,False,False,Spain,Argentina,Sporting Gijón,80,2
+240896,15338,name-only search,Christian Fernando Alemán Alegría,Fernando,100.0,5391,0,,False,True,False,False,Ecuador,Brazil,Estudiantes,80,2
+240896,51174,name-only search,Christian Fernando Alemán Alegría,Fernando,100.0,3117,0,,False,True,False,False,Ecuador,Brazil,Estudiantes,80,2
+240896,105456,name-only search,Christian Fernando Alemán Alegría,Fernando,100.0,1434,0,,False,True,False,False,Ecuador,Brazil,Estudiantes,80,2
+240896,254761,name-only search,Christian Fernando Alemán Alegría,Fernando,100.0,3370,0,,False,True,False,False,Ecuador,Hongkong,Estudiantes,80,2
+240896,281831,name-only search,Christian Fernando Alemán Alegría,Christian,100.0,2427,0,,False,True,False,True,Ecuador,Brazil,Estudiantes,80,2
+240896,550495,name-only search,Christian Fernando Alemán Alegría,Fernando,100.0,1120,0,,False,True,False,False,Ecuador,Brazil,Estudiantes,80,2
+240896,658678,name-only search,Christian Fernando Alemán Alegría,Christian,100.0,1779,0,,False,True,False,True,Ecuador,Brazil,Estudiantes,80,2
+240896,1091608,name-only search,Christian Fernando Alemán Alegría,Fernando,100.0,3354,0,,False,True,False,False,Ecuador,Brazil,Estudiantes,80,2
+241068,704557,name-only search,Fabián Agustín Dávila Silva,Alí Ávila,93.3,1676,0,,False,True,False,False,Uruguay,Mexico,Real Sociedad,80,2
+241068,1178535,name-only search,Fabián Agustín Dávila Silva,Andrés Dávila,100.0,2903,0,,False,True,False,False,Uruguay,Colombia,Real Sociedad,80,2
