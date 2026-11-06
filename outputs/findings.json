@@ -24,103 +24,167 @@
     "sections": {
       "cohort": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "match": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "calibration_by_band": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_01": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_02": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_04": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_05": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_06": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_07": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_14": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "featured_candidates": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "provisional": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_08": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_09": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_10": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_11": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "chart_12": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "robust_calibration": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "robust_inflation": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "robust_benchmark": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "robust_age": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "robust_club_effect": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "robust_nations": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "robust_alt_success": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
       },
       "robust_vanished": {
         "notebook": "05_analysis_master",
-        "updated": "2026-11-05 18:15"
+        "updated": "2026-11-05 18:56"
+      },
+      "self_review": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-05 18:56"
+      },
+      "featured_five": {
+        "notebook": "05_analysis_master",
+        "updated": "2026-11-05 18:56"
+      },
+      "export_chart_01": {
+        "notebook": "10_export_act1_2",
+        "updated": "2026-11-05 19:01"
+      },
+      "export_chart_02": {
+        "notebook": "10_export_act1_2",
+        "updated": "2026-11-05 19:01"
+      },
+      "export_chart_03": {
+        "notebook": "10_export_act1_2",
+        "updated": "2026-11-05 19:01"
+      },
+      "export_chart_04": {
+        "notebook": "10_export_act1_2",
+        "updated": "2026-11-05 19:01"
+      },
+      "export_chart_05": {
+        "notebook": "10_export_act1_2",
+        "updated": "2026-11-05 19:01"
+      },
+      "export_chart_06": {
+        "notebook": "10_export_act1_2",
+        "updated": "2026-11-05 19:01"
+      },
+      "export_chart_07": {
+        "notebook": "10_export_act1_2",
+        "updated": "2026-11-05 19:01"
+      },
+      "export_chart_08": {
+        "notebook": "11_export_act3",
+        "updated": "2026-11-05 19:05"
+      },
+      "export_chart_09": {
+        "notebook": "11_export_act3",
+        "updated": "2026-11-05 19:05"
+      },
+      "export_chart_10": {
+        "notebook": "11_export_act3",
+        "updated": "2026-11-05 19:05"
+      },
+      "export_chart_11": {
+        "notebook": "11_export_act3",
+        "updated": "2026-11-05 19:05"
+      },
+      "export_chart_12": {
+        "notebook": "12_export_act4_5",
+        "updated": "2026-11-05 19:02"
+      },
+      "export_chart_13": {
+        "notebook": "12_export_act4_5",
+        "updated": "2026-11-05 19:02"
+      },
+      "export_chart_14": {
+        "notebook": "12_export_act4_5",
+        "updated": "2026-11-05 19:02"
       }
     }
   },
@@ -666,7 +730,7 @@
         "player": "J. Tah"
       }
     ],
-    "status": "proposed, awaiting team approval"
+    "status": "candidates; final picks in featured_five"
   },
   "provisional": {
     "match_review_pending_players": 174,
@@ -1723,5 +1787,586 @@
     "kept playing in a covered top flight %": 8.8,
     "made it (Big-5 3,000+) %": 0.1,
     "potential 75+": 167.0
+  },
+  "self_review": {
+    "calibration_line": {
+      "intercept": 23.937,
+      "slope": 0.611
+    },
+    "survivorship": {
+      "slope_baseline": {
+        "value": 0.61,
+        "ci_low": 0.59,
+        "ci_high": 0.63
+      },
+      "slope_full_survivors": {
+        "value": 0.46,
+        "ci_low": 0.43,
+        "ci_high": 0.49
+      },
+      "slope_vanished_as_no_growth": {
+        "value": 0.78,
+        "ci_low": 0.76,
+        "ci_high": 0.8
+      },
+      "n_full_survivors": 3700
+    },
+    "chart07_full_survivors": {
+      "FIFA 15": {
+        "n": 1775,
+        "reached_within_4_pct": 46,
+        "mean_gap_within_4": 0.7
+      },
+      "FIFA 16": {
+        "n": 657,
+        "reached_within_4_pct": 41,
+        "mean_gap_within_4": 1.6
+      },
+      "FIFA 17": {
+        "n": 633,
+        "reached_within_4_pct": 25,
+        "mean_gap_within_4": 3.8
+      },
+      "FIFA 18": {
+        "n": 635,
+        "reached_within_4_pct": 21,
+        "mean_gap_within_4": 4.7
+      },
+      "FIFA 19": {
+        "n": 600,
+        "reached_within_4_pct": 17,
+        "mean_gap_within_4": 5.5
+      },
+      "FIFA 20": {
+        "n": 619,
+        "reached_within_4_pct": 16,
+        "mean_gap_within_4": 6.0
+      }
+    },
+    "age_shortfall": {
+      "by_age": [
+        {
+          "age": 16,
+          "n": 72,
+          "shortfall": 2.1,
+          "ci_low": 0.32,
+          "ci_high": 3.82
+        },
+        {
+          "age": 17,
+          "n": 862,
+          "shortfall": 1.77,
+          "ci_low": 1.28,
+          "ci_high": 2.29
+        },
+        {
+          "age": 18,
+          "n": 1790,
+          "shortfall": 1.32,
+          "ci_low": 1.0,
+          "ci_high": 1.64
+        },
+        {
+          "age": 19,
+          "n": 2088,
+          "shortfall": 0.52,
+          "ci_low": 0.26,
+          "ci_high": 0.78
+        },
+        {
+          "age": 20,
+          "n": 2041,
+          "shortfall": -0.9,
+          "ci_low": -1.15,
+          "ci_high": -0.65
+        },
+        {
+          "age": 21,
+          "n": 1908,
+          "shortfall": -1.72,
+          "ci_low": -1.95,
+          "ci_high": -1.5
+        }
+      ],
+      "age17_minus_21": {
+        "value": 3.52,
+        "ci_low": 3.03,
+        "ci_high": 4.08
+      }
+    },
+    "position_shortfall": {
+      "by_position": [
+        {
+          "primary_position": "CDM",
+          "n": 497,
+          "shortfall": -1.04,
+          "ci_low": -1.55,
+          "ci_high": -0.54
+        },
+        {
+          "primary_position": "LW",
+          "n": 237,
+          "shortfall": -0.89,
+          "ci_low": -1.6,
+          "ci_high": -0.2
+        },
+        {
+          "primary_position": "LB",
+          "n": 622,
+          "shortfall": -0.59,
+          "ci_low": -1.07,
+          "ci_high": -0.13
+        },
+        {
+          "primary_position": "RB",
+          "n": 586,
+          "shortfall": -0.57,
+          "ci_low": -1.06,
+          "ci_high": -0.09
+        },
+        {
+          "primary_position": "CB",
+          "n": 1279,
+          "shortfall": -0.47,
+          "ci_low": -0.82,
+          "ci_high": -0.14
+        },
+        {
+          "primary_position": "LM",
+          "n": 452,
+          "shortfall": -0.36,
+          "ci_low": -0.95,
+          "ci_high": 0.2
+        },
+        {
+          "primary_position": "RM",
+          "n": 437,
+          "shortfall": -0.28,
+          "ci_low": -0.85,
+          "ci_high": 0.27
+        },
+        {
+          "primary_position": "CAM",
+          "n": 715,
+          "shortfall": -0.15,
+          "ci_low": -0.62,
+          "ci_high": 0.32
+        },
+        {
+          "primary_position": "CM",
+          "n": 1229,
+          "shortfall": 0.09,
+          "ci_low": -0.28,
+          "ci_high": 0.45
+        },
+        {
+          "primary_position": "RW",
+          "n": 283,
+          "shortfall": 0.14,
+          "ci_low": -0.56,
+          "ci_high": 0.86
+        },
+        {
+          "primary_position": "CF",
+          "n": 70,
+          "shortfall": 0.57,
+          "ci_low": -0.91,
+          "ci_high": 1.97
+        },
+        {
+          "primary_position": "ST",
+          "n": 1425,
+          "shortfall": 0.87,
+          "ci_low": 0.56,
+          "ci_high": 1.22
+        },
+        {
+          "primary_position": "GK",
+          "n": 917,
+          "shortfall": 1.05,
+          "ci_low": 0.62,
+          "ci_high": 1.47
+        }
+      ],
+      "by_group": [
+        {
+          "position_group": "DEF",
+          "n": 2499,
+          "shortfall": -0.51,
+          "ci_low": -0.75,
+          "ci_high": -0.28
+        },
+        {
+          "position_group": "FWD",
+          "n": 2015,
+          "shortfall": 0.55,
+          "ci_low": 0.28,
+          "ci_high": 0.83
+        },
+        {
+          "position_group": "GK",
+          "n": 917,
+          "shortfall": 1.05,
+          "ci_low": 0.63,
+          "ci_high": 1.49
+        },
+        {
+          "position_group": "MID",
+          "n": 3330,
+          "shortfall": -0.24,
+          "ci_low": -0.46,
+          "ci_high": -0.03
+        }
+      ]
+    },
+    "club": {
+      "badge_premium_potential_per_100_elo": {
+        "value": 0.29,
+        "ci_low": 0.24,
+        "ci_high": 0.35
+      },
+      "elite_shortfall_per_100_elo": {
+        "value": -0.78,
+        "ci_low": -1.11,
+        "ci_high": -0.46
+      },
+      "elite_any_top_flight_pts_per_100_elo": {
+        "value": 1.7,
+        "ci_low": -1.0,
+        "ci_high": 4.2
+      },
+      "real_outcome_confirms_club_effect": false
+    },
+    "england_vs_tier": {
+      "england": {
+        "value": 1.23,
+        "ci_low": 0.83,
+        "ci_high": 1.59
+      },
+      "england_excl_league_one_two": {
+        "value": 0.64,
+        "ci_low": 0.11,
+        "ci_high": 1.14
+      },
+      "spain_france": {
+        "value": -1.84,
+        "ci_low": -2.21,
+        "ci_high": -1.46
+      },
+      "shortfall_by_league_level": {
+        "0": {
+          "n": 48,
+          "shortfall": -1.57
+        },
+        "1": {
+          "n": 6256,
+          "shortfall": -0.2
+        },
+        "2": {
+          "n": 1617,
+          "shortfall": -0.27
+        },
+        "3": {
+          "n": 504,
+          "shortfall": 2.07
+        },
+        "4": {
+          "n": 336,
+          "shortfall": 2.09
+        }
+      }
+    }
+  },
+  "featured_five": {
+    "picks": {
+      "Reached his potential": {
+        "player_id": 202652,
+        "player": "R. Sterling",
+        "long_name": "Raheem Sterling",
+        "club_2014": "Liverpool",
+        "potential": 86,
+        "peak_later": 88,
+        "gap": -2,
+        "big5_minutes": 24283,
+        "peak_market_value_eur_m": 160.0,
+        "latest_club": "Feyenoord Rotterdam",
+        "latest_club_tier": "Other European top flight"
+      },
+      "Biggest bust": {
+        "player_id": 212210,
+        "player": "R. Živković",
+        "long_name": "Richairo Živković",
+        "club_2014": "Ajax",
+        "potential": 86,
+        "peak_later": 70,
+        "gap": 16,
+        "big5_minutes": 106,
+        "peak_market_value_eur_m": 4.0,
+        "latest_club": "FC Emmen",
+        "latest_club_tier": "Other or lower league"
+      },
+      "Late bloomer": {
+        "player_id": 202126,
+        "player": "H. Kane",
+        "long_name": "Harry Kane",
+        "club_2014": "Tottenham Hotspur",
+        "potential": 78,
+        "peak_later": 90,
+        "gap": -12,
+        "big5_minutes": 33891,
+        "peak_market_value_eur_m": 150.0,
+        "latest_club": "Bayern Munich",
+        "latest_club_tier": "Big-5"
+      },
+      "Latest club outside Europe": {
+        "player_id": 202556,
+        "player": "M. Depay",
+        "long_name": "Memphis Depay",
+        "club_2014": "PSV",
+        "potential": 88,
+        "peak_later": 85,
+        "gap": 3,
+        "big5_minutes": 15013,
+        "peak_market_value_eur_m": 55.0,
+        "latest_club": "Sport Club Corinthians Paulista",
+        "latest_club_tier": "Outside Europe"
+      },
+      "Peak later = potential": {
+        "player_id": 212188,
+        "player": "T. Werner",
+        "long_name": "Timo Werner",
+        "club_2014": "VfB Stuttgart",
+        "potential": 85,
+        "peak_later": 85,
+        "gap": 0,
+        "big5_minutes": 21328,
+        "peak_market_value_eur_m": 80.0,
+        "latest_club": "RB Leipzig",
+        "latest_club_tier": "Big-5"
+      }
+    },
+    "chosen_by": "principal data scientist review, 5 Nov 2026 (team may override)"
+  },
+  "export_chart_01": {
+    "n": 48,
+    "reached": 7,
+    "made_it": 40,
+    "made_it_pct": 83,
+    "fell_short": 40,
+    "vanished": 1
+  },
+  "export_chart_02": {
+    "wk_per_1000_first": 10.4,
+    "wk_per_1000_max": 37.2,
+    "wk_per_1000_max_edition": "FIFA 20",
+    "wk_per_1000_last": 23.5,
+    "headroom_first": 9.6,
+    "headroom_max": 13.0,
+    "mean_potential_change_first_to_max": 5.2,
+    "mean_overall_change_first_to_max": 1.7,
+    "multiple": 3.6
+  },
+  "export_chart_03": {
+    "players": [
+      "R. Sterling",
+      "R. Živković",
+      "H. Kane",
+      "M. Depay",
+      "T. Werner"
+    ]
+  },
+  "export_chart_04": {
+    "n": 2321,
+    "below_diagonal_pct": 83,
+    "slope": 0.61,
+    "slope_ci": [
+      0.59,
+      0.63
+    ],
+    "points_per_10": 6.1,
+    "line_intercept": 23.94,
+    "line_slope": 0.611,
+    "line_at_75": 69.7,
+    "line_at_95": 82.0,
+    "survivor_slope_range": [
+      0.46,
+      0.78
+    ]
+  },
+  "export_chart_05": {
+    "top_band_reached_pct": 11,
+    "top_band_made_it_pct": 68,
+    "bottom_band_reached_pct": 29,
+    "bottom_band_made_it_pct": 4
+  },
+  "export_chart_06": {
+    "biggest_bust": {
+      "player_id": 240000,
+      "player": "E. Abouchabaka",
+      "entry_edition": "FIFA 18",
+      "potential": 85,
+      "peak_later": 63,
+      "gap": 22
+    },
+    "biggest_bloomer": {
+      "player_id": 224179,
+      "player": "Borja Iglesias",
+      "entry_edition": "FIFA 15",
+      "potential": 55,
+      "peak_later": 83,
+      "gap": -28
+    }
+  },
+  "export_chart_07": {
+    "first": 25,
+    "last": 6,
+    "first_surv": 46,
+    "last_surv": 16,
+    "gap_first": 2.8,
+    "gap_last": 8.8
+  },
+  "export_chart_08": {
+    "nations": 53,
+    "fell_short": 10,
+    "beat": 13,
+    "most_short_100plus": {
+      "Nation": "Republic of Ireland",
+      "Shortfall vs similar prospects": 4.2,
+      "Players": 233
+    },
+    "most_beat_100plus": {
+      "Nation": "Brazil",
+      "Shortfall vs similar prospects": -2.2,
+      "Players": 176
+    },
+    "uk": {
+      "Shortfall vs similar prospects": 1.5,
+      "CI low": 1.1,
+      "CI high": 1.8,
+      "Players": 1445
+    },
+    "top_fell_short": [
+      "Republic of Ireland",
+      "Japan",
+      "South Africa",
+      "Russia",
+      "Turkey"
+    ],
+    "top_beat": [
+      "Mali",
+      "Uruguay",
+      "Côte d'Ivoire",
+      "Bosnia and Herzegovina",
+      "Slovakia"
+    ],
+    "top3_fell_short_100plus": [
+      "Ireland",
+      "Japan",
+      "Russia"
+    ],
+    "top3_beat_100plus": [
+      "Brazil",
+      "Spain",
+      "France"
+    ]
+  },
+  "export_chart_09": {
+    "headroom_17": 15.1,
+    "headroom_21": 8.1,
+    "shortfall_17_minus_21": 3.52,
+    "ci": [
+      3.03,
+      4.08
+    ],
+    "made_it_17": 12,
+    "made_it_21": 11
+  },
+  "export_chart_10": {
+    "clubs": 397,
+    "badge_premium_per_100_elo": {
+      "value": 0.29,
+      "ci_low": 0.24,
+      "ci_high": 0.35
+    },
+    "elo_p10": 1313,
+    "elo_p90": 1705,
+    "premium_p10_to_p90": 1.1,
+    "spearman_club_elo_vs_shortfall": -0.33,
+    "spearman_club_elo_vs_extra_potential": 0.26,
+    "real_outcome_confirms_club_effect": false
+  },
+  "export_chart_11": {
+    "fell_short": [
+      "GK",
+      "ST"
+    ],
+    "beat": [
+      "CB",
+      "LB",
+      "RB",
+      "LW",
+      "CDM"
+    ],
+    "worst": {
+      "Primary position": "GK",
+      "Shortfall vs similar prospects": 1.1
+    },
+    "best": {
+      "Primary position": "CDM",
+      "Shortfall vs similar prospects": -1.0
+    }
+  },
+  "export_chart_12": {
+    "n": 4674,
+    "potential_auc": 0.713,
+    "market_auc": 0.716,
+    "benchmark_auc": 0.7,
+    "overall_auc": 0.691,
+    "potential_minus_market": {
+      "value": -0.002,
+      "ci_low": -0.02,
+      "ci_high": 0.016
+    },
+    "potential_within_value_quintiles": {
+      "value": 0.617,
+      "ci_low": 0.592,
+      "ci_high": 0.641
+    },
+    "spearman_potential": 0.5,
+    "spearman_overall": 0.57
+  },
+  "export_chart_13": {
+    "players": [
+      "A. Isak",
+      "D. Rice",
+      "E. Haaland",
+      "F. Valverde",
+      "H. Kane",
+      "J. Sancho",
+      "K. Mbappé",
+      "M. Depay",
+      "O. Dembélé",
+      "P. Foden",
+      "R. Sterling",
+      "R. Živković",
+      "Rodri",
+      "T. Werner",
+      "V. Osimhen"
+    ],
+    "n_more": 10
+  },
+  "export_chart_14": {
+    "n": 2488,
+    "tier_pct": {
+      "Big-5": 17,
+      "Other European top flight": 15,
+      "Other or lower league": 41,
+      "Outside Europe": 10,
+      "No current club": 2,
+      "Not in Transfermarkt": 15
+    },
+    "wonderkids_big5": 38,
+    "wonderkids": 104,
+    "provisional_tier_rule": true
   }
 }

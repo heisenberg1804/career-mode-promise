@@ -1,0 +1,398 @@
+Club,League,Country,Mean club Elo at entry,Shortfall vs similar prospects,Extra potential vs same rating and age,Players
+Real Madrid,La Liga,Spain,2058,-5.0,0.2,25
+FC Barcelona,La Liga,Spain,2043,-3.8,-1.7,8
+FC Bayern München,Bundesliga,Germany,2010,-0.2,2.1,15
+Atlético Madrid,La Liga,Spain,1976,-1.1,0.1,17
+Manchester City,Premier League,England,1916,-0.2,4.3,25
+Juventus,Serie A,Italy,1895,0.2,1.4,14
+Chelsea,Premier League,England,1893,-3.6,2.0,23
+Paris Saint Germain,Ligue 1,France,1866,-5.6,-0.8,19
+Borussia Dortmund,Bundesliga,Germany,1862,-1.1,2.9,23
+Arsenal,Premier League,England,1852,-3.0,0.9,22
+Sevilla,La Liga,Spain,1850,-4.1,-2.8,14
+Liverpool,Premier League,England,1848,-1.9,-0.5,25
+Athletic Club,La Liga,Spain,1834,-6.6,-0.4,14
+Manchester United,Premier League,England,1833,-2.0,1.5,28
+Benfica,Liga Portugal,Portugal,1820,-4.1,1.0,16
+Valencia,La Liga,Spain,1814,-3.6,-0.5,25
+Tottenham Hotspur,Premier League,England,1808,-1.9,2.4,26
+Bayer 04 Leverkusen,Bundesliga,Germany,1798,-2.5,1.6,17
+Villarreal,La Liga,Spain,1793,-3.6,-0.3,17
+Napoli,Serie A,Italy,1789,-2.4,-2.4,9
+Everton,Premier League,England,1782,-1.7,1.0,20
+Porto,Liga Portugal,Portugal,1779,-3.2,1.3,22
+Real Sociedad,La Liga,Spain,1772,-5.0,-0.7,18
+Zenit St. Petersburg,Russian Premier League,Russia,1768,4.8,0.8,14
+Roma,Serie A,Italy,1767,-0.4,1.5,12
+Schalke 04,Bundesliga,Germany,1756,-3.1,1.4,20
+Borussia Mönchengladbach,Bundesliga,Germany,1753,-0.9,3.0,17
+Celta de Vigo,La Liga,Spain,1746,-5.2,-2.6,19
+CSKA Moskva,Russian Premier League,Russia,1734,0.7,-2.4,15
+Monaco,Ligue 1,France,1734,-3.0,0.0,30
+Málaga,La Liga,Spain,1733,-4.6,-1.1,21
+Southampton,Premier League,England,1727,0.4,0.9,16
+VfL Wolfsburg,Bundesliga,Germany,1717,-0.3,1.5,20
+Milan,Serie A,Italy,1700,-3.3,0.0,12
+Espanyol,La Liga,Spain,1699,-6.2,-1.3,19
+Olympique Lyonnais,Ligue 1,France,1696,-1.6,2.3,30
+Fiorentina,Serie A,Italy,1696,1.4,3.1,19
+Levante,La Liga,Spain,1696,-1.5,-0.8,14
+Leicester City,Premier League,England,1692,-0.5,0.3,21
+Inter,Serie A,Italy,1691,-1.9,0.7,19
+Sporting CP,Liga Portugal,Portugal,1691,-1.4,0.7,17
+Olympiakos Piraeus,Super League,Greece,1688,-3.0,-1.0,15
+FSV Mainz 05,Bundesliga,Germany,1686,-5.1,0.9,16
+Swansea City,Premier League,England,1684,3.2,1.0,14
+TSG Hoffenheim,Bundesliga,Germany,1681,-5.9,1.4,17
+Saint-Étienne,Ligue 1,France,1680,1.1,1.3,18
+FC Krasnodar,Russian Premier League,Russia,1679,3.8,1.2,12
+Stoke City,Premier League,England,1677,4.0,1.1,19
+Rayo Vallecano,La Liga,Spain,1677,-2.9,-1.2,14
+FC Augsburg,Bundesliga,Germany,1676,-1.8,-0.4,15
+Elche,La Liga,Spain,1676,-0.9,-1.2,10
+Dinamo Moscow,Russian Premier League,Russia,1672,0.4,0.4,9
+Lazio,Serie A,Italy,1670,-0.5,1.8,14
+Real Betis,La Liga 2,Spain,1668,-2.2,-0.3,13
+Las Palmas,La Liga,Spain,1667,1.5,0.9,10
+Getafe,La Liga,Spain,1666,-2.9,-0.9,12
+Beşiktaş,Super Lig,Turkey,1663,1.4,-1.2,10
+Deportivo de La Coruña,La Liga,Spain,1662,-0.7,0.3,18
+West Ham United,Premier League,England,1659,0.1,0.0,27
+Granada,La Liga,Spain,1658,-4.2,-0.5,16
+Ajax,Eredivisie,Netherlands,1656,-2.5,0.8,28
+Olympique de Marseille,Ligue 1,France,1653,-3.2,0.3,22
+Werder Bremen,Bundesliga,Germany,1651,-1.5,2.7,16
+Eintracht Frankfurt,Bundesliga,Germany,1650,1.8,1.0,14
+SC Freiburg,Bundesliga,Germany,1647,-3.0,0.8,17
+FC Köln,Bundesliga,Germany,1644,-1.2,1.9,16
+Lille,Ligue 1,France,1643,-3.4,0.6,25
+Sporting Gijón,La Liga 2,Spain,1642,-0.6,-1.3,17
+Salzburg,Bundesliga,Austria,1640,-6.0,1.8,26
+Hannover 96,Bundesliga,Germany,1639,0.4,0.2,19
+Torino,Serie A,Italy,1636,-0.2,0.8,8
+Bordeaux,Ligue 1,France,1635,-1.2,0.4,24
+Hertha BSC,Bundesliga,Germany,1634,-2.1,2.6,15
+Fenerbahçe,Super Lig,Turkey,1634,4.6,2.1,11
+Almería,La Liga,Spain,1634,-3.3,-1.5,12
+West Bromwich Albion,Premier League,England,1633,3.1,-0.0,26
+Sunderland,Premier League,England,1633,1.8,0.8,16
+Atalanta,Serie A,Italy,1632,-3.2,1.3,9
+Spartak Moskva,Russian Premier League,Russia,1632,1.9,1.9,14
+Deportivo Alavés,La Liga,Spain,1629,-0.1,0.6,10
+Osasuna,La Liga 2,Spain,1628,-3.7,-2.3,17
+Lokomotiv Moskva,Russian Premier League,Russia,1627,-1.9,-2.5,8
+Newcastle United,Premier League,England,1627,0.9,1.4,15
+Crystal Palace,Premier League,England,1626,2.8,1.7,17
+Girona,La Liga 2,Spain,1623,-2.2,-2.0,10
+PSV,Eredivisie,Netherlands,1621,-0.6,1.0,30
+Hamburger SV,Bundesliga,Germany,1617,1.3,1.1,17
+Burnley,Premier League,England,1617,2.2,-0.8,17
+Galatasaray,Super Lig,Turkey,1616,2.2,0.9,9
+Genoa,Serie A,Italy,1616,0.2,1.6,10
+Real Valladolid,La Liga 2,Spain,1615,-1.3,0.5,15
+Anderlecht,Jupiler Pro League,Belgium,1609,-1.4,0.7,23
+Rubin Kazan,Russian Premier League,Russia,1604,-0.8,0.1,13
+Rennes,Ligue 1,France,1601,-1.1,0.5,19
+VfB Stuttgart,Bundesliga,Germany,1600,-3.4,1.6,23
+Norwich City,Championship,England,1595,0.0,0.8,16
+Nice,Ligue 1,France,1594,-2.5,-0.3,28
+Sassuolo,Serie A,Italy,1591,-2.9,0.8,11
+Udinese,Serie A,Italy,1589,-1.3,-0.0,18
+Chievo,Serie A,Italy,1589,2.8,2.0,8
+Sampdoria,Serie A,Italy,1589,-2.7,0.1,12
+Club Brugge,Jupiler Pro League,Belgium,1588,-2.9,-0.3,19
+Montpellier,Ligue 1,France,1587,-1.6,-0.0,14
+Aston Villa,Premier League,England,1586,1.6,1.7,13
+Alcorcón,La Liga 2,Spain,1586,0.9,-0.3,5
+Palermo,Serie A,Italy,1580,-3.0,2.5,17
+Terek Grozny,Russian Premier League,Russia,1580,1.7,-0.4,7
+Hull City,Premier League,England,1578,-1.5,2.1,13
+AFC Bournemouth,Premier League,England,1578,3.7,1.1,12
+Feyenoord,Eredivisie,Netherlands,1575,-0.0,0.4,24
+Córdoba CF,La Liga 2,Spain,1575,-0.3,-0.7,20
+Hellas Verona,Serie A,Italy,1575,-4.2,0.3,10
+RC Recreativo de Huelva,La Liga 2,Spain,1573,1.4,-1.3,5
+Guingamp,Ligue 1,France,1571,-0.6,-0.3,12
+Toulouse,Ligue 1,France,1566,-2.1,-0.5,26
+Huesca,La Liga 2,Spain,1566,2.7,-1.5,6
+Watford,Championship,England,1565,3.9,1.8,15
+Real Zaragoza,La Liga 2,Spain,1565,-0.7,-1.7,19
+FC Rostov,Russian Premier League,Russia,1564,3.3,-2.4,13
+Gimnàstic de Tarragona,La Liga 2,Spain,1564,-0.3,1.2,13
+CD Numancia,La Liga 2,Spain,1563,-3.0,-2.0,5
+Sporting Braga,Liga Portugal,Portugal,1562,-3.1,-0.8,12
+Bastia,Ligue 1,France,1561,-1.4,-1.3,16
+Caen,Ligue 1,France,1561,-1.0,-0.5,13
+PAOK,Super League,Greece,1556,-0.1,-0.7,12
+Derby County,Championship,England,1555,-0.7,0.9,17
+Real Oviedo,La Liga 2,Spain,1554,3.6,1.0,9
+Cagliari,Serie A,Italy,1553,-1.6,3.2,9
+Nantes,Ligue 1,France,1552,-4.7,-0.5,20
+Lorient,Ligue 1,France,1551,-2.2,-0.8,15
+Paderborn,Bundesliga,Germany,1550,-5.9,0.3,6
+Celtic,Premiership,Scotland,1548,-2.7,1.7,15
+RB Leipzig,Bundesliga,Germany,1547,-1.9,2.6,21
+Malmö FF,Allsvenskan,Sweden,1545,-0.1,-0.8,23
+Panathinaikos,Super League,Greece,1545,1.7,0.4,13
+Tenerife,La Liga 2,Spain,1544,-0.1,-1.3,15
+Legia Warszawa,Ekstraklasa,Poland,1542,-2.4,-1.0,10
+Nürnberg,2. Bundesliga,Germany,1541,-0.9,1.7,20
+Ingolstadt,2. Bundesliga,Germany,1539,0.6,1.1,12
+Brighton & Hove Albion,Championship,England,1539,-2.2,1.0,16
+Middlesbrough,Championship,England,1537,-0.6,1.9,18
+Queens Park Rangers,Premier League,England,1536,1.5,-0.3,12
+Mallorca,La Liga 2,Spain,1533,-1.7,-1.6,12
+Lugo,La Liga 2,Spain,1532,1.6,-2.0,10
+København,Superliga,Denmark,1530,-1.6,-0.1,15
+Stade de Reims,Ligue 1,France,1524,-0.4,-1.2,13
+Gent,Jupiler Pro League,Belgium,1524,-1.6,-0.1,19
+Bursaspor,Super Lig,Turkey,1521,1.1,1.1,11
+Austria Wien,Bundesliga,Austria,1521,-0.4,0.2,17
+Angers SCO,Ligue 1,France,1521,-6.3,-1.9,9
+Bologna,Serie A,Italy,1519,-0.8,0.6,13
+Nacional,Liga Portugal,Portugal,1519,-2.1,-2.0,14
+Évian Thonon Gaillard FC,Ligue 1,France,1518,-4.0,-1.7,10
+UE Llagostera,La Liga 2,Spain,1518,-0.2,-2.0,5
+Estoril,Liga Portugal,Portugal,1518,-0.8,-0.8,18
+Marítimo,Liga Portugal,Portugal,1517,-0.3,0.2,6
+Empoli,Serie A,Italy,1516,-0.5,1.6,23
+Metz,Ligue 1,France,1516,0.6,1.8,22
+Eintracht Braunschweig,2. Bundesliga,Germany,1516,0.4,-1.0,13
+Kaiserslautern,2. Bundesliga,Germany,1514,-2.6,0.7,22
+Rapid Wien,Bundesliga,Austria,1513,-1.5,-0.1,18
+Dijon,Ligue 2,France,1513,-3.3,-1.1,13
+FC Ural Yekaterinburg,Russian Premier League,Russia,1512,6.4,0.8,11
+Rio Ave,Liga Portugal,Portugal,1511,-2.0,-1.3,23
+Albacete,La Liga 2,Spain,1510,0.5,-2.0,6
+Vitória SC,Liga Portugal,Portugal,1510,-1.4,-0.6,17
+Nancy,Ligue 2,France,1510,-2.5,-0.4,20
+Cardiff City,Championship,England,1507,3.4,0.8,12
+Amkar Perm,Russian Premier League,Russia,1506,-3.6,-1.9,6
+Darmstadt 98,2. Bundesliga,Germany,1506,1.5,-2.3,6
+Fulham,Championship,England,1505,-0.1,1.3,25
+Standard Liège,Jupiler Pro League,Belgium,1502,-0.9,1.1,23
+AZ Alkmaar,Eredivisie,Netherlands,1500,-4.6,0.0,24
+Ipswich Town,Championship,England,1500,1.9,0.0,21
+Genk,Jupiler Pro League,Belgium,1499,-3.4,1.2,20
+Blackburn Rovers,Championship,England,1497,0.5,0.2,12
+Karlsruher SC,2. Bundesliga,Germany,1494,-0.1,-0.1,15
+SpVgg Greuther Fürth,2. Bundesliga,Germany,1494,-2.8,-0.8,14
+Troyes,Ligue 2,France,1493,-2.2,-0.4,17
+Kasımpaşa,Super Lig,Turkey,1492,4.3,-0.3,13
+Midtjylland,Superliga,Denmark,1489,-4.3,0.2,19
+Konyaspor,Super Lig,Turkey,1488,-1.1,-0.1,6
+Reading,Championship,England,1487,0.9,2.4,23
+Sheffield Wednesday,Championship,England,1486,3.7,0.6,11
+Akhisar Belediyespor,Super Lig,Turkey,1485,2.8,-3.5,5
+Racing Santander,La Liga 2,Spain,1484,-5.6,-5.9,7
+Brest,Ligue 2,France,1482,-1.7,2.9,7
+Vitesse,Eredivisie,Netherlands,1482,-1.1,-0.6,24
+Gençlerbirliği,Super Lig,Turkey,1481,-1.5,-0.4,10
+Rosenborg,Eliteserien,Norway,1481,-1.5,0.5,15
+Kardemir Karabükspor,Super Lig,Turkey,1481,0.0,-0.8,5
+FC Twente,Eredivisie,Netherlands,1480,0.3,0.0,28
+FC Ufa,Russian Premier League,Russia,1479,-0.7,-1.5,5
+Antalyaspor,Super Lig,Turkey,1478,7.4,1.8,5
+SC Heerenveen,Eredivisie,Netherlands,1475,1.3,-0.1,30
+Carpi,Serie B,Italy,1475,0.0,0.4,21
+AIK,Allsvenskan,Sweden,1473,1.4,-3.1,16
+FC Anzhi Makhachkala,Russian Premier League,Russia,1473,2.0,0.1,10
+Wolverhampton Wanderers,Championship,England,1472,2.6,2.4,18
+Trabzonspor,Super Lig,Turkey,1472,0.3,-0.4,9
+Nottingham Forest,Championship,England,1472,-1.3,2.0,16
+Charlton Athletic,Championship,England,1470,-1.7,-1.1,15
+Strasbourg,Ligue 1,France,1468,-3.4,1.7,7
+Brentford,Championship,England,1468,-0.2,-0.1,22
+FC Union Berlin,2. Bundesliga,Germany,1467,0.4,1.4,14
+Sturm Graz,Bundesliga,Austria,1466,-1.1,0.1,15
+Sochaux,Ligue 2,France,1466,0.0,1.2,26
+VfL Bochum 1848,2. Bundesliga,Germany,1466,0.6,1.1,19
+Fortuna Düsseldorf,2. Bundesliga,Germany,1464,1.4,1.6,15
+Paços de Ferreira,Liga Portugal,Portugal,1464,-2.6,-3.2,12
+Belenenses,Liga Portugal,Portugal,1463,-0.7,0.5,11
+St. Pauli,2. Bundesliga,Germany,1463,-0.2,0.3,16
+Modena,Serie B,Italy,1463,1.7,1.3,10
+Lens,Ligue 2,France,1463,-2.8,-1.9,21
+Le Havre,Ligue 2,France,1460,-2.7,0.1,19
+Sporting Lokeren,Jupiler Pro League,Belgium,1460,0.9,-0.3,19
+Leeds United,Championship,England,1458,1.1,0.6,20
+Livorno,Serie B,Italy,1458,-0.9,-0.6,7
+IFK Göteborg,Allsvenskan,Sweden,1458,2.7,0.4,14
+Vitória de Setúbal,Liga Portugal,Portugal,1457,-1.2,-0.2,15
+Cesena,Serie A,Italy,1456,-3.6,1.6,13
+Bari 1908,Serie B,Italy,1455,-0.1,1.2,15
+Zulte-Waregem,Jupiler Pro League,Belgium,1452,0.3,0.4,19
+FC Utrecht,Eredivisie,Netherlands,1451,-0.4,-0.8,24
+Preston North End,Championship,England,1449,1.2,1.3,6
+Rizespor,Super Lig,Turkey,1449,1.6,-0.4,10
+Elfsborg,Allsvenskan,Sweden,1444,-0.1,-2.8,13
+Wolfsberger AC,Bundesliga,Austria,1444,-0.5,0.1,7
+Trapani,Serie B,Italy,1444,0.3,0.4,10
+Brøndby,Superliga,Denmark,1443,-1.4,-1.3,19
+SPAL,Serie B,Italy,1443,0.5,1.2,7
+Heidenheim,2. Bundesliga,Germany,1442,2.5,1.9,9
+Arouca,Liga Portugal,Portugal,1441,0.2,-0.5,10
+Molde,Eliteserien,Norway,1441,0.0,1.0,18
+1860 München,2. Bundesliga,Germany,1441,-4.3,-0.0,17
+AaB,Superliga,Denmark,1440,-0.6,-0.8,19
+Huddersfield Town,Championship,England,1440,1.5,0.7,25
+Associação Académica de Coimbra,Liga Portugal,Portugal,1439,-1.7,-1.8,7
+Nîmes,Ligue 2,France,1439,-3.7,-0.3,17
+FSV Frankfurt,2. Bundesliga,Germany,1438,-2.3,1.5,7
+Gaziantepspor,Super Lig,Turkey,1437,2.6,-0.4,12
+Sporting Charleroi,Jupiler Pro League,Belgium,1436,2.2,-0.8,7
+KV Oostende,Jupiler Pro League,Belgium,1435,-1.0,-1.4,11
+FC Groningen,Eredivisie,Netherlands,1434,-0.9,-0.5,19
+Rheindorf Altach,Bundesliga,Austria,1434,-3.3,-1.3,12
+Dynamo Dresden,2. Bundesliga,Germany,1433,3.6,3.7,8
+Spezia,Serie B,Italy,1433,-4.1,0.9,19
+Birmingham City,Championship,England,1433,2.8,1.8,18
+Bolton Wanderers,Championship,England,1431,2.7,1.8,12
+Crotone,Serie B,Italy,1430,2.0,0.3,19
+Barnsley,Championship,England,1428,-0.3,2.0,7
+Amiens SC,Ligue 2,France,1427,0.6,2.1,5
+Valenciennes,Ligue 2,France,1426,-0.2,-1.0,24
+PEC Zwolle,Eredivisie,Netherlands,1425,0.8,-0.8,19
+ADO Den Haag,Eredivisie,Netherlands,1422,-0.0,-1.1,12
+Wigan Athletic,Championship,England,1421,2.5,1.2,8
+DSC Arminia Bielefeld,2. Bundesliga,Germany,1420,3.2,0.8,8
+Pescara,Serie B,Italy,1420,-0.8,2.6,19
+Ajaccio,Ligue 2,France,1419,-1.8,-0.3,16
+Cittadella,Serie B,Italy,1419,2.5,-1.7,13
+Tours FC,Ligue 2,France,1419,-4.3,-3.0,19
+Moreirense,Liga Portugal,Portugal,1418,-0.4,-0.4,14
+Sandhausen,2. Bundesliga,Germany,1417,-3.6,0.3,8
+Lech Poznań,Ekstraklasa,Poland,1417,-1.9,1.1,15
+Millwall,Championship,England,1417,-0.1,-3.1,6
+SS Virtus Lanciano,Serie B,Italy,1415,-5.1,-1.0,9
+Perugia,Serie B,Italy,1414,-0.4,-0.5,21
+Kortrijk,Jupiler Pro League,Belgium,1413,0.8,0.2,11
+Niort,Ligue 2,France,1413,-1.7,-0.9,21
+LASK Linz,Bundesliga,Austria,1413,-0.7,3.4,7
+Vicenza,Serie B,Italy,1413,0.3,-0.5,7
+Laval,Ligue 2,France,1413,-0.6,0.8,11
+Auxerre,Ligue 2,France,1411,1.9,1.7,30
+AC Arles Avignon,Ligue 2,France,1408,-2.4,-1.4,7
+GFC Ajaccio,Ligue 2,France,1408,-1.7,-2.2,8
+Odd,Eliteserien,Norway,1407,0.4,-0.6,16
+Admira,Bundesliga,Austria,1407,0.4,0.8,21
+Holstein Kiel,2. Bundesliga,Germany,1406,3.3,2.0,5
+Häcken,Allsvenskan,Sweden,1405,-3.0,-1.5,15
+Latina,Serie B,Italy,1405,1.7,0.3,11
+CD Feirense,Liga Portugal,Portugal,1405,3.1,-0.6,9
+Clermont,Ligue 2,France,1405,-0.9,-0.7,11
+Boavista,Liga Portugal,Portugal,1405,-3.4,-2.2,9
+Mechelen,Jupiler Pro League,Belgium,1403,-0.0,0.1,11
+Kayserispor,Super Lig,Turkey,1403,2.9,-0.4,5
+Brescia,Serie B,Italy,1403,1.6,1.1,22
+Djurgården,Allsvenskan,Sweden,1403,-2.3,-1.6,12
+Ternana,Serie B,Italy,1402,2.8,2.5,21
+Nordsjælland,Superliga,Denmark,1401,-3.4,-0.1,31
+Randers,Superliga,Denmark,1400,-0.7,-0.4,17
+MSV Duisburg,2. Bundesliga,Germany,1400,1.0,0.5,5
+SønderjyskE,Superliga,Denmark,1398,-0.1,0.4,10
+Alanyaspor,Super Lig,Turkey,1398,7.5,1.9,5
+SV Mattersburg,Bundesliga,Austria,1397,-0.5,-0.3,6
+Bristol City,Championship,England,1397,0.8,2.2,7
+Esbjerg fB,Superliga,Denmark,1396,-4.7,-2.0,14
+Norrköping,Allsvenskan,Sweden,1396,0.9,-0.7,21
+Salernitana,Serie B,Italy,1394,-0.2,2.0,10
+Erzgebirge Aue,2. Bundesliga,Germany,1393,3.1,0.1,5
+Avellino,Serie B,Italy,1393,0.1,-0.0,16
+Tondela,Liga Portugal,Portugal,1392,1.4,0.3,13
+Rotherham United,Championship,England,1389,1.1,-1.8,8
+Helsingborg,Allsvenskan,Sweden,1386,-2.3,-0.7,11
+Aberdeen,Premiership,Scotland,1386,1.0,-0.7,15
+Burton Albion,Championship,England,1385,6.1,2.6,5
+SC Cambuur,Eredivisie,Netherlands,1384,-2.1,-1.5,6
+US Orléans Loiret Football,Ligue 2,France,1382,0.5,-1.2,7
+Novara Calcio,Serie B,Italy,1381,-0.7,-1.8,9
+Lechia Gdańsk,Ekstraklasa,Poland,1380,0.2,-0.4,15
+Heracles Almelo,Eredivisie,Netherlands,1379,0.5,-1.0,19
+Śląsk Wrocław,Ekstraklasa,Poland,1378,2.9,-1.6,10
+Wisła Kraków,Ekstraklasa,Poland,1376,4.7,-1.4,15
+Ried,Bundesliga,Austria,1374,-0.1,-1.4,13
+Paris,Ligue 2,France,1374,2.8,0.3,5
+SV Grödig,Bundesliga,Austria,1374,-3.3,-1.3,15
+Châteauroux,Ligue 2,France,1373,-1.7,-1.3,13
+Frosinone,Serie B,Italy,1373,-0.4,-0.1,9
+Varese,Serie B,Italy,1372,-2.3,-0.0,7
+Strømsgodset,Eliteserien,Norway,1370,2.2,-0.6,18
+Sint-Truiden,Jupiler Pro League,Belgium,1369,-1.5,0.5,12
+Blackpool,Championship,England,1369,-1.7,-3.3,7
+Jagiellonia Białystok,Ekstraklasa,Poland,1369,-1.0,-2.4,15
+Ascoli,Serie B,Italy,1366,3.2,1.5,12
+Zagłębie Lubin,Ekstraklasa,Poland,1366,0.4,-0.3,12
+OB,Superliga,Denmark,1363,1.9,0.5,16
+Virtus Entella Chiavari,Serie B,Italy,1361,1.3,0.4,19
+NEC,Eredivisie,Netherlands,1356,-2.6,-1.8,7
+Kalmar,Allsvenskan,Sweden,1356,2.5,-2.5,15
+St. Pölten,Bundesliga,Austria,1353,3.2,1.1,11
+Viking,Eliteserien,Norway,1352,0.0,-0.8,13
+Ruch Chorzów,Ekstraklasa,Poland,1351,-0.7,-1.6,14
+Hobro IK,Superliga,Denmark,1351,-0.8,-0.3,7
+Roda JC Kerkrade,Eredivisie,Netherlands,1350,2.2,-1.6,6
+Como,Serie B,Italy,1349,0.6,0.9,5
+FC Pro Vercelli 1892,Serie B,Italy,1348,-1.0,-0.5,9
+Royal Excel Mouscron,Jupiler Pro League,Belgium,1346,-1.9,0.6,19
+NAC Breda,Eredivisie,Netherlands,1346,-0.6,-1.0,9
+Lyngby,Superliga,Denmark,1345,1.7,2.9,8
+OH Leuven,Jupiler Pro League,Belgium,1344,-0.3,0.6,5
+Piast Gliwice,Ekstraklasa,Poland,1340,1.3,-0.5,13
+Waasland-Beveren,Jupiler Pro League,Belgium,1334,1.9,0.0,14
+Górnik Zabrze,Ekstraklasa,Poland,1333,1.0,-2.1,11
+Podbeskidzie,Ekstraklasa,Poland,1332,0.9,-2.7,6
+Pogoń Szczecin,Ekstraklasa,Poland,1332,-0.5,-0.6,14
+AGF,Superliga,Denmark,1331,1.8,0.3,14
+Vålerenga,Eliteserien,Norway,1330,0.5,0.3,17
+Horsens,Superliga,Denmark,1329,6.0,3.7,9
+SC Magna Wiener Neustadt,Bundesliga,Austria,1329,-1.5,-3.6,5
+Lillestrøm,Eliteserien,Norway,1327,0.7,0.4,19
+Dundee United,Premiership,Scotland,1326,2.7,1.4,13
+Åtvidabergs FF,Allsvenskan,Sweden,1326,2.8,-2.8,5
+AS Eupen,Jupiler Pro League,Belgium,1323,0.5,0.6,12
+Örebro,Allsvenskan,Sweden,1322,2.0,-1.9,11
+Inverness Caledonian Thistle,Premiership,Scotland,1320,1.9,-0.8,10
+Westerlo,Jupiler Pro League,Belgium,1319,0.5,0.3,7
+Hammarby,Allsvenskan,Sweden,1316,1.5,-3.6,9
+Go Ahead Eagles,Eredivisie,Netherlands,1313,-0.6,-1.2,10
+Sparta Rotterdam,Eredivisie,Netherlands,1313,-0.7,-1.3,11
+St. Johnstone,Premiership,Scotland,1313,6.5,0.8,11
+Haugesund,Eliteserien,Norway,1312,3.8,-2.2,16
+Willem II,Eredivisie,Netherlands,1312,0.4,-0.7,12
+Lierse SK,Jupiler Pro League,Belgium,1310,-3.1,-1.1,9
+Brann,Eliteserien,Norway,1309,2.8,-1.2,9
+Nieciecza,Ekstraklasa,Poland,1308,5.1,-0.2,7
+Excelsior,Eredivisie,Netherlands,1308,1.7,-0.6,11
+Aalesund,Eliteserien,Norway,1302,0.9,-2.0,11
+Korona Kielce,Ekstraklasa,Poland,1300,1.2,-0.5,10
+De Graafschap,Eredivisie,Netherlands,1298,-0.6,-1.6,6
+VVV-Venlo,Eredivisie,Netherlands,1297,1.6,0.1,5
+Sarpsborg 08,Eliteserien,Norway,1296,-1.8,-1.7,8
+Gefle IF,Allsvenskan,Sweden,1295,5.2,-1.9,9
+Mjällby,Allsvenskan,Sweden,1293,0.8,-3.7,5
+Silkeborg,Superliga,Denmark,1282,-1.9,-0.8,14
+Cercle Brugge,Jupiler Pro League,Belgium,1281,-1.8,-1.3,6
+Cracovia Kraków,Ekstraklasa,Poland,1280,-1.8,-2.5,13
+HJK,Veikkausliiga,Finland,1278,5.8,1.8,14
+Halmstad,Allsvenskan,Sweden,1277,-0.4,-0.1,13
+Stabæk,Eliteserien,Norway,1273,0.0,0.0,20
+Hearts,Premiership,Scotland,1271,3.4,1.1,14
+FC Dordrecht,Eredivisie,Netherlands,1268,-4.6,-1.9,6
+GIF Sundsvall,Allsvenskan,Sweden,1266,3.2,-0.9,10
+Falkenberg,Allsvenskan,Sweden,1263,-0.3,-2.7,9
+Tromsø,Eliteserien,Norway,1249,-0.7,-1.4,9
+Sogndal Fotball,Eliteserien,Norway,1245,0.7,-2.7,11
+Motherwell,Premiership,Scotland,1244,2.5,-0.0,21
+Partick Thistle FC,Premiership,Scotland,1242,5.4,0.1,13
+Dundee,Premiership,Scotland,1241,5.3,0.3,14
+Hamilton Academical,Premiership,Scotland,1238,3.3,-0.2,15
+Bodø / Glimt,Eliteserien,Norway,1233,-4.3,-1.9,8
+Start,Eliteserien,Norway,1222,1.8,-0.3,14
+Brommapojkarna,Allsvenskan,Sweden,1215,-4.2,-2.2,7
+Rangers,Premiership,Scotland,1215,2.4,5.5,9
+Ross County,Premiership,Scotland,1211,2.7,0.2,11
+Sandefjord,Eliteserien,Norway,1208,4.5,-1.0,12
+Kilmarnock,Premiership,Scotland,1195,3.0,-0.4,25
+St. Mirren,Premiership,Scotland,1185,-2.2,-0.3,5
+Sandnes Ulf,Eliteserien,Norway,1172,-5.8,-0.9,5

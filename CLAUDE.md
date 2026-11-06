@@ -275,27 +275,29 @@ Each export notebook writes the CSVs in section 9 and appends its charts to
 - Keep each file under 3,000 rows.
 - File name pattern: `outputs/charts/NN_short_name.csv`.
 
-### 9.2 The 14 charts
+### 9.2 The 14 charts (v2, adopted 5 Nov 2026; see `reports/chart_plan_v2.md` and `DECISIONS.md`)
+
+Group comparisons (charts 8–11) use **shortfall vs similar prospects** = typical peak for that potential
+(calibration line, `src/stats.py`) − actual peak, so no group looks overrated just for having higher potential.
 
 | # | File | Tool & chart type | Shape and columns |
 |---|---|---|---|
-| 1 | `01_wonderkid_table.csv` | Datawrapper table (search on) | One row per FIFA 15 wonderkid: Player, Club (2014), Nation, Age, Overall, Potential, Peak later rating, Gap, Status, Peak market value (€m), Latest club |
-| 2 | `02_wonderkids_per_edition.csv` | Datawrapper column chart | Edition, Wonderkids (under-21s with potential ≥ 85, per edition) |
-| 3 | `03_rating_trajectories.csv` | Flourish line chart | Wide: Edition, then one column per featured player (overall rating), plus "85+ cohort median" |
-| 4 | `04_promise_vs_reality.csv` | Flourish scatter | One row per cohort entrant with potential ≥ 75: Player, Entry edition, Position group, Potential (x), Peak later rating (y), Status (colour), Club, Nation, Featured |
-| 5 | `05_calibration_ladder.csv` | Datawrapper stacked bar (100%) | Band, Reached %, Fell short %, Vanished %, n |
-| 6 | `06_busts_and_bloomers.csv` | Datawrapper range plot | Top 10 busts and top 10 bloomers: Player (label incl. group), Potential at entry, Peak later rating, Group |
-| 7 | `07_did_ea_learn.csv` | Flourish line chart | Entry edition (FIFA 15–20), Share reached within 4 editions %, Mean gap within 4 |
-| 8 | `08_nation_map.csv` | Datawrapper choropleth (world) | ISO3, Nation, Mean gap, Share reached %, n (only nations with n ≥ 15; others blank) |
-| 9 | `09_nation_rank_vs_gap.csv` | Flourish scatter | One row per nation (n ≥ 15): Nation, Mean nation rank at entry (x), Mean gap (y), n (size), Confederation (colour, if available) |
-| 10 | `10_club_strength_vs_gap.csv` | Flourish scatter | One row per club (n ≥ 5): Club, League, Mean club Elo at entry (x), Mean gap (y), n (size) |
-| 11 | `11_position_gap.csv` | Datawrapper dot plot | Primary position, Mean potential at entry, Mean peak later rating, n |
-| 12 | `12_attributes_that_mattered.csv` | Datawrapper bar chart | Outfield players only. Attribute, Correlation (Spearman) between the attribute at entry and (peak later rating − potential). Top 8 positive and top 8 negative |
-| 13 | `13_game_vs_market.csv` | Flourish line chart with player filter | Long: Date, Player (filter), Game rating (% of own peak), Market value (% of own peak). Featured five plus 10 more well-known entrants |
-| 14 | `14_where_they_ended_up.csv` | Flourish Sankey | Source, Target, Value, plus step columns if the template asks. Steps: potential band (75+ only) → game status → latest club tier (Big-5 / other European top flight / other or lower league / outside Europe / no current club) |
+| 1 | `01_wonderkid_table.csv` | Datawrapper table (search on) | One row per FIFA 15 wonderkid: Player, Club (2014), Nation, Age, Overall, Potential, Peak later rating, Gap, Status, Big-5 minutes, Made it, Peak market value (€m), Latest club, Featured |
+| 2 | `02_promise_inflation.csv` | Datawrapper column chart | Edition, Under-21s in game, Wonderkids, Wonderkids per 1,000 under-21s, Average headroom (potential − overall) |
+| 3 | `03_rating_trajectories.csv` | Flourish line chart | Wide: Edition, one column per featured player (overall), plus FIFA 15 wonderkids median |
+| 4 | `04_promise_vs_reality.csv` | Datawrapper scatter (custom lines: y = x and the calibration line) | One row per entrant with potential ≥ 75 and a later edition: Player, Entry edition, Position group, Potential (x), Peak later rating (y), Status (colour), Club, Nation, Featured |
+| 5 | `05_game_vs_reality.csv` | Datawrapper range plot (arrow) | Band, Reached potential in the game %, Made it in real life %, Fell short %, Vanished %, Players |
+| 6 | `06_busts_and_bloomers.csv` | Datawrapper range plot | Busts = 10 wonderkids furthest short; bloomers = 10 biggest overachievers with peak 80+: Player (label incl. group), Potential at entry, Peak later rating, Gap, Group |
+| 7 | `07_did_ea_learn.csv` | Flourish line chart | Entry edition (FIFA 15–20), Reached within 4 editions % (all entrants; and players present in all 4 editions), Mean gap within 4 |
+| 8 | `08_nation_map.csv` | Datawrapper choropleth (world) | ISO3, Nation, Shortfall vs similar prospects, CI low/high, Verdict, Share reached %, Players (n ≥ 15; UK home nations pooled as GBR) |
+| 9 | `09_age_at_entry.csv` | Flourish column chart, two stacked panels (no second axis) | Age at entry, Headroom given, Shortfall vs similar prospects, CI low/high, Made it in real life %, Players |
+| 10 | `10_club_badge.csv` | Flourish scatter | One row per club (n ≥ 5, with Elo): Club, League, Country, Mean club Elo at entry (x), Shortfall vs similar prospects (y), Extra potential vs same rating and age, Players (size) |
+| 11 | `11_position_gap.csv` | Flourish bar chart (horizontal, error bars) | Primary position (n ≥ 30), Position group, Shortfall vs similar prospects, CI low/high, Mean potential, Mean peak, Players |
+| 12 | `12_who_predicted_best.csv` | Datawrapper range plot (AUC with 95% CI) | Predictor (EA potential, market value at entry, overall + age benchmark, EA overall), AUC for made it, CI low/high, Correlation with peak later rating |
+| 13 | `13_game_vs_market.csv` | Flourish line chart with player filter | Long: Date, Player (filter), Game rating (% of own peak), Market value (% of own peak), Featured. Featured five plus the 10 most valuable other entrants |
+| 14 | `14_where_they_ended_up.csv` | Flourish Sankey | Source, Target, Value, Step. Potential band (75+) → game status → latest club tier (Big-5 / other European top flight / other or lower league / outside Europe / no current club / not in Transfermarkt) |
 
-For chart 4: if Flourish can't draw a y = x reference line cleanly, rely on the Status colour; say
-so in the spec notes.
+Previews of all 14 with build notes: `outputs/chart_previews.html` (regenerate with `python -I scripts/render_chart_previews.py`).
 
 ### 9.3 Chart spec entry (append one per chart to `chart_specs.md`)
 

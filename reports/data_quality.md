@@ -488,7 +488,7 @@ Coverage: **97.3%** of 2,036. Share of all 2,488 potential-75+ entrants with an 
 <!-- BEGIN 05 -->
 ## 05 Analysis master
 
-_Last run: 2026-11-05 18:15_
+_Last run: 2026-11-05 18:56_
 
 - analysis.parquet: 11,519 rows (one per cohort entrant), 143 columns.
 - Already-peaked entrants excluded from accuracy metrics: 0.
@@ -518,4 +518,12 @@ _Last run: 2026-11-05 18:15_
 | Age effect: gap CI (≤17 vs 21) excludes 0 | PASS | +3.88 |
 | Elite-club effect: Elo coefficient CI excludes 0 | PASS | -0.78 |
 | Every success measure rises with the potential band | PASS |  |
+| Overconfidence survives every survivorship treatment (all slope CIs below 1) | PASS |  |
+| Chart 7 decline survives survivorship control | PASS |  |
+| Age effect survives the potential adjustment (≤17 vs 21 CI excludes 0) | PASS | +3.52 |
+| Featured pick found once: R. Sterling | PASS |  |
+| Featured pick found once: R. Živković | PASS |  |
+| Featured pick found once: H. Kane | PASS |  |
+| Featured pick found once: M. Depay | PASS |  |
+| Featured pick found once: T. Werner | PASS |  |
 <!-- END 05 -->

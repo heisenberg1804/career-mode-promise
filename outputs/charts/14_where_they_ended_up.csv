@@ -1,0 +1,27 @@
+Source,Target,Value,Step
+Potential 75–79,Game: fell short,1343,1: band to game status
+Potential 75–79,Game: reached,290,1: band to game status
+Potential 75–79,Game: vanished,151,1: band to game status
+Potential 80–84,Game: fell short,487,1: band to game status
+Potential 80–84,Game: reached,101,1: band to game status
+Potential 80–84,Game: vanished,12,1: band to game status
+Potential 85+,Game: fell short,89,1: band to game status
+Potential 85+,Game: reached,11,1: band to game status
+Potential 85+,Game: vanished,4,1: band to game status
+Game: fell short,Big-5,221,2: game status to latest club
+Game: fell short,No current club,57,2: game status to latest club
+Game: fell short,Not in Transfermarkt,296,2: game status to latest club
+Game: fell short,Other European top flight,303,2: game status to latest club
+Game: fell short,Other or lower league,853,2: game status to latest club
+Game: fell short,Outside Europe,189,2: game status to latest club
+Game: reached,Big-5,207,2: game status to latest club
+Game: reached,No current club,4,2: game status to latest club
+Game: reached,Not in Transfermarkt,7,2: game status to latest club
+Game: reached,Other European top flight,57,2: game status to latest club
+Game: reached,Other or lower league,79,2: game status to latest club
+Game: reached,Outside Europe,48,2: game status to latest club
+Game: vanished,Big-5,1,2: game status to latest club
+Game: vanished,Not in Transfermarkt,81,2: game status to latest club
+Game: vanished,Other European top flight,3,2: game status to latest club
+Game: vanished,Other or lower league,78,2: game status to latest club
+Game: vanished,Outside Europe,4,2: game status to latest club

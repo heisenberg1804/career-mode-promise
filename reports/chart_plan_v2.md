@@ -1,6 +1,6 @@
 # Chart plan v2: proposal for team approval
 
-**Status:** draft, 5 Nov 2026. Nothing here changes CLAUDE.md §9.2 until Sahil, Devarshi and Sarthak agree.
+**Status:** adopted 5 Nov 2026 after the self-review (see DECISIONS.md, "Final story and chart decisions"); CLAUDE.md §9.2 updated. Changes from the draft below: chart 10 is now the badge-premium myth-bust (the elite-club effect did not survive a club-neutral outcome), charts 8–11 use shortfall vs similar prospects, chart 4 moved to Datawrapper and chart 11 to Flourish, chart 9 uses two panels instead of a second axis.
 Numbers come from `outputs/findings.json` (notebook 05). They are provisional until the Transfermarkt match review and
 club-override check are done.
 
