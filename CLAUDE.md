@@ -1,5 +1,22 @@
 # CLAUDE.md: The Career Mode Promise (IE6600 Project 1)
 
+## 0. Current status (read first; updated 5 Nov 2026)
+
+- **Data work is finished and frozen.** Notebooks 00–05 and 10–12 have run, the Transfermarkt match review and the
+  ClubElo club check are done (by Claude, at Sahil's request; see `DECISIONS.md`), and
+  `outputs/findings.json → provisional.data_frozen = true`. Don't re-run, edit or "fix" notebooks, `data/manual/`
+  files or the CSVs in `outputs/charts/` unless Sahil asks.
+- **Story (final):** "An inflated promise, but a useful ranking". See `reports/chart_plan_v2.md`. Featured five:
+  Sterling, Živković, Kane, Depay, Werner.
+- **Remaining work (Devarshi, Sarthak):** build the 14 charts in Datawrapper/Flourish from `outputs/charts/*.csv`,
+  following `outputs/build_guide.html` and the per-chart specs in `outputs/chart_previews.html`
+  (or `outputs/charts/chart_specs.md`); then paste each chart's ID into `website/embeds.json` and run
+  `python -I scripts/build_story_site.py` to rebuild `website/index.html`.
+- **Sections 2, 8 and 12 below describe the original plan** (notebook owners, manual review by owners, timeline).
+  Where they differ from this status, this status wins. Section 9.2 is up to date (chart plan v2).
+- **Repo rules:** work on a branch, never commit `data/raw/` or secrets, and don't add Claude as a co-author or
+  "Generated with" line in commits or PRs (team rule).
+
 ## 1. What this project is
 
 **Title:** The Career Mode Promise: Did FIFA Spot Football's Future Stars?

@@ -6,6 +6,20 @@ Data work for a 14-chart data story. Python notebooks clean, join and analyse fo
 export one chart-ready CSV per chart. The charts themselves are built by hand in Flourish and
 Datawrapper. See `CLAUDE.md` for the full spec.
 
+## Status (5 Nov 2026)
+
+Data work done and frozen; what remains is building the 14 charts and the story site. Start here:
+
+| You want to… | Open |
+|---|---|
+| Understand the project rules and current status | `CLAUDE.md` (section 0 first) |
+| See the story and why each chart exists | `reports/chart_plan_v2.md` |
+| Build a chart | `outputs/build_guide.html` (how-to), `outputs/chart_previews.html` (preview + exact title, colours, tooltip, notes per chart), `outputs/charts/NN_*.csv` (upload these) |
+| Embed charts in the site | `website/embeds.json` → `python -I scripts/build_story_site.py` → `website/index.html` |
+| Check a number or a method choice | `outputs/findings.json`, `DECISIONS.md`, `reports/data_quality.md` |
+
+Building charts needs no Python setup and no raw data: the CSVs are committed. Python is only needed to rebuild the site.
+
 ## Setup
 
 ```bash
