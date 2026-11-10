@@ -15,7 +15,7 @@
   },
   "03": {
     "tool": "flourish",
-    "id": "",
+    "id": "30835133",
     "embed_html": "",
     "height": 480,
     "csv": "outputs/charts/03_rating_trajectories.csv"
@@ -43,7 +43,7 @@
   },
   "07": {
     "tool": "flourish",
-    "id": "",
+    "id": "30835164",
     "embed_html": "",
     "height": 420,
     "csv": "outputs/charts/07_did_ea_learn.csv"
@@ -57,21 +57,21 @@
   },
   "09": {
     "tool": "flourish",
-    "id": "",
+    "id": "30835242",
     "embed_html": "",
     "height": 560,
     "csv": "outputs/charts/09_age_at_entry.csv"
   },
   "10": {
     "tool": "flourish",
-    "id": "",
+    "id": "30835208",
     "embed_html": "",
     "height": 520,
     "csv": "outputs/charts/10_club_badge.csv"
   },
   "11": {
     "tool": "flourish",
-    "id": "",
+    "id": "30835245",
     "embed_html": "",
     "height": 520,
     "csv": "outputs/charts/11_position_gap.csv"
@@ -85,21 +85,21 @@
   },
   "13": {
     "tool": "flourish",
-    "id": "",
+    "id": "30835235",
     "embed_html": "",
     "height": 520,
     "csv": "outputs/charts/13_game_vs_market.csv"
   },
   "14": {
     "tool": "flourish",
-    "id": "",
+    "id": "30835239",
     "embed_html": "",
     "height": 620,
     "csv": "outputs/charts/14_where_they_ended_up.csv"
   },
   "09b": {
     "tool": "flourish",
-    "id": "",
+    "id": "30835330",
     "embed_html": "",
     "height": 280,
     "csv": "outputs/charts/09_age_at_entry.csv"
