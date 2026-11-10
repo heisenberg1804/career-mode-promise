@@ -1,14 +1,14 @@
 {
   "01": {
     "tool": "datawrapper",
-    "id": "",
+    "id": "dqAqy",
     "embed_html": "",
     "height": 620,
     "csv": "outputs/charts/01_wonderkid_table.csv"
   },
   "02": {
     "tool": "datawrapper",
-    "id": "",
+    "id": "muTgZ",
     "embed_html": "",
     "height": 420,
     "csv": "outputs/charts/02_promise_inflation.csv"
@@ -22,21 +22,21 @@
   },
   "04": {
     "tool": "datawrapper",
-    "id": "",
+    "id": "ot2fR",
     "embed_html": "",
     "height": 560,
     "csv": "outputs/charts/04_promise_vs_reality.csv"
   },
   "05": {
     "tool": "datawrapper",
-    "id": "",
+    "id": "NNjPw",
     "embed_html": "",
     "height": 420,
     "csv": "outputs/charts/05_game_vs_reality.csv"
   },
   "06": {
     "tool": "datawrapper",
-    "id": "",
+    "id": "cTVxZ",
     "embed_html": "",
     "height": 600,
     "csv": "outputs/charts/06_busts_and_bloomers.csv"
@@ -50,7 +50,7 @@
   },
   "08": {
     "tool": "datawrapper",
-    "id": "",
+    "id": "sUI1f",
     "embed_html": "",
     "height": 520,
     "csv": "outputs/charts/08_nation_map.csv"
@@ -78,7 +78,7 @@
   },
   "12": {
     "tool": "datawrapper",
-    "id": "",
+    "id": "3jTd8",
     "embed_html": "",
     "height": 380,
     "csv": "outputs/charts/12_who_predicted_best.csv"
